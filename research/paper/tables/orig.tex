@@ -1,0 +1,18 @@
+\begin{table}[h]
+\centering\footnotesize
+\setlength{\tabcolsep}{4pt}
+\caption{CIFAR-Aug ($k=16$, 2{,}000 sources): scoring the group split only on the unedited member of each test group recovers the accuracy on fresh photographs. Accuracy in \%, mean over 3 seeds.}
+\label{tab:orig}
+\begin{tabular}{@{}llrrrr@{}}
+\toprule
+edits & probe & random split & group split & group split, originals & fresh photographs \\
+\midrule
+weak & 1-NN & 100.0 & 64.9 & 64.6 & 62.3 \\
+weak & linear & 100.0 & 74.6 & 74.7 & 73.3 \\
+medium & 1-NN & 97.6 & 46.5 & 60.0 & 59.7 \\
+medium & linear & 82.2 & 60.8 & 68.6 & 68.8 \\
+strong & 1-NN & 52.0 & 29.5 & 56.9 & 57.1 \\
+strong & linear & 52.9 & 45.8 & 69.1 & 66.8 \\
+\bottomrule
+\end{tabular}
+\end{table}

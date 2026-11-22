@@ -1,0 +1,22 @@
+\section{AugLeak: recovering hidden siblings from pixels alone}
+\label{sec:method}
+
+AugLeak links two images when the evidence that they are copies of one photograph is strong enough at a user-chosen error rate $\alpha$. It needs only the images and their class labels. It is built from four parts (Figure~\ref{fig:concept}c), each answering a failure we observed in standard near-duplicate signals. The parts are generic: any similarity can be plugged in as a \emph{view}. By default AugLeak uses two pixel views, the structure view below and a 64-bit DCT perceptual hash~\citep{zauner2010phash} searched over the dihedral group, and combines them by the Bonferroni-adjusted minimum $p$-value; an optional third, semantic view is described in Section~\ref{sec:detect}.
+
+\paragraph{1. A structure view that survives photometric edits.}
+Released copies are often made by filters that rewrite intensities (CLAHE, thresholding, top-hat, grayscale, gamma) but leave the \emph{geometry} in place, and ImageNet embeddings group such copies by filter rather than by photograph (Section~\ref{sec:detect}). We therefore represent each image by a blurred grayscale thumbnail ($64\times64$, Gaussian $\sigma=1$, resampled to $32\times32$), restricted to a centred disc so that rotations do not move content in or out, mean-centred and $\ell_2$-normalised. The pair score is the correlation of the two vectors.
+
+\paragraph{2. Transform search.}
+Geometric copies are matched by maximising the correlation over a set $\mathcal{T}$ of query transforms: the eight elements of the dihedral group (quarter-turns and reflections) and rotations by $\pm15^\circ,\pm30^\circ,\pm45^\circ$ of the image and of its mirror, and a few crops:
+$s_{ij}=\max_{t\in\mathcal{T}}\langle\phi(t(x_i)),\phi(x_j)\rangle$.
+
+\paragraph{3. Hubness correction.}
+In high dimension some images are close to everything~\citep{radovanovic2010hubs}; low-texture or dark copies are such hubs and generate many spurious matches. Following the local scaling idea of CSLS~\citep{conneau2018csls}, we standardise each score by the querying image's own score distribution, $z_{i\to j}=(s_{ij}-\mu_i)/\sigma_i$, where $\mu_i,\sigma_i$ are taken over images of \emph{other} classes, and keep the weaker direction, $z_{ij}=\min(z_{i\to j},z_{j\to i})$: a pair is only strong if each image singles out the other.
+
+\paragraph{4. A label-calibrated null with extreme-value $p$-values.}
+Label-preserving augmentation never moves a copy to another class, so the best match of image $i$ among other-class images, $m_i=\max_{j:\,y_j\neq y_i} z_{ij}$, is a draw from the distribution of the strongest \emph{unrelated} match. The $m_i$ are maxima, so we fit them with a Gumbel law~\citep{coles2001evt} and convert any pair score into an upper-tail $p$-value, $p_{ij}=1-\exp\!\big(-e^{-(z_{ij}-\hat\mu)/\hat\beta}\big)$. Two same-class images are linked when $p_{ij}<\alpha$. The fit extrapolates beyond the largest observed null score, so $\alpha$ can be set below $1/N$. Calibration rests on one assumption: that unrelated same-class pairs are not systematically more similar in the structure view than unrelated cross-class pairs. We test it empirically with ground-truth groups (Section~\ref{sec:detect}) rather than assume it.
+
+\paragraph{Exact copies.} Byte-identical same-class files are always linked, since hubness correction can bury verbatim copies in a class whose images all look alike (Section~\ref{sec:audit}). In our benchmarks this touches only $15$ Leaf-A pairs, so Sections~\ref{sec:detect}--\ref{sec:protocol} report the statistical links alone.
+
+\paragraph{Use and cost.}
+Connected components of the links are detected groups, which can drive a group-aware split (Section~\ref{sec:protocol}). For $N$ images the structure view computes $|\mathcal{T}|\,N^2$ inner products of dimension $732$ (we use $|\mathcal{T}|=28$, adding centre and corner crops to the transforms above; Appendix~\ref{app:hyper}); for $N=13{,}600$ this takes a few minutes on two CPU cores and no GPU.

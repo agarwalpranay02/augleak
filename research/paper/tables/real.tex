@@ -1,0 +1,16 @@
+\begin{table}[t]
+\centering\small
+\caption{\textbf{Real releases.} Accuracy under a random split (what is usually reported) and under a split by true group (source photograph or patient), frozen MobileNetV3; mean $\pm$ s.d.\ over seeds. $q$: share of test images with a sibling in training under the random split.}
+\label{tab:real}
+\begin{tabular}{@{}lrrr cc cc@{}}
+\toprule
+& & & & \multicolumn{2}{c}{linear probe} & \multicolumn{2}{c}{1-NN} \\
+\cmidrule(lr){5-6}\cmidrule(l){7-8}
+release & images & groups & $q$ & random & group & random & group \\
+\midrule
+Leaf-A & 9,000 & 600 & 100\% & 85.5\,{\scriptsize$\pm$0.4} & 79.2\,{\scriptsize$\pm$2.2} & 87.4\,{\scriptsize$\pm$0.7} & 80.0\,{\scriptsize$\pm$0.1} \\
+Leaf-B & 13,600 & 850 & 100\% & 96.8\,{\scriptsize$\pm$0.4} & 88.5\,{\scriptsize$\pm$1.1} & 96.1\,{\scriptsize$\pm$0.3} & 80.6\,{\scriptsize$\pm$2.3} \\
+COVID-CXR & 699 & 424 & 57\% & 76.6\,{\scriptsize$\pm$2.8} & 70.9\,{\scriptsize$\pm$4.2} & 77.0\,{\scriptsize$\pm$2.8} & 68.2\,{\scriptsize$\pm$3.7} \\
+\bottomrule
+\end{tabular}
+\end{table}

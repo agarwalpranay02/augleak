@@ -1,0 +1,40 @@
+\section{Why a random split of a pre-augmented release measures almost nothing}
+\label{sec:theory}
+
+\paragraph{Setting.}
+A \emph{pre-augmented release} contains $N$ images formed from $G$ source photographs, each released with $k-1$ transformed copies, so $N=Gk$. Copies of one source are \emph{siblings} and share its label; the release does not record sibling identity. A user draws a uniformly random split with $n$ training images and test fraction $\rho=1-n/N$, trains a model $f$, and reports its test accuracy. The quantity of interest is the accuracy $a_U$ on images whose source was never seen, which is what a deployment on new photographs experiences.
+
+\begin{proposition}[Exposure]\label{prop:exposure}
+For a test image $x$ of a size-$k$ group, the probability that at least one sibling of $x$ is in the training set is
+\begin{equation}
+q(N,n,k) \;=\; 1-\binom{N-k}{n}\Big/\binom{N-1}{n} \;=\; 1-\prod_{j=1}^{k-1}\frac{N-n-j}{N-j}\;\approx\; 1-\rho^{\,k-1}.
+\label{eq:exposure}
+\end{equation}
+\end{proposition}
+\emph{Proof.} Conditioned on $x$ being in the test set, the training set is a uniformly random $n$-subset of the other $N-1$ images; $x$ is unexposed iff all $n$ are drawn from the $N-k$ non-siblings. The product form follows by expanding the binomials, and each factor tends to $\rho$ as $N\to\infty$. \hfill$\square$
+
+With $\rho=0.2$, a release with $k=4$ exposes $99.2\%$ of its test set, and one with $k=16$ all but a fraction $\rho^{15}\approx3\times10^{-11}$. Exposure does not shrink as the dataset grows.
+
+\begin{proposition}[What the reported number weighs]\label{prop:decomp}
+Let $a_L$ and $a_U$ be the accuracies of $f$ on exposed and unexposed test images. The random-split accuracy is
+\begin{equation}
+\mathrm{acc}_{\text{random}} \;=\; q\,a_L + (1-q)\,a_U,
+\qquad
+\frac{\partial\,\mathrm{acc}_{\text{random}}}{\partial a_U}=1-q\approx\rho^{\,k-1}.
+\label{eq:decomp}
+\end{equation}
+\end{proposition}
+The identity is exact on any realised split (total probability over the exposure indicator). For $k\geq4$ the reported accuracy is, to within a percent, an estimate of $a_L$, the accuracy on images the model has seen in another guise; more test data does not help, because the unexposed part of the test set is empty in expectation.
+
+\paragraph{De-duplicating is not the same as de-leaking.}
+A natural fix is to recover the sibling groups with a near-duplicate detector and split by detected group. The next result shows why this is harder than near-duplicate detection is usually evaluated to be.
+
+\begin{proposition}[Fragmentation]\label{prop:frag}
+Suppose a detector partitions a true sibling group into $m$ fragments, and a group-aware split assigns each detected component to the test set independently with probability $\rho$. Then every member of that group that lands in the test set is exposed with probability $1-\rho^{\,m-1}$.
+\end{proposition}
+\emph{Proof.} The member's own fragment is in test; it is unexposed iff each of the other $m-1$ fragments is also in test. \hfill$\square$
+
+Exposure after a detected-group split depends only on how many pieces each group is cut into, not on how many sibling pairs were found: a detector that finds every pair except those of one hard copy per group ($87.5\%$ of pairs at $k=16$) leaves that copy as a singleton ($m=2$), still exposed with probability $0.8$. Pairwise precision and recall, the standard near-duplicate metrics, are the wrong objective for removing leakage; group completeness is the right one, and it is far harder (Section~\ref{sec:detect}).
+
+\paragraph{Exposure is not the same as exploitation.}
+\Eqref{eq:decomp} also shows what matters: the inflation is $q\,(a_L-a_U)$, so an exposed sibling only inflates the score if the model can use it. A heavily filtered copy (an edge map, a black-hat transform) may be as foreign to the model as an unseen photograph. Section~\ref{sec:inflation} finds that inflation is indeed concentrated on close siblings, so a detector should be judged by the inflation it leaves, not by nominal exposure (Section~\ref{sec:protocol}).

@@ -1,0 +1,113 @@
+{
+ "note": "Manual inspection of the 12 highest-ranked cross-patient pairs (same label). same_radiograph=True only when the two files are unambiguously the same radiograph.",
+ "pairs": [
+  {
+   "rank": 0,
+   "p": 0.0001752203096016383,
+   "a": "ieee8023/covid-chestxray-dataset/images/klebsiella-pneumonia-1.jpg",
+   "b": "ieee8023/covid-chestxray-dataset/images/4c8dee3d9fe81567b98ed1b0b2b4c6_jumbo.JPG",
+   "pa": "p100",
+   "pb": "p450",
+   "same_radiograph": true
+  },
+  {
+   "rank": 1,
+   "p": 0.00017729548652418225,
+   "a": "ieee8023/covid-chestxray-dataset/images/4c8dee3d9fe81567b98ed1b0b2b4c6_jumbo.JPG",
+   "b": "ieee8023/covid-chestxray-dataset/images/klebsiella-pneumonia-1.jpg",
+   "pa": "p450",
+   "pb": "p100",
+   "same_radiograph": true
+  },
+  {
+   "rank": 2,
+   "p": 0.000843560968919468,
+   "a": "ieee8023/covid-chestxray-dataset/images/8781ac6b9589f3646d2bbfff8f9015_jumbo.jpeg",
+   "b": "ieee8023/covid-chestxray-dataset/images/covid-19-pneumonia-bilateral.jpg",
+   "pa": "p448",
+   "pb": "p176",
+   "same_radiograph": true
+  },
+  {
+   "rank": 3,
+   "p": 0.000843560968919468,
+   "a": "ieee8023/covid-chestxray-dataset/images/covid-19-pneumonia-bilateral.jpg",
+   "b": "ieee8023/covid-chestxray-dataset/images/8781ac6b9589f3646d2bbfff8f9015_jumbo.jpeg",
+   "pa": "p176",
+   "pb": "p448",
+   "same_radiograph": true
+  },
+  {
+   "rank": 4,
+   "p": 0.00633748923112962,
+   "a": "ieee8023/covid-chestxray-dataset/images/1-s2.0-S1059131120301151-gr2-f.png",
+   "b": "ieee8023/covid-chestxray-dataset/images/1-s2.0-S1684118220300372-gr1_lrg-a.png",
+   "pa": "p325",
+   "pb": "p319a",
+   "same_radiograph": false
+  },
+  {
+   "rank": 5,
+   "p": 0.006412311141555925,
+   "a": "ieee8023/covid-chestxray-dataset/images/5CBC2E94-D358-401E-8928-965CCD965C5C.jpeg",
+   "b": "ieee8023/covid-chestxray-dataset/images/covid-19-pneumonia-24-day7.jpg",
+   "pa": "p52",
+   "pb": "p116",
+   "same_radiograph": false
+  },
+  {
+   "rank": 6,
+   "p": 0.012654416262270176,
+   "a": "ieee8023/covid-chestxray-dataset/images/a47dc73e.jpg",
+   "b": "ieee8023/covid-chestxray-dataset/images/9d36404d.jpg",
+   "pa": "p250",
+   "pb": "p235",
+   "same_radiograph": false
+  },
+  {
+   "rank": 7,
+   "p": 0.01373412077086227,
+   "a": "ieee8023/covid-chestxray-dataset/images/post-intubuation-pneumomediastium-and-pneumothorax-background-covid-19-pneumonia-day6-2.jpg",
+   "b": "ieee8023/covid-chestxray-dataset/images/81af553601a1bc1fdf81c99436a50b_jumbo.jpeg",
+   "pa": "p142",
+   "pb": "p446",
+   "same_radiograph": true
+  },
+  {
+   "rank": 8,
+   "p": 0.01373412077086227,
+   "a": "ieee8023/covid-chestxray-dataset/images/81af553601a1bc1fdf81c99436a50b_jumbo.jpeg",
+   "b": "ieee8023/covid-chestxray-dataset/images/post-intubuation-pneumomediastium-and-pneumothorax-background-covid-19-pneumonia-day6-2.jpg",
+   "pa": "p446",
+   "pb": "p142",
+   "same_radiograph": true
+  },
+  {
+   "rank": 9,
+   "p": 0.013895656288087819,
+   "a": "ieee8023/covid-chestxray-dataset/images/post-intubuation-pneumomediastium-and-pneumothorax-background-covid-19-pneumonia-day7.jpg",
+   "b": "ieee8023/covid-chestxray-dataset/images/f46a9bfc7222e61e099a25ab9267da_jumbo.jpeg",
+   "pa": "p142",
+   "pb": "p446",
+   "same_radiograph": true
+  },
+  {
+   "rank": 10,
+   "p": 0.013895656288087819,
+   "a": "ieee8023/covid-chestxray-dataset/images/9d36404d.jpg",
+   "b": "ieee8023/covid-chestxray-dataset/images/a47dc73e.jpg",
+   "pa": "p235",
+   "pb": "p250",
+   "same_radiograph": false
+  },
+  {
+   "rank": 11,
+   "p": 0.013895656288087819,
+   "a": "ieee8023/covid-chestxray-dataset/images/f46a9bfc7222e61e099a25ab9267da_jumbo.jpeg",
+   "b": "ieee8023/covid-chestxray-dataset/images/post-intubuation-pneumomediastium-and-pneumothorax-background-covid-19-pneumonia-day7.jpg",
+   "pa": "p446",
+   "pb": "p142",
+   "same_radiograph": true
+  }
+ ]
+}

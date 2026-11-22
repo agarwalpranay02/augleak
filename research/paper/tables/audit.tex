@@ -1,0 +1,24 @@
+\begin{table}[t]
+\centering\small
+\setlength{\tabcolsep}{4pt}
+\caption{\textbf{Audit findings.} Counts of flagged items and how they were verified (byte identity, metadata, or our inspection of the top-ranked candidate pairs).}
+\label{tab:audit}
+\begin{tabular}{@{}llp{5.2cm}rl@{}}
+\toprule
+release & size & finding & count & verified \\
+\midrule
+Leaf-A & 600 sources & repeat shots of one leaf filed as different sources & 113 linked & 57/60 confirmed \\
+Leaf-A &  & source photo filed under two classes & 1 & byte-identical \\
+Leaf-B & 850 sources & repeat shots of one leaf filed as different sources & 117 linked & 52/60 confirmed \\
+Leaf-B &  & source photo filed under two classes & 1 & byte-identical \\
+PlantDoc & 236 test & test image in train with another label & 8 & byte-identical \\
+PlantDoc &  & test photograph also in train (same label) & 13 & 13/40 top pairs \\
+COVID-CXR & 699 images & images sharing a patient with another image & 437 & metadata \\
+COVID-CXR &  & same radiograph under two patient ids & 3 pairs & 3/6 top pairs \\
+CIFAR-10 & 10,000 test & test image near-duplicated in train & 118 flagged & 55/60 top pairs \\
+Brain MRI & 394 test & test image byte-identical to a training image & 88 & byte-identical \\
+Brain MRI &  & test slice near-duplicated in train & 112 flagged & 40/40 top pairs \\
+Fruits-360 & 2,600 test & test frame of the same fruit, same capture sequence & 219 flagged & 40/40 sampled pairs \\
+\bottomrule
+\end{tabular}
+\end{table}

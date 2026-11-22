@@ -1,0 +1,19 @@
+\begin{table}[h]
+\centering\footnotesize
+\setlength{\tabcolsep}{4pt}
+\caption{Exposure under an 80/20 random split: \Eqref{eq:exposure} against the measured share of test images with a sibling in training (mean over seeds).}
+\label{tab:exposure}
+\begin{tabular}{@{}lrr@{}}
+\toprule
+release & predicted $q$ & measured $q$ \\
+\midrule
+CIFAR-Aug, $k=1$ & 0.00\% & 0.00\% \\
+CIFAR-Aug, $k=2$ & 80.02\% & 80.58\% \\
+CIFAR-Aug, $k=4$ & 99.20\% & 99.50\% \\
+CIFAR-Aug, $k=8$ & 100.00\% & 100.00\% \\
+CIFAR-Aug, $k=16$ & 100.00\% & 100.00\% \\
+Leaf-A ($k=15$) & 100.00\% & 100.00\% \\
+Leaf-B ($k=16$) & 100.00\% & 100.00\% \\
+\bottomrule
+\end{tabular}
+\end{table}

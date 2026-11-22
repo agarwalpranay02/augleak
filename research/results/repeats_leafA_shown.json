@@ -1,0 +1,362 @@
+[
+ {
+  "p": 1.872943983246048e-09,
+  "a": "leafA/Disease/Mosaic_Virus/MV_519_v1.jpg",
+  "b": "leafA/Disease/Mosaic_Virus/MV_518_v1.jpg",
+  "s": 0.93359375
+ },
+ {
+  "p": 3.5621023804343336e-08,
+  "a": "leafA/Disease/Mosaic_Virus/MV_595_v1.jpg",
+  "b": "leafA/Disease/Mosaic_Virus/MV_596_v1.jpg",
+  "s": 0.9609375
+ },
+ {
+  "p": 1.1866267011331705e-06,
+  "a": "leafA/Disease/Leaf_Minor_Infestation/LMI_394_v1.jpg",
+  "b": "leafA/Disease/Leaf_Minor_Infestation/LMI_392_v1.jpg",
+  "s": 0.84619140625
+ },
+ {
+  "p": 2.0557353993152215e-06,
+  "a": "leafA/Disease/Mosaic_Virus/MV_535_v1.jpg",
+  "b": "leafA/Disease/Mosaic_Virus/MV_534_v1.jpg",
+  "s": 0.8681640625
+ },
+ {
+  "p": 2.424170268037147e-06,
+  "a": "leafA/Disease/Mosaic_Virus/MV_557_v1.jpg",
+  "b": "leafA/Disease/Mosaic_Virus/MV_555_v1.jpg",
+  "s": 0.95458984375
+ },
+ {
+  "p": 3.680775634429911e-06,
+  "a": "leafA/Disease/Mosaic_Virus/MV_514_v1.jpg",
+  "b": "leafA/Disease/Mosaic_Virus/MV_512_v1.jpg",
+  "s": 0.810546875
+ },
+ {
+  "p": 8.770218896985577e-06,
+  "a": "leafA/Healthy/healthy_184_v1.jpg",
+  "b": "leafA/Healthy/healthy_187_v1.jpg",
+  "s": 0.9130859375
+ },
+ {
+  "p": 9.064201813252887e-06,
+  "a": "leafA/Disease/Leaf_Minor_Infestation/LMI_425_v1.jpg",
+  "b": "leafA/Disease/Leaf_Minor_Infestation/LMI_324_v1.jpg",
+  "s": 1.0
+ },
+ {
+  "p": 1.0571878404916922e-05,
+  "a": "leafA/Disease/Leaf_Minor_Infestation/LMI_424_v1.jpg",
+  "b": "leafA/Disease/Leaf_Minor_Infestation/LMI_423_v1.jpg",
+  "s": 0.96875
+ },
+ {
+  "p": 1.3026863880621108e-05,
+  "a": "leafA/Disease/Mosaic_Virus/MV_553_v1.jpg",
+  "b": "leafA/Disease/Mosaic_Virus/MV_551_v1.jpg",
+  "s": 0.91845703125
+ },
+ {
+  "p": 1.7335590860215927e-05,
+  "a": "leafA/Healthy/healthy_025_v1.jpg",
+  "b": "leafA/Healthy/healthy_027_v1.jpg",
+  "s": 0.978515625
+ },
+ {
+  "p": 1.772085599528349e-05,
+  "a": "leafA/Disease/Leaf_Minor_Infestation/LMI_385_v1.jpg",
+  "b": "leafA/Disease/Leaf_Minor_Infestation/LMI_382_v1.jpg",
+  "s": 0.80517578125
+ },
+ {
+  "p": 2.7203964579376483e-05,
+  "a": "leafA/Disease/Mosaic_Virus/MV_578_v1.jpg",
+  "b": "leafA/Disease/Mosaic_Virus/MV_576_v1.jpg",
+  "s": 0.97509765625
+ },
+ {
+  "p": 3.2433970452072454e-05,
+  "a": "leafA/Disease/Mosaic_Virus/MV_547_v1.jpg",
+  "b": "leafA/Disease/Mosaic_Virus/MV_550_v1.jpg",
+  "s": 0.76513671875
+ },
+ {
+  "p": 6.62585677862265e-05,
+  "a": "leafA/Disease/Mosaic_Virus/MV_537_v1.jpg",
+  "b": "leafA/Disease/Mosaic_Virus/MV_540_v1.jpg",
+  "s": 0.9169921875
+ },
+ {
+  "p": 7.395559406541865e-05,
+  "a": "leafA/Disease/Mosaic_Virus/MV_528_v1.jpg",
+  "b": "leafA/Disease/Mosaic_Virus/MV_527_v1.jpg",
+  "s": 0.92431640625
+ },
+ {
+  "p": 8.914763952786767e-05,
+  "a": "leafA/Disease/Mosaic_Virus/MV_581_v1.jpg",
+  "b": "leafA/Disease/Mosaic_Virus/MV_582_v1.jpg",
+  "s": 0.7880859375
+ },
+ {
+  "p": 0.00014942760882580476,
+  "a": "leafA/Healthy/healthy_242_v1.jpg",
+  "b": "leafA/Healthy/healthy_240_v1.jpg",
+  "s": 0.8369140625
+ },
+ {
+  "p": 0.00016315950928051388,
+  "a": "leafA/Healthy/healthy_143_v1.jpg",
+  "b": "leafA/Healthy/healthy_148_v1.jpg",
+  "s": 0.873046875
+ },
+ {
+  "p": 0.00018012180825044917,
+  "a": "leafA/Healthy/healthy_024_v1.jpg",
+  "b": "leafA/Healthy/healthy_027_v1.jpg",
+  "s": 0.88916015625
+ },
+ {
+  "p": 0.00018211215421007606,
+  "a": "leafA/Healthy/healthy_244_v1.jpg",
+  "b": "leafA/Healthy/healthy_243_v1.jpg",
+  "s": 0.91162109375
+ },
+ {
+  "p": 0.00018211215421007606,
+  "a": "leafA/Healthy/healthy_037_v1.jpg",
+  "b": "leafA/Healthy/healthy_043_v1.jpg",
+  "s": 0.771484375
+ },
+ {
+  "p": 0.0001966741261529729,
+  "a": "leafA/Disease/Leaf_Minor_Infestation/LMI_380_v1.jpg",
+  "b": "leafA/Disease/Leaf_Minor_Infestation/LMI_383_v1.jpg",
+  "s": 0.9267578125
+ },
+ {
+  "p": 0.00037611368302927753,
+  "a": "leafA/Healthy/healthy_091_v1.jpg",
+  "b": "leafA/Healthy/healthy_092_v1.jpg",
+  "s": 0.79248046875
+ },
+ {
+  "p": 0.0004061851684520882,
+  "a": "leafA/Healthy/healthy_089_v1.jpg",
+  "b": "leafA/Healthy/healthy_085_v1.jpg",
+  "s": 0.9267578125
+ },
+ {
+  "p": 0.0005229729224312382,
+  "a": "leafA/Disease/Mosaic_Virus/MV_536_v1.jpg",
+  "b": "leafA/Disease/Mosaic_Virus/MV_539_v1.jpg",
+  "s": 0.8701171875
+ },
+ {
+  "p": 0.0005345924371507778,
+  "a": "leafA/Disease/Leaf_Minor_Infestation/LMI_379_v1.jpg",
+  "b": "leafA/Disease/Leaf_Minor_Infestation/LMI_378_v1.jpg",
+  "s": 0.94140625
+ },
+ {
+  "p": 0.0005710225913536543,
+  "a": "leafA/Disease/Mosaic_Virus/MV_545_v1.jpg",
+  "b": "leafA/Disease/Mosaic_Virus/MV_541_v1.jpg",
+  "s": 0.99755859375
+ },
+ {
+  "p": 0.0006373375998545697,
+  "a": "leafA/Disease/Mosaic_Virus/MV_594_v1.jpg",
+  "b": "leafA/Disease/Mosaic_Virus/MV_597_v1.jpg",
+  "s": 0.76708984375
+ },
+ {
+  "p": 0.0008205598100950015,
+  "a": "leafA/Disease/Mosaic_Virus/MV_544_v1.jpg",
+  "b": "leafA/Disease/Mosaic_Virus/MV_545_v1.jpg",
+  "s": 0.978515625
+ },
+ {
+  "p": 0.0008764688531866756,
+  "a": "leafA/Healthy/healthy_292_v1.jpg",
+  "b": "leafA/Healthy/healthy_002_v1.jpg",
+  "s": 0.78466796875
+ },
+ {
+  "p": 0.0009999687715702896,
+  "a": "leafA/Disease/Leaf_Minor_Infestation/LMI_413_v1.jpg",
+  "b": "leafA/Disease/Leaf_Minor_Infestation/LMI_412_v1.jpg",
+  "s": 0.9453125
+ },
+ {
+  "p": 0.0011790806018937801,
+  "a": "leafA/Healthy/healthy_139_v1.jpg",
+  "b": "leafA/Healthy/healthy_141_v1.jpg",
+  "s": 0.9404296875
+ },
+ {
+  "p": 0.0012873732496671828,
+  "a": "leafA/Disease/Leaf_Minor_Infestation/LMI_415_v1.jpg",
+  "b": "leafA/Disease/Leaf_Minor_Infestation/LMI_416_v1.jpg",
+  "s": 0.99169921875
+ },
+ {
+  "p": 0.0013015907567204281,
+  "a": "leafA/Healthy/healthy_033_v1.jpg",
+  "b": "leafA/Healthy/healthy_024_v1.jpg",
+  "s": 0.86181640625
+ },
+ {
+  "p": 0.0014849484681098127,
+  "a": "leafA/Disease/Leaf_Minor_Infestation/LMI_404_v1.jpg",
+  "b": "leafA/Disease/Leaf_Minor_Infestation/LMI_405_v1.jpg",
+  "s": 0.92822265625
+ },
+ {
+  "p": 0.001586089851611449,
+  "a": "leafA/Healthy/healthy_188_v1.jpg",
+  "b": "leafA/Healthy/healthy_189_v1.jpg",
+  "s": 0.791015625
+ },
+ {
+  "p": 0.0016941142340901176,
+  "a": "leafA/Disease/Mosaic_Virus/MV_533_v1.jpg",
+  "b": "leafA/Disease/Mosaic_Virus/MV_593_v1.jpg",
+  "s": 0.88232421875
+ },
+ {
+  "p": 0.0017701840046809342,
+  "a": "leafA/Healthy/healthy_185_v1.jpg",
+  "b": "leafA/Healthy/healthy_183_v1.jpg",
+  "s": 0.81201171875
+ },
+ {
+  "p": 0.0018094892021274314,
+  "a": "leafA/Healthy/healthy_000_v1.jpg",
+  "b": "leafA/Healthy/healthy_006_v1.jpg",
+  "s": 0.8447265625
+ },
+ {
+  "p": 0.001975624434734166,
+  "a": "leafA/Healthy/healthy_010_v1.jpg",
+  "b": "leafA/Healthy/healthy_292_v1.jpg",
+  "s": 0.77978515625
+ },
+ {
+  "p": 0.0019974352535229293,
+  "a": "leafA/Disease/Mosaic_Virus/MV_497_v1.jpg",
+  "b": "leafA/Disease/Mosaic_Virus/MV_496_v1.jpg",
+  "s": 0.86669921875
+ },
+ {
+  "p": 0.002303859056144344,
+  "a": "leafA/Disease/Leaf_Minor_Infestation/LMI_411_v1.jpg",
+  "b": "leafA/Disease/Leaf_Minor_Infestation/LMI_410_v1.jpg",
+  "s": 0.93359375
+ },
+ {
+  "p": 0.0024338452054998463,
+  "a": "leafA/Disease/Mosaic_Virus/MV_559_v1.jpg",
+  "b": "leafA/Disease/Mosaic_Virus/MV_562_v1.jpg",
+  "s": 0.9921875
+ },
+ {
+  "p": 0.0024607085247855985,
+  "a": "leafA/Disease/Mosaic_Virus/MV_556_v1.jpg",
+  "b": "leafA/Disease/Mosaic_Virus/MV_554_v1.jpg",
+  "s": 0.841796875
+ },
+ {
+  "p": 0.0026865538651677603,
+  "a": "leafA/Disease/Leaf_Minor_Infestation/LMI_312_v1.jpg",
+  "b": "leafA/Disease/Leaf_Minor_Infestation/LMI_315_v1.jpg",
+  "s": 0.53173828125
+ },
+ {
+  "p": 0.002933096938508492,
+  "a": "leafA/Healthy/healthy_161_v1.jpg",
+  "b": "leafA/Healthy/healthy_154_v1.jpg",
+  "s": 0.89990234375
+ },
+ {
+  "p": 0.003031267360655162,
+  "a": "leafA/Healthy/healthy_005_v1.jpg",
+  "b": "leafA/Healthy/healthy_007_v1.jpg",
+  "s": 0.64501953125
+ },
+ {
+  "p": 0.0032732789136250546,
+  "a": "leafA/Disease/Mosaic_Virus/MV_548_v1.jpg",
+  "b": "leafA/Disease/Mosaic_Virus/MV_552_v1.jpg",
+  "s": 0.59033203125
+ },
+ {
+  "p": 0.0036931359889697574,
+  "a": "leafA/Healthy/healthy_173_v1.jpg",
+  "b": "leafA/Healthy/healthy_174_v1.jpg",
+  "s": 0.67431640625
+ },
+ {
+  "p": 0.00403186547904022,
+  "a": "leafA/Disease/Mosaic_Virus/MV_564_v1.jpg",
+  "b": "leafA/Disease/Mosaic_Virus/MV_566_v1.jpg",
+  "s": 0.759765625
+ },
+ {
+  "p": 0.00440159409894763,
+  "a": "leafA/Disease/Leaf_Minor_Infestation/LMI_409_v1.jpg",
+  "b": "leafA/Disease/Leaf_Minor_Infestation/LMI_410_v1.jpg",
+  "s": 0.91357421875
+ },
+ {
+  "p": 0.004450127750954432,
+  "a": "leafA/Healthy/healthy_217_v1.jpg",
+  "b": "leafA/Healthy/healthy_215_v1.jpg",
+  "s": 0.76513671875
+ },
+ {
+  "p": 0.004474594440632963,
+  "a": "leafA/Healthy/healthy_280_v1.jpg",
+  "b": "leafA/Healthy/healthy_283_v1.jpg",
+  "s": 0.77294921875
+ },
+ {
+  "p": 0.004675221691235699,
+  "a": "leafA/Disease/Mosaic_Virus/MV_474_v1.jpg",
+  "b": "leafA/Disease/Mosaic_Virus/MV_471_v1.jpg",
+  "s": 0.6845703125
+ },
+ {
+  "p": 0.005303413445343086,
+  "a": "leafA/Healthy/healthy_160_v1.jpg",
+  "b": "leafA/Healthy/healthy_161_v1.jpg",
+  "s": 0.8876953125
+ },
+ {
+  "p": 0.006389408085824858,
+  "a": "leafA/Disease/Mosaic_Virus/MV_508_v1.jpg",
+  "b": "leafA/Disease/Mosaic_Virus/MV_510_v1.jpg",
+  "s": 0.8447265625
+ },
+ {
+  "p": 0.0065668116423464535,
+  "a": "leafA/Healthy/healthy_203_v1.jpg",
+  "b": "leafA/Healthy/healthy_205_v1.jpg",
+  "s": 0.8212890625
+ },
+ {
+  "p": 0.006974568997360792,
+  "a": "leafA/Healthy/healthy_293_v1.jpg",
+  "b": "leafA/Healthy/healthy_291_v1.jpg",
+  "s": 0.818359375
+ },
+ {
+  "p": 0.007207517197096128,
+  "a": "leafA/Disease/Mosaic_Virus/MV_572_v1.jpg",
+  "b": "leafA/Disease/Mosaic_Virus/MV_568_v1.jpg",
+  "s": 0.6982421875
+ }
+]

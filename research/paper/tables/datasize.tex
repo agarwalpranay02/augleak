@@ -1,0 +1,18 @@
+\begin{table}[h]
+\centering\footnotesize
+\setlength{\tabcolsep}{4pt}
+\caption{CIFAR-Aug with $k=16$: reported (random split) / true (fresh photographs) accuracy in \% as the number of source photographs grows; mean over 3 seeds. Smaller releases are inflated more.}
+\label{tab:datasize}
+\begin{tabular}{@{}llrrr@{}}
+\toprule
+edits & probe & 500 sources & 1,000 sources & 2,000 sources \\
+\midrule
+weak & linear & 100.0 / 69.6 & 100.0 / 71.9 & 100.0 / 73.7 \\
+weak & 1-NN & 100.0 / 58.0 & 100.0 / 60.3 & 100.0 / 63.2 \\
+medium & linear & 92.7 / 63.6 & 86.9 / 65.8 & 82.2 / 69.3 \\
+medium & 1-NN & 98.4 / 54.8 & 98.0 / 57.7 & 97.6 / 60.0 \\
+strong & linear & 54.2 / 55.2 & 52.0 / 60.4 & 52.9 / 67.2 \\
+strong & 1-NN & 57.4 / 52.2 & 54.0 / 54.2 & 52.0 / 57.2 \\
+\bottomrule
+\end{tabular}
+\end{table}

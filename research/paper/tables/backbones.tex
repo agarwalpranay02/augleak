@@ -1,0 +1,20 @@
+\begin{table}[h]
+\centering\footnotesize
+\setlength{\tabcolsep}{4pt}
+\caption{Inflation on the real releases for two frozen backbones (accuracy in \%, mean over seeds).}
+\label{tab:backbones}
+\begin{tabular}{@{}lllrrr@{}}
+\toprule
+release & backbone & probe & random & group & gap \\
+\midrule
+Leaf-A & MobileNetV3-L & linear & 85.5 & 79.2 & $+6.3$ \\
+Leaf-A & MobileNetV3-L & 1-NN & 87.4 & 80.0 & $+7.4$ \\
+Leaf-A & EfficientNet-B0 & linear & 85.7 & 79.5 & $+6.2$ \\
+Leaf-A & EfficientNet-B0 & 1-NN & 87.6 & 81.1 & $+6.5$ \\
+Leaf-B & MobileNetV3-L & linear & 96.8 & 88.5 & $+8.4$ \\
+Leaf-B & MobileNetV3-L & 1-NN & 96.1 & 80.6 & $+15.5$ \\
+Leaf-B & EfficientNet-B0 & linear & 96.6 & 89.2 & $+7.3$ \\
+Leaf-B & EfficientNet-B0 & 1-NN & 95.5 & 81.3 & $+14.2$ \\
+\bottomrule
+\end{tabular}
+\end{table}

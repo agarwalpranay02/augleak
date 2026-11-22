@@ -1,0 +1,145 @@
+@import "tailwindcss";
+@import "@fontsource-variable/archivo/wdth.css";
+@import "@fontsource-variable/ibm-plex-sans/index.css";
+@import "@fontsource/ibm-plex-mono/400.css";
+@import "@fontsource/ibm-plex-mono/500.css";
+
+/*
+  AugLeak: a forensic bench for datasets.
+  Evidence is laid out on a cool, matte table: training images are tagged blue, test images amber,
+  and every link that crosses the split is drawn in one signal red. Those three colours carry
+  meaning everywhere on the site and are never used for decoration. Display type is Archivo,
+  narrowed on its width axis; body text is IBM Plex Sans; file names and p-values are IBM Plex Mono.
+*/
+@theme {
+  --color-night: #0b1524;
+  --color-night-2: #12213a;
+  --color-night-3: #1b2d4b;
+  --color-paper: #f1f4f7;
+  --color-paper-2: #e7ecf1;
+  --color-card: #ffffff;
+  --color-ink: #0b1524;
+  --color-ink-2: #3a4859;
+  --color-ink-3: #66727f;
+  --color-rule: #d2d9e1;
+  --color-rule-2: #e4e9ee;
+  --color-train: #2a62a4;
+  --color-train-soft: #e2ecf7;
+  --color-test: #b4730b;
+  --color-test-soft: #f8edd8;
+  --color-leak: #df2459;
+  --color-leak-soft: #fde5ec;
+  --color-ok: #1d7f55;
+  --color-ok-soft: #e0f2e9;
+
+  --font-sans: "IBM Plex Sans Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Archivo Variable", "IBM Plex Sans Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@layer base {
+  :root { color-scheme: light; }
+  html {
+    background: var(--color-paper);
+    color: var(--color-ink);
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+  }
+  body { font-family: var(--font-sans); font-size: 16px; line-height: 1.6; }
+  ::selection { background: var(--color-leak-soft); color: var(--color-ink); }
+  :focus-visible { outline: 2px solid var(--color-train); outline-offset: 2px; border-radius: 4px; }
+  a { text-underline-offset: 3px; }
+  h1, h2, h3 { text-wrap: balance; }
+  p { text-wrap: pretty; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@layer components {
+  .display {
+    font-family: var(--font-display);
+    font-variation-settings: "wdth" 66;
+    font-weight: 800;
+    letter-spacing: -0.01em;
+    line-height: 0.95;
+  }
+  .display-wide { font-family: var(--font-display); font-variation-settings: "wdth" 100; font-weight: 700; letter-spacing: -0.015em; }
+  .mono { font-family: var(--font-mono); font-feature-settings: "tnum"; }
+  .tnum { font-variant-numeric: tabular-nums; }
+  .wrap { margin-inline: auto; width: 100%; max-width: 1200px; padding-inline: 20px; }
+  @media (min-width: 768px) { .wrap { padding-inline: 32px; } }
+
+  .btn {
+    display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;
+    border-radius: 10px; padding: 0.7rem 1.15rem; font-weight: 600; font-size: 15px; line-height: 1.2;
+    border: 1px solid transparent; cursor: pointer; text-decoration: none; white-space: nowrap;
+    transition: background-color 0.15s, border-color 0.15s, color 0.15s, transform 0.15s var(--ease-out);
+  }
+  .btn:active { transform: translateY(1px); }
+  .btn:disabled { opacity: 0.45; cursor: not-allowed; transform: none; }
+  .btn-primary { background: var(--color-ink); color: #fff; }
+  .btn-primary:hover:not(:disabled) { background: var(--color-train); }
+  .btn-leak { background: var(--color-leak); color: #fff; }
+  .btn-leak:hover:not(:disabled) { background: #c01b4b; }
+  .btn-ghost { background: var(--color-card); color: var(--color-ink); border-color: var(--color-rule); }
+  .btn-ghost:hover:not(:disabled) { border-color: var(--color-ink-2); }
+  .btn-on-night { background: rgb(255 255 255 / 0.06); color: #fff; border-color: rgb(255 255 255 / 0.22); }
+  .btn-on-night:hover { background: rgb(255 255 255 / 0.12); }
+  .btn-sm { padding: 0.45rem 0.8rem; font-size: 14px; border-radius: 8px; }
+
+  .card { background: var(--color-card); border: 1px solid var(--color-rule); border-radius: 14px; }
+  .chip {
+    display: inline-flex; align-items: center; gap: 0.35rem; border-radius: 999px; padding: 0.15rem 0.6rem;
+    font-size: 12.5px; font-weight: 600; line-height: 1.5; border: 1px solid transparent;
+  }
+  .chip-train { background: var(--color-train-soft); color: var(--color-train); }
+  .chip-test { background: var(--color-test-soft); color: var(--color-test); }
+  .chip-leak { background: var(--color-leak-soft); color: var(--color-leak); }
+  .chip-ok { background: var(--color-ok-soft); color: var(--color-ok); }
+  .chip-plain { background: var(--color-paper-2); color: var(--color-ink-2); }
+
+  .field {
+    width: 100%; background: var(--color-card); color: var(--color-ink); border: 1px solid var(--color-rule);
+    border-radius: 10px; padding: 0.6rem 0.8rem; font-size: 15px;
+  }
+  .field:focus { outline: 2px solid var(--color-train); outline-offset: 0; border-color: transparent; }
+  .label { display: block; font-size: 14px; font-weight: 500; color: var(--color-ink-2); margin-bottom: 0.35rem; }
+
+  .prose-site p, .prose-site li { color: var(--color-ink-2); }
+  .prose-site p + p { margin-top: 0.9rem; }
+  .prose-site a { color: var(--color-train); text-decoration: underline; }
+  .prose-site strong { color: var(--color-ink); }
+
+  .table-site { width: 100%; border-collapse: collapse; font-size: 14.5px; }
+  .table-site th { text-align: left; font-weight: 600; color: var(--color-ink-2); padding: 0.6rem 0.75rem; border-bottom: 1px solid var(--color-rule); white-space: nowrap; }
+  .table-site td { padding: 0.6rem 0.75rem; border-bottom: 1px solid var(--color-rule-2); vertical-align: top; }
+  .table-site td.num, .table-site th.num { text-align: right; font-variant-numeric: tabular-nums; }
+
+  .code {
+    font-family: var(--font-mono); font-size: 13.5px; line-height: 1.6; background: var(--color-night); color: #dbe5f2;
+    border-radius: 12px; padding: 1rem 1.15rem; overflow-x: auto; white-space: pre;
+  }
+  .kbd { font-family: var(--font-mono); font-size: 0.85em; background: var(--color-paper-2); border-radius: 6px; padding: 0.08rem 0.35rem; }
+
+  /* the split motif: a dashed seam between train and test */
+  .seam { background-image: linear-gradient(to bottom, var(--color-rule) 50%, transparent 50%); background-size: 2px 10px; background-repeat: repeat-y; background-position: center; }
+  .seam-night { background-image: linear-gradient(to bottom, rgb(255 255 255 / 0.22) 50%, transparent 50%); background-size: 2px 10px; background-repeat: repeat-y; background-position: center; }
+
+  .night { background: var(--color-night); color: #e9eef5; }
+  .night .muted { color: #a5b2c4; }
+  .grid-night {
+    background-image:
+      linear-gradient(rgb(255 255 255 / 0.035) 1px, transparent 1px),
+      linear-gradient(90deg, rgb(255 255 255 / 0.035) 1px, transparent 1px);
+    background-size: 32px 32px;
+  }
+}
+
+@keyframes draw { from { stroke-dashoffset: var(--len, 300); } to { stroke-dashoffset: 0; } }
+@keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
+@keyframes pulse-soft { 50% { opacity: 0.4; } }
+.animate-pulse-soft { animation: pulse-soft 1.4s ease-in-out infinite; }

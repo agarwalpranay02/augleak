@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering\small
+\setlength{\tabcolsep}{4pt}
+\caption{\textbf{Evaluating without metadata.} Error relative to the oracle group split, in accuracy points (mean of 3 seeds). Exposed: share of evaluated test images with a true sibling in training. Kept: share of the test set surviving filtering. AugLeak (structure + hash), or with the invariant view (+ inv.); $\alpha=10^{-2}$. CIFAR-Aug rows use the 500-source subset of Section~\ref{sec:detect}.}
+\label{tab:protocol}
+\begin{tabular}{@{}l rr rrr rrr@{}}
+\toprule
+ & \multicolumn{2}{c}{random split} & \multicolumn{3}{c}{detected-group split} & \multicolumn{3}{c}{random split + filter} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-6}\cmidrule(l){7-9}
+release & LP & 1-NN & LP & 1-NN & exposed & LP & 1-NN & kept \\
+\midrule
+Leaf-A & $+5.9$ & $+7.4$ & $-1.8$ & $-3.2$ & 93\% & $-11.9$ & $-15.9$ & 13\% \\
+Leaf-A (+ inv.) & $+5.9$ & $+7.4$ & $-6.8$ & $-13.0$ & 93\% & $-14.2$ & $-17.0$ & 13\% \\
+Leaf-B & $+7.7$ & $+14.6$ & $+1.1$ & $+3.1$ & 96\% & $-1.3$ & $+3.8$ & 13\% \\
+CIFAR-Aug medium & $+36.3$ & $+56.4$ & $+31.4$ & $+52.5$ & 98\% & $+35.0$ & $+56.3$ & 57\% \\
+CIFAR-Aug medium (+ inv.) & $+36.3$ & $+56.4$ & $+9.1$ & $+23.3$ & 60\% & $+25.4$ & $+51.0$ & 15\% \\
+CIFAR-Aug strong & $+16.3$ & $+29.0$ & $+15.5$ & $+27.8$ & 100\% & $+15.3$ & $+27.5$ & 90\% \\
+CIFAR-Aug strong (+ inv.) & $+16.3$ & $+29.0$ & $+14.9$ & $+26.0$ & 100\% & $+12.8$ & $+22.8$ & 82\% \\
+\bottomrule
+\end{tabular}
+\end{table}

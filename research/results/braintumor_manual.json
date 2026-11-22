@@ -1,0 +1,285 @@
+{
+ "note": "Visual inspection of the 40 highest-ranked flagged test-train pairs whose test image is not byte-identical to any training image. near_duplicate=True when both files are the same MRI slice (re-encoded, resized or re-cropped).",
+ "pairs": [
+  {
+   "rank": 0,
+   "p": 1.714634337200072e-12,
+   "test": "sartajbhuvaji/brain-tumor-classification-dataset/Testing/meningioma_tumor/image(6).jpg",
+   "train": "sartajbhuvaji/brain-tumor-classification-dataset/Training/meningioma_tumor/m1(116).jpg",
+   "near_duplicate": true
+  },
+  {
+   "rank": 1,
+   "p": 1.2707844296579132e-11,
+   "test": "sartajbhuvaji/brain-tumor-classification-dataset/Testing/meningioma_tumor/image(72).jpg",
+   "train": "sartajbhuvaji/brain-tumor-classification-dataset/Training/meningioma_tumor/m1(182).jpg",
+   "near_duplicate": true
+  },
+  {
+   "rank": 2,
+   "p": 3.429571753701342e-11,
+   "test": "sartajbhuvaji/brain-tumor-classification-dataset/Testing/meningioma_tumor/image(31).jpg",
+   "train": "sartajbhuvaji/brain-tumor-classification-dataset/Training/meningioma_tumor/m1(141).jpg",
+   "near_duplicate": true
+  },
+  {
+   "rank": 3,
+   "p": 1.7327046435904418e-10,
+   "test": "sartajbhuvaji/brain-tumor-classification-dataset/Testing/meningioma_tumor/image(60).jpg",
+   "train": "sartajbhuvaji/brain-tumor-classification-dataset/Training/meningioma_tumor/m1(170).jpg",
+   "near_duplicate": true
+  },
+  {
+   "rank": 4,
+   "p": 1.7327046435904418e-10,
+   "test": "sartajbhuvaji/brain-tumor-classification-dataset/Testing/meningioma_tumor/image(62).jpg",
+   "train": "sartajbhuvaji/brain-tumor-classification-dataset/Training/meningioma_tumor/m1(170).jpg",
+   "near_duplicate": true
+  },
+  {
+   "rank": 5,
+   "p": 1.8512977737160692e-09,
+   "test": "sartajbhuvaji/brain-tumor-classification-dataset/Testing/meningioma_tumor/image(11).jpg",
+   "train": "sartajbhuvaji/brain-tumor-classification-dataset/Training/meningioma_tumor/m1(121).jpg",
+   "near_duplicate": true
+  },
+  {
+   "rank": 6,
+   "p": 5.264260110062443e-09,
+   "test": "sartajbhuvaji/brain-tumor-classification-dataset/Testing/meningioma_tumor/image(39).jpg",
+   "train": "sartajbhuvaji/brain-tumor-classification-dataset/Training/meningioma_tumor/m1(149).jpg",
+   "near_duplicate": true
+  },
+  {
+   "rank": 7,
+   "p": 3.277888615712579e-08,
+   "test": "sartajbhuvaji/brain-tumor-classification-dataset/Testing/meningioma_tumor/image(9).jpg",
+   "train": "sartajbhuvaji/brain-tumor-classification-dataset/Training/meningioma_tumor/m1(119).jpg",
+   "near_duplicate": true
+  },
+  {
+   "rank": 8,
+   "p": 3.767983558657741e-08,
+   "test": "sartajbhuvaji/brain-tumor-classification-dataset/Testing/meningioma_tumor/image(50).jpg",
+   "train": "sartajbhuvaji/brain-tumor-classification-dataset/Training/meningioma_tumor/m1(160).jpg",
+   "near_duplicate": true
+  },
+  {
+   "rank": 9,
+   "p": 4.256566818759727e-08,
+   "test": "sartajbhuvaji/brain-tumor-classification-dataset/Testing/meningioma_tumor/image(16).jpg",
+   "train": "sartajbhuvaji/brain-tumor-classification-dataset/Training/meningioma_tumor/m1(126).jpg",
+   "near_duplicate": true
+  },
+  {
+   "rank": 10,
+   "p": 8.543454032958776e-08,
+   "test": "sartajbhuvaji/brain-tumor-classification-dataset/Testing/meningioma_tumor/image(63).jpg",
+   "train": "sartajbhuvaji/brain-tumor-classification-dataset/Training/meningioma_tumor/m1(173).jpg",
+   "near_duplicate": true
+  },
+  {
+   "rank": 11,
+   "p": 9.001741539454697e-08,
+   "test": "sartajbhuvaji/brain-tumor-classification-dataset/Testing/meningioma_tumor/image(12).jpg",
+   "train": "sartajbhuvaji/brain-tumor-classification-dataset/Training/meningioma_tumor/m1(122).jpg",
+   "near_duplicate": true
+  },
+  {
+   "rank": 12,
+   "p": 9.320844025192771e-08,
+   "test": "sartajbhuvaji/brain-tumor-classification-dataset/Testing/meningioma_tumor/image(84).jpg",
+   "train": "sartajbhuvaji/brain-tumor-classification-dataset/Training/meningioma_tumor/m1(194).jpg",
+   "near_duplicate": true
+  },
+  {
+   "rank": 13,
+   "p": 1.0529450205926542e-07,
+   "test": "sartajbhuvaji/brain-tumor-classification-dataset/Testing/meningioma_tumor/image(73).jpg",
+   "train": "sartajbhuvaji/brain-tumor-classification-dataset/Training/meningioma_tumor/m1(183).jpg",
+   "near_duplicate": true
+  },
+  {
+   "rank": 14,
+   "p": 1.838505405107649e-07,
+   "test": "sartajbhuvaji/brain-tumor-classification-dataset/Testing/meningioma_tumor/image(75).jpg",
+   "train": "sartajbhuvaji/brain-tumor-classification-dataset/Training/meningioma_tumor/m1(185).jpg",
+   "near_duplicate": true
+  },
+  {
+   "rank": 15,
+   "p": 1.9371264090775563e-07,
+   "test": "sartajbhuvaji/brain-tumor-classification-dataset/Testing/meningioma_tumor/image(48).jpg",
+   "train": "sartajbhuvaji/brain-tumor-classification-dataset/Training/meningioma_tumor/m1(158).jpg",
+   "near_duplicate": true
+  },
+  {
+   "rank": 16,
+   "p": 4.96172684733742e-07,
+   "test": "sartajbhuvaji/brain-tumor-classification-dataset/Testing/meningioma_tumor/image(4).jpg",
+   "train": "sartajbhuvaji/brain-tumor-classification-dataset/Training/meningioma_tumor/m1(113).jpg",
+   "near_duplicate": true
+  },
+  {
+   "rank": 17,
+   "p": 4.96172684733742e-07,
+   "test": "sartajbhuvaji/brain-tumor-classification-dataset/Testing/pituitary_tumor/image(10).jpg",
+   "train": "sartajbhuvaji/brain-tumor-classification-dataset/Training/pituitary_tumor/p (125).jpg",
+   "near_duplicate": true
+  },
+  {
+   "rank": 18,
+   "p": 6.556354590312696e-07,
+   "test": "sartajbhuvaji/brain-tumor-classification-dataset/Testing/pituitary_tumor/image(11).jpg",
+   "train": "sartajbhuvaji/brain-tumor-classification-dataset/Training/pituitary_tumor/p (126).jpg",
+   "near_duplicate": true
+  },
+  {
+   "rank": 19,
+   "p": 7.029425419359578e-07,
+   "test": "sartajbhuvaji/brain-tumor-classification-dataset/Testing/meningioma_tumor/image(40).jpg",
+   "train": "sartajbhuvaji/brain-tumor-classification-dataset/Training/meningioma_tumor/m1(150).jpg",
+   "near_duplicate": true
+  },
+  {
+   "rank": 20,
+   "p": 8.080432615375902e-07,
+   "test": "sartajbhuvaji/brain-tumor-classification-dataset/Testing/no_tumor/image(3).jpg",
+   "train": "sartajbhuvaji/brain-tumor-classification-dataset/Training/no_tumor/image (44).jpg",
+   "near_duplicate": true
+  },
+  {
+   "rank": 21,
+   "p": 8.222406825989767e-07,
+   "test": "sartajbhuvaji/brain-tumor-classification-dataset/Testing/pituitary_tumor/image(5).jpg",
+   "train": "sartajbhuvaji/brain-tumor-classification-dataset/Training/pituitary_tumor/p (124).jpg",
+   "near_duplicate": true
+  },
+  {
+   "rank": 22,
+   "p": 8.222406825989767e-07,
+   "test": "sartajbhuvaji/brain-tumor-classification-dataset/Testing/pituitary_tumor/image(6).jpg",
+   "train": "sartajbhuvaji/brain-tumor-classification-dataset/Training/pituitary_tumor/p (124).jpg",
+   "near_duplicate": true
+  },
+  {
+   "rank": 23,
+   "p": 8.513882586626763e-07,
+   "test": "sartajbhuvaji/brain-tumor-classification-dataset/Testing/meningioma_tumor/image(37).jpg",
+   "train": "sartajbhuvaji/brain-tumor-classification-dataset/Training/meningioma_tumor/m1(147).jpg",
+   "near_duplicate": true
+  },
+  {
+   "rank": 24,
+   "p": 1.0584783989074843e-06,
+   "test": "sartajbhuvaji/brain-tumor-classification-dataset/Testing/meningioma_tumor/image(17).jpg",
+   "train": "sartajbhuvaji/brain-tumor-classification-dataset/Training/meningioma_tumor/m1(127).jpg",
+   "near_duplicate": true
+  },
+  {
+   "rank": 25,
+   "p": 1.0864969711354452e-06,
+   "test": "sartajbhuvaji/brain-tumor-classification-dataset/Testing/pituitary_tumor/image(15).jpg",
+   "train": "sartajbhuvaji/brain-tumor-classification-dataset/Training/pituitary_tumor/p (128).jpg",
+   "near_duplicate": true
+  },
+  {
+   "rank": 26,
+   "p": 1.1348524172229192e-06,
+   "test": "sartajbhuvaji/brain-tumor-classification-dataset/Testing/meningioma_tumor/image(47).jpg",
+   "train": "sartajbhuvaji/brain-tumor-classification-dataset/Training/meningioma_tumor/m1(157).jpg",
+   "near_duplicate": true
+  },
+  {
+   "rank": 27,
+   "p": 1.2708890539637363e-06,
+   "test": "sartajbhuvaji/brain-tumor-classification-dataset/Testing/meningioma_tumor/image(112).jpg",
+   "train": "sartajbhuvaji/brain-tumor-classification-dataset/Training/meningioma_tumor/m1(95).jpg",
+   "near_duplicate": true
+  },
+  {
+   "rank": 28,
+   "p": 2.0163354216131355e-06,
+   "test": "sartajbhuvaji/brain-tumor-classification-dataset/Testing/meningioma_tumor/image(18).jpg",
+   "train": "sartajbhuvaji/brain-tumor-classification-dataset/Training/meningioma_tumor/m1(128).jpg",
+   "near_duplicate": true
+  },
+  {
+   "rank": 29,
+   "p": 2.0163354216131355e-06,
+   "test": "sartajbhuvaji/brain-tumor-classification-dataset/Testing/meningioma_tumor/image(36).jpg",
+   "train": "sartajbhuvaji/brain-tumor-classification-dataset/Training/meningioma_tumor/m1(146).jpg",
+   "near_duplicate": true
+  },
+  {
+   "rank": 30,
+   "p": 2.27778736730293e-06,
+   "test": "sartajbhuvaji/brain-tumor-classification-dataset/Testing/meningioma_tumor/image(42).jpg",
+   "train": "sartajbhuvaji/brain-tumor-classification-dataset/Training/meningioma_tumor/m1(152).jpg",
+   "near_duplicate": true
+  },
+  {
+   "rank": 31,
+   "p": 3.2837065041468153e-06,
+   "test": "sartajbhuvaji/brain-tumor-classification-dataset/Testing/meningioma_tumor/image(30).jpg",
+   "train": "sartajbhuvaji/brain-tumor-classification-dataset/Training/meningioma_tumor/m1(140).jpg",
+   "near_duplicate": true
+  },
+  {
+   "rank": 32,
+   "p": 3.312428422379565e-06,
+   "test": "sartajbhuvaji/brain-tumor-classification-dataset/Testing/meningioma_tumor/image(79).jpg",
+   "train": "sartajbhuvaji/brain-tumor-classification-dataset/Training/meningioma_tumor/m1(189).jpg",
+   "near_duplicate": true
+  },
+  {
+   "rank": 33,
+   "p": 4.415278016437612e-06,
+   "test": "sartajbhuvaji/brain-tumor-classification-dataset/Testing/meningioma_tumor/image(14).jpg",
+   "train": "sartajbhuvaji/brain-tumor-classification-dataset/Training/meningioma_tumor/m1(124).jpg",
+   "near_duplicate": true
+  },
+  {
+   "rank": 34,
+   "p": 4.733859782136872e-06,
+   "test": "sartajbhuvaji/brain-tumor-classification-dataset/Testing/meningioma_tumor/image(74).jpg",
+   "train": "sartajbhuvaji/brain-tumor-classification-dataset/Training/meningioma_tumor/m1(184).jpg",
+   "near_duplicate": true
+  },
+  {
+   "rank": 35,
+   "p": 5.209777997011814e-06,
+   "test": "sartajbhuvaji/brain-tumor-classification-dataset/Testing/meningioma_tumor/image(107).jpg",
+   "train": "sartajbhuvaji/brain-tumor-classification-dataset/Training/meningioma_tumor/m1(90).jpg",
+   "near_duplicate": true
+  },
+  {
+   "rank": 36,
+   "p": 5.83428127958333e-06,
+   "test": "sartajbhuvaji/brain-tumor-classification-dataset/Testing/pituitary_tumor/image(34).jpg",
+   "train": "sartajbhuvaji/brain-tumor-classification-dataset/Training/pituitary_tumor/p (136).jpg",
+   "near_duplicate": true
+  },
+  {
+   "rank": 37,
+   "p": 6.20101115007866e-06,
+   "test": "sartajbhuvaji/brain-tumor-classification-dataset/Testing/meningioma_tumor/image(8).jpg",
+   "train": "sartajbhuvaji/brain-tumor-classification-dataset/Training/meningioma_tumor/m1(118).jpg",
+   "near_duplicate": true
+  },
+  {
+   "rank": 38,
+   "p": 6.824428807172778e-06,
+   "test": "sartajbhuvaji/brain-tumor-classification-dataset/Testing/meningioma_tumor/image(38).jpg",
+   "train": "sartajbhuvaji/brain-tumor-classification-dataset/Training/meningioma_tumor/m1(148).jpg",
+   "near_duplicate": true
+  },
+  {
+   "rank": 39,
+   "p": 6.884120602371475e-06,
+   "test": "sartajbhuvaji/brain-tumor-classification-dataset/Testing/meningioma_tumor/image(61).jpg",
+   "train": "sartajbhuvaji/brain-tumor-classification-dataset/Training/meningioma_tumor/m1(171).jpg",
+   "near_duplicate": true
+  }
+ ]
+}

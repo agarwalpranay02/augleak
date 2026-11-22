@@ -1,0 +1,15 @@
+\section{Evaluating a pre-augmented release without metadata}
+\label{sec:protocol}
+
+We now ask the practitioner's question: given only images and labels, how close to the oracle group-split accuracy can one get? We compare the naive random split with two protocols built on AugLeak links: a split by detected group (connected components), and \emph{test filtering}, which keeps the random split but scores only test images with no link to any training image. Table~\ref{tab:protocol} reports each protocol's error relative to the oracle.
+
+\input{tables/protocol.tex}
+
+\paragraph{Detected-group splits remove most of the inflation, when the views match the edits.}
+On Leaf-A the detected-group split moves the linear-probe error from \numProtLeafAnaiveErr{} to \numProtLeafAdgroupErr{} points, even though \numProtLeafAdgroupExp{} of its test images remain nominally exposed. The siblings it fails to separate are the dissimilar ones, which Figure~\ref{fig:exploit} shows the model cannot use. On CIFAR-Aug with medium edits the pixel views miss the cropped copies and the split barely helps (\numProtCmediumdgroupErr{}); adding the invariant view, which does match crops, brings the error from \numProtCmediumnaiveErr{} to \numProtCmediumInvdgroupErr{}. The cost of a view that does not match the release is over-linking: on Leaf-A the invariant view merges unrelated groups and the error overshoots to \numProtLeafAInvdgroupErr{}. With strong edits on tiny images, no configuration recovers enough siblings to matter.
+
+\paragraph{Filtering is not a fix.}
+Filtering removes the exposed test images that are easiest to match, and those are also the easiest to classify; what survives is a small and unrepresentative remainder (\numProtLeafAfilterKept{} of the Leaf-A test set), and its error relative to the oracle is \numProtLeafAfilterErr{} points. A test set that shrinks this much is a diagnostic: the release cannot support a random-split estimate.
+
+\paragraph{Recommendation.}
+Split by detected groups, choose views by inspecting the release (pixel views for filters and flips, the invariant view for crops), and report the operating point. None of this replaces metadata: the reliable protocol is a split by the creator's groups, scored on the unedited member of each test group (Appendix Table~\ref{tab:orig}).

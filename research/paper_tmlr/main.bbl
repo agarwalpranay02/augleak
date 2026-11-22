@@ -1,0 +1,224 @@
+\begin{thebibliography}{32}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Abbas et~al.(2023)Abbas, Tirumala, Simig, Ganguli, and
+  Morcos]{abbas2023semdedup}
+Amro Abbas, Kushal Tirumala, D{\'a}niel Simig, Surya Ganguli, and Ari~S.
+  Morcos.
+\newblock {SemDeDup}: Data-efficient learning at web-scale through semantic
+  deduplication.
+\newblock \emph{arXiv preprint arXiv:2303.09540}, 2023.
+
+\bibitem[Babu et~al.(2024)Babu, Pandey, Durisic, Koppisetty, and
+  Staron]{babu2024automotive}
+Md~Abu~Ahammed Babu, Sushant~Kumar Pandey, Darko Durisic, Ashok~Chaitanya
+  Koppisetty, and Miroslaw Staron.
+\newblock Improving image data leakage detection in automotive software.
+\newblock \emph{arXiv preprint arXiv:2410.23312}, 2024.
+
+\bibitem[Barz \& Denzler(2020)Barz and Denzler]{barz2020cifair}
+Bj{\"o}rn Barz and Joachim Denzler.
+\newblock Do we train on test data? {P}urging {CIFAR} of near-duplicates.
+\newblock \emph{Journal of Imaging}, 6\penalty0 (6):\penalty0 41, 2020.
+
+\bibitem[Bhuvaji et~al.(2020)Bhuvaji, Kadam, Bhumkar, Dedge, and
+  Kanchan]{bhuvaji2020brain}
+Sartaj Bhuvaji, Ankita Kadam, Prajakta Bhumkar, Sameer Dedge, and Swati
+  Kanchan.
+\newblock Brain tumor classification ({MRI}).
+\newblock Kaggle dataset, 2020.
+
+\bibitem[Cohen et~al.(2020)Cohen, Morrison, Dao, Roth, Duong, and
+  Ghassemi]{cohen2020covid}
+Joseph~Paul Cohen, Paul Morrison, Lan Dao, Karsten Roth, Tim~Q. Duong, and
+  Marzyeh Ghassemi.
+\newblock {COVID-19} image data collection: Prospective predictions are the
+  future.
+\newblock \emph{Journal of Machine Learning for Biomedical Imaging},
+  2020\penalty0 (2):\penalty0 1--38, 2020.
+
+\bibitem[Coles(2001)]{coles2001evt}
+Stuart Coles.
+\newblock \emph{An Introduction to Statistical Modeling of Extreme Values}.
+\newblock Springer, 2001.
+
+\bibitem[Conneau et~al.(2018)Conneau, Lample, Ranzato, Denoyer, and
+  J{\'e}gou]{conneau2018csls}
+Alexis Conneau, Guillaume Lample, Marc'Aurelio Ranzato, Ludovic Denoyer, and
+  Herv{\'e} J{\'e}gou.
+\newblock Word translation without parallel data.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2018.
+
+\bibitem[Feldman \& Zhang(2020)Feldman and Zhang]{feldman2020memorization}
+Vitaly Feldman and Chiyuan Zhang.
+\newblock What neural networks memorize and why: Discovering the long tail via
+  influence estimation.
+\newblock In \emph{Advances in Neural Information Processing Systems
+  (NeurIPS)}, 2020.
+
+\bibitem[Gerz \& Jelali(2025)Gerz and Jelali]{gerz2025augmentation}
+Fabian Gerz and Mohieddine Jelali.
+\newblock Towards reliable data augmentation in machine learning.
+\newblock Mendeley Data, \doi{10.17632/f9k79z29rp.1}, 2025.
+
+\bibitem[Howard et~al.(2019)Howard, Sandler, Chu, Chen, Chen, Tan, Wang, Zhu,
+  Pang, Vasudevan, Le, and Adam]{howard2019mobilenetv3}
+Andrew Howard, Mark Sandler, Grace Chu, Liang-Chieh Chen, Bo~Chen, Mingxing
+  Tan, Weijun Wang, Yukun Zhu, Ruoming Pang, Vijay Vasudevan, Quoc~V. Le, and
+  Hartwig Adam.
+\newblock Searching for {MobileNetV3}.
+\newblock In \emph{IEEE/CVF International Conference on Computer Vision
+  (ICCV)}, pp.\  1314--1324, 2019.
+
+\bibitem[Kapoor \& Narayanan(2023)Kapoor and Narayanan]{kapoor2023leakage}
+Sayash Kapoor and Arvind Narayanan.
+\newblock Leakage and the reproducibility crisis in machine-learning-based
+  science.
+\newblock \emph{Patterns}, 4\penalty0 (9), 2023.
+
+\bibitem[Kaufman et~al.(2012)Kaufman, Rosset, Perlich, and
+  Stitelman]{kaufman2012leakage}
+Shachar Kaufman, Saharon Rosset, Claudia Perlich, and Ori Stitelman.
+\newblock Leakage in data mining: Formulation, detection, and avoidance.
+\newblock \emph{ACM Transactions on Knowledge Discovery from Data}, 6\penalty0
+  (4):\penalty0 1--21, 2012.
+
+\bibitem[Krizhevsky(2009)]{krizhevsky2009cifar}
+Alex Krizhevsky.
+\newblock Learning multiple layers of features from tiny images.
+\newblock Technical report, University of Toronto, 2009.
+
+\bibitem[Lee et~al.(2022)Lee, Ippolito, Nystrom, Zhang, Eck, Callison-Burch,
+  and Carlini]{lee2022dedup}
+Katherine Lee, Daphne Ippolito, Andrew Nystrom, Chiyuan Zhang, Douglas Eck,
+  Chris Callison-Burch, and Nicholas Carlini.
+\newblock Deduplicating training data makes language models better.
+\newblock In \emph{Annual Meeting of the Association for Computational
+  Linguistics (ACL)}, 2022.
+
+\bibitem[Lones(2024)]{lones2024pitfalls}
+Michael~A. Lones.
+\newblock Avoiding common machine learning pitfalls.
+\newblock \emph{Patterns}, 5\penalty0 (10), 2024.
+
+\bibitem[Lowe(2004)]{lowe2004sift}
+David~G. Lowe.
+\newblock Distinctive image features from scale-invariant keypoints.
+\newblock \emph{International Journal of Computer Vision}, 60\penalty0
+  (2):\penalty0 91--110, 2004.
+
+\bibitem[Mure{\c{s}}an \& Oltean(2018)Mure{\c{s}}an and
+  Oltean]{muresan2018fruits}
+Horea Mure{\c{s}}an and Mihai Oltean.
+\newblock Fruit recognition from images using deep learning.
+\newblock \emph{Acta Universitatis Sapientiae, Informatica}, 10\penalty0
+  (1):\penalty0 26--42, 2018.
+\newblock \doi{10.2478/ausi-2018-0002}.
+
+\bibitem[Northcutt et~al.(2021)Northcutt, Athalye, and
+  Mueller]{northcutt2021pervasive}
+Curtis~G. Northcutt, Anish Athalye, and Jonas Mueller.
+\newblock Pervasive label errors in test sets destabilize machine learning
+  benchmarks.
+\newblock In \emph{NeurIPS Datasets and Benchmarks Track}, 2021.
+
+\bibitem[Oquab et~al.(2024)Oquab, Darcet, Moutakanni, et~al.]{oquab2024dinov2}
+Maxime Oquab, Timoth{\'e}e Darcet, Th{\'e}o Moutakanni, et~al.
+\newblock {DINOv2}: Learning robust visual features without supervision.
+\newblock \emph{Transactions on Machine Learning Research}, 2024.
+
+\bibitem[Pizzi et~al.(2022)Pizzi, Roy, Ravindra, Goyal, and
+  Douze]{pizzi2022sscd}
+Ed~Pizzi, Sreya~Dutta Roy, Sugosh~Nagavara Ravindra, Priya Goyal, and Matthijs
+  Douze.
+\newblock A self-supervised descriptor for image copy detection.
+\newblock In \emph{IEEE/CVF Conference on Computer Vision and Pattern
+  Recognition (CVPR)}, pp.\  14532--14542, 2022.
+
+\bibitem[Radovanovi{\'c} et~al.(2010)Radovanovi{\'c}, Nanopoulos, and
+  Ivanovi{\'c}]{radovanovic2010hubs}
+Milo{\v{s}} Radovanovi{\'c}, Alexandros Nanopoulos, and Mirjana Ivanovi{\'c}.
+\newblock Hubs in space: Popular nearest neighbors in high-dimensional data.
+\newblock \emph{Journal of Machine Learning Research}, 11:\penalty0 2487--2531,
+  2010.
+
+\bibitem[Ramos et~al.(2025)Ramos, Ramos, and Garcia]{ramos2025leakage}
+Patrick Ramos, Ryan Ramos, and Noa Garcia.
+\newblock Data leakage in visual datasets.
+\newblock \emph{arXiv preprint arXiv:2508.17416}, 2025.
+
+\bibitem[Recht et~al.(2019)Recht, Roelofs, Schmidt, and
+  Shankar]{recht2019imagenet}
+Benjamin Recht, Rebecca Roelofs, Ludwig Schmidt, and Vaishaal Shankar.
+\newblock Do {ImageNet} classifiers generalize to {ImageNet}?
+\newblock In \emph{International Conference on Machine Learning (ICML)}, pp.\
+  5389--5400, 2019.
+
+\bibitem[Roberts et~al.(2021)Roberts, Driggs, Thorpe,
+  et~al.]{roberts2021pitfalls}
+Michael Roberts, Derek Driggs, Matthew Thorpe, et~al.
+\newblock Common pitfalls and recommendations for using machine learning to
+  detect and prognosticate for {COVID-19} using chest radiographs and {CT}
+  scans.
+\newblock \emph{Nature Machine Intelligence}, 3:\penalty0 199--217, 2021.
+
+\bibitem[Singh et~al.(2020)Singh, Jain, Jain, Kayal, Kumawat, and
+  Batra]{singh2020plantdoc}
+Davinder Singh, Naman Jain, Pranjali Jain, Pratik Kayal, Sudhakar Kumawat, and
+  Nipun Batra.
+\newblock {PlantDoc}: A dataset for visual plant disease detection.
+\newblock In \emph{ACM India Joint International Conference on Data Science and
+  Management of Data (CoDS-COMAD)}, pp.\  249--253, 2020.
+
+\bibitem[Tampu et~al.(2022)Tampu, Eklund, and Haj-Hosseini]{tampu2022oct}
+Iulian~Emil Tampu, Anders Eklund, and Neda Haj-Hosseini.
+\newblock Inflation of test accuracy due to data leakage in deep learning-based
+  classification of {OCT} images.
+\newblock \emph{Scientific Data}, 9\penalty0 (1):\penalty0 580, 2022.
+
+\bibitem[Tan \& Le(2019)Tan and Le]{tan2019efficientnet}
+Mingxing Tan and Quoc Le.
+\newblock {EfficientNet}: Rethinking model scaling for convolutional neural
+  networks.
+\newblock In \emph{International Conference on Machine Learning (ICML)}, pp.\
+  6105--6114, 2019.
+
+\bibitem[Webster et~al.(2023)Webster, Rabin, Simon, and
+  Jurie]{webster2023laion}
+Ryan Webster, Julien Rabin, Loic Simon, and Frederic Jurie.
+\newblock On the de-duplication of {LAION-2B}.
+\newblock \emph{arXiv preprint arXiv:2303.12733}, 2023.
+
+\bibitem[Wightman(2019)]{wightman2019timm}
+Ross Wightman.
+\newblock {PyTorch} image models.
+\newblock \url{https://github.com/huggingface/pytorch-image-models}, 2019.
+
+\bibitem[Yagis et~al.(2021)Yagis, Atnafu, Garc{\'i}a Seco~de Herrera, Marzi,
+  Scheda, Giannelli, Tessa, Citi, and Diciotti]{yagis2021mri}
+Ekin Yagis, Selamawet~Workalemahu Atnafu, Alba Garc{\'i}a Seco~de Herrera,
+  Chiara Marzi, Riccardo Scheda, Marco Giannelli, Carlo Tessa, Luca Citi, and
+  Stefano Diciotti.
+\newblock Effect of data leakage in brain {MRI} classification using {2D}
+  convolutional neural networks.
+\newblock \emph{Scientific Reports}, 11:\penalty0 22544, 2021.
+
+\bibitem[Zauner(2010)]{zauner2010phash}
+Christoph Zauner.
+\newblock Implementation and benchmarking of perceptual image hash functions.
+\newblock Master's thesis, Upper Austria University of Applied Sciences,
+  Hagenberg, 2010.
+
+\bibitem[Zhang et~al.(2017)Zhang, Bengio, Hardt, Recht, and
+  Vinyals]{zhang2017rethinking}
+Chiyuan Zhang, Samy Bengio, Moritz Hardt, Benjamin Recht, and Oriol Vinyals.
+\newblock Understanding deep learning requires rethinking generalization.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2017.
+
+\end{thebibliography}

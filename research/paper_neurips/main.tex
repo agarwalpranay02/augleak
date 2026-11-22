@@ -1,0 +1,75 @@
+% NeurIPS submission (Evaluations & Datasets track).
+% Uses the official NeurIPS 2026 style file. When the NeurIPS 2027 style is released,
+% replace neurips_2026.sty with neurips_2027.sty and change the \usepackage line below;
+% nothing else in this file depends on the year.
+\documentclass{article}
+
+\usepackage[eandd]{neurips_2026}   % E&D track, double-blind (the track's default)
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{booktabs}
+\usepackage{amsfonts}
+\usepackage{nicefrac}
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{enumitem}
+\usepackage{placeins}
+\usepackage[capitalise,nameinlink]{cleveref}
+\hypersetup{colorlinks=true, linkcolor=black, citecolor=[HTML]{1c5cab}, urlcolor=[HTML]{1c5cab}}
+
+\input{math_commands.tex}
+\newtheorem{proposition}{Proposition}
+\crefname{proposition}{Proposition}{Propositions}
+\newcommand{\doi}[1]{\href{https://doi.org/#1}{doi:#1}}
+\input{numbers.tex}
+
+\title{Copies Across the Split: Pre-Augmented Datasets Silently Corrupt Test Accuracy, and How to Audit Them Without Metadata}
+
+\author{Anonymous Author(s)\\Affiliation\\Address\\\texttt{email}}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\input{sections/abstract.tex}
+\end{abstract}
+\begin{figure}[!h]
+  \centering
+  \includegraphics[width=\linewidth]{figs/fig1_concept.pdf}
+  \caption{\textbf{The problem and our audit.} (a) Many public image datasets ship each photograph with $k-1$ edited copies and do not record which files belong together. (b) A random split then places a copy of almost every test image in the training set (Proposition~\ref{prop:exposure}). (c) AugLeak recovers copy relationships from pixels alone, at a user-chosen false-link rate.}
+  \label{fig:concept}
+\end{figure}
+
+\input{sections/intro.tex}
+\input{sections/related.tex}
+\input{sections/theory.tex}
+\input{sections/inflation.tex}
+\input{sections/method.tex}
+\input{sections/detect.tex}
+\input{sections/protocol.tex}
+\input{sections/audit.tex}
+\input{sections/discussion.tex}
+
+\begin{ack}
+Withheld for double-blind review.
+\end{ack}
+
+{\small
+\bibliographystyle{plainnat}
+\bibliography{refs}
+}
+
+\appendix
+\input{sections/appendix.tex}
+\input{sections/statements_neurips.tex}
+
+\newpage
+\input{checklist.tex}
+
+\end{document}

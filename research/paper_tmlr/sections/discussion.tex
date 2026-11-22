@@ -1,0 +1,8 @@
+\section{Discussion and limitations}
+\label{sec:discussion}
+
+\paragraph{Recommendations.}
+Dataset creators should release the original photographs, keep source identifiers in file names, check for repeat shots of the same object and publish a group-aware split. Users of a pre-augmented release should never split it at the image level. When no grouping is available, they should split by AugLeak's detected groups, report the operating point, and treat the result as an estimate rather than a clean test.
+
+\paragraph{Limitations.}
+Our models are frozen ImageNet backbones and small networks fine-tuned on CPUs (Appendix~\ref{app:finetune}); we did not test large or self-supervised models, and stronger models may exploit dissimilar siblings more than ours do. AugLeak's calibration depends on its views and on the number of classes (Section~\ref{sec:detect}, Appendix~\ref{app:hyper}); it assumes label-preserving edits, never recovers complete groups and misses many combined edits on tiny images. Duplicate pairs were judged by eye on top-ranked candidates, so the audit counts are lower bounds, and we audited six releases, not a representative sample of all public datasets.

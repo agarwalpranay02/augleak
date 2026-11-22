@@ -1,0 +1,47 @@
+import "server-only";
+import { mkdirSync } from "node:fs";
+import path from "node:path";
+import * as schema from "./schema";
+import { env } from "./env";
+import { pgConfig } from "./pgconfig";
+
+/**
+ * Postgres in production (DATABASE_URL), embedded PGlite (Postgres compiled to WASM)
+ * for local development and tests: zero setup, same SQL, same migrations.
+ */
+type DB = import("drizzle-orm/node-postgres").NodePgDatabase<typeof schema>;
+
+const g = globalThis as unknown as { __augleakDb?: Promise<DB> };
+
+async function create(): Promise<DB> {
+  const migrationsFolder = path.join(process.cwd(), "drizzle");
+  if (env.DATABASE_URL) {
+    const { Pool } = await import("pg");
+    const { drizzle } = await import("drizzle-orm/node-postgres");
+    const pool = new Pool({ ...pgConfig(env.DATABASE_URL), max: 5 });
+    const db = drizzle(pool, { schema });
+    if (process.env.AUTO_MIGRATE === "1") {
+      const { migrate } = await import("drizzle-orm/node-postgres/migrator");
+      await migrate(db, { migrationsFolder });
+    }
+    return db;
+  }
+  // Serverless file systems are read-only and short-lived: never fall back to PGlite in production.
+  if (process.env.NODE_ENV === "production" && process.env.VERCEL) throw new Error("DATABASE_URL is not set: accounts and API keys are disabled.");
+  const { PGlite } = await import("@electric-sql/pglite");
+  const { drizzle } = await import("drizzle-orm/pglite");
+  const { migrate } = await import("drizzle-orm/pglite/migrator");
+  const dir = path.resolve(env.PGLITE_DIR);
+  mkdirSync(dir, { recursive: true });
+  const client = new PGlite(dir);
+  const db = drizzle(client, { schema });
+  await migrate(db, { migrationsFolder });
+  return db as unknown as DB;
+}
+
+export function getDb(): Promise<DB> {
+  g.__augleakDb ??= create();
+  return g.__augleakDb;
+}
+
+export { schema };

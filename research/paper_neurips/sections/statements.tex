@@ -1,0 +1,8 @@
+\subsection*{AI use statement}
+Generative AI tools were used extensively in this work: to help design the experiments, to write and debug the analysis code, to draft and edit the text, and to produce the figures. They also helped search the related literature; every reference was then verified against its original source. All numbers in the paper are produced by the released code from the released data and were checked against the result files. The visual inspection of candidate duplicate pairs in Section~\ref{sec:audit} was performed with AI assistance; every inspected pair and judgement is released so that it can be checked. The authors reviewed all AI-assisted work and take full responsibility for the content, claims and artifacts of this paper.
+
+\subsection*{Ethics statement}
+The audit concerns public datasets. Finding duplicates or label conflicts in a release is not a judgement of its creators: pre-augmenting a dataset is common practice, and the problems we describe arise from how downstream users split it. We contacted no individuals and used no personal data beyond what the public releases contain. COVID-CXR is a public collection of radiographs from published case reports and websites; we report only aggregate statistics and file names that are already public.
+
+\subsection*{Reproducibility statement}
+All experiments run on two CPU cores without a GPU. The code builds every manifest from the public releases, regenerates CIFAR-Aug deterministically, extracts features with fixed public ImageNet weights, and recreates every table and figure; seeds are fixed and listed. Appendix~\ref{app:data} gives dataset sources and preprocessing, and Appendix~\ref{app:hyper} gives all hyperparameters.

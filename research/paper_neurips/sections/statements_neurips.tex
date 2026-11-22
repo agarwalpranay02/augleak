@@ -1,0 +1,28 @@
+\section{Evaluative role, assumptions and limits of this work}
+\label{app:role}
+
+\paragraph{Claims supported.} (i) A random image-level split of a release that ships $k$ edited copies per photograph scores the model mostly on images whose copies it has seen; the error can be optimistic or pessimistic (Sections~\ref{sec:theory}--\ref{sec:inflation}). (ii) Splitting by groups recovered from pixels removes most of the inflation when the detector's views match the edits, even though exposure remains (Sections~\ref{sec:detect}--\ref{sec:protocol}). (iii) Several public releases contain test images that are copies of training images (Section~\ref{sec:audit}).
+
+\paragraph{Assumptions.} Splits are uniformly random at the stated test fraction. Edits preserve the label, which is what the label-calibrated null relies on. CIFAR-Aug uses fresh CIFAR-10 test photographs as the ground truth for deployment accuracy.
+
+\paragraph{Limits.} The models are frozen ImageNet backbones and small fine-tuned networks trained on CPUs; we did not test large or self-supervised models. AugLeak never recovers complete groups, its calibration depends on its views and on the number of classes, and its recall on tiny images with combined edits is low. Duplicate judgements were made by eye on top-ranked candidates, so they bound the number of compromised test images from below. Audit counts describe the specific versions of the releases listed in Appendix~\ref{app:data}.
+
+\section{Broader impact and ethics}
+\label{app:impact}
+
+The work is meant to make reported accuracies on pre-augmented releases more trustworthy, which matters most in applied areas such as agriculture and medicine where such releases are common and where an inflated number can lead to a model being deployed too early. A possible harm is that audit findings are read as criticism of dataset creators; pre-augmenting a release is common practice, and the problems we describe arise from how downstream users split it. AugLeak only links images to images of the same release and has no evident use for surveillance or for identifying people. We contacted no individuals and used no personal data beyond what the public releases contain. COVID-CXR is a public collection of radiographs from published case reports and websites; we report only aggregate statistics and file names that are already public.
+
+\section{Compute resources}
+\label{app:compute}
+
+All experiments ran on a cloud virtual machine with two CPU cores and 7\,GB of memory, without a GPU. Feature extraction for one release takes minutes; one run of the structure view over $13{,}600$ images takes a few minutes; each fine-tuning run took $4$--$9$ minutes of training ($143$ minutes for all $24$ runs). Exploratory runs that are not reported (for example an earlier three-class CIFAR-Aug subset, Appendix~\ref{app:hyper}) used comparable resources.
+
+\section{Licences of existing assets}
+\label{app:licences}
+
+CIFAR-10~\citep{krizhevsky2009cifar}: no licence is stated by its creators; it is distributed for research use. PlantDoc~\citep{singh2020plantdoc}: CC BY 4.0. COVID-19 image data collection~\citep{cohen2020covid}: a licence is given per image in its metadata (mostly CC BY, CC BY-NC-SA and CC BY-NC-ND). Brain tumour MRI~\citep{bhuvaji2020brain}: permissive terms set by its creators (CC0 on Kaggle, MIT on the creators' Hugging Face copy). Fruits-360~\citep{muresan2018fruits}: MIT. The two leaf releases are distributed under the licences stated on their public repositories, which we will name after review. ImageNet weights come from timm~\citep{wightman2019timm} (Apache 2.0).
+
+\section{Use of large language models}
+\label{app:llm}
+
+Generative AI tools were used extensively: to help design the experiments, to write and debug the analysis code, to draft and edit the text and to produce the figures. They also helped search the related literature; every reference was then checked against its original source. The visual inspection of candidate duplicate pairs (Section~\ref{sec:audit}) was performed with AI assistance; every inspected pair and judgement is released so that it can be checked. All numbers in the paper are produced by the released code from the released data. The authors reviewed all AI-assisted work and take full responsibility for the content.

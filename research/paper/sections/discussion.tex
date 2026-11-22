@@ -1,0 +1,4 @@
+\section{Discussion and limitations}
+\label{sec:discussion}
+
+Dataset creators should release originals, keep source identifiers in file names, check for repeat shots and publish a group-aware split; users should never split such a release at the image level. \emph{Limitations.} We did not test large models beyond a small fine-tuning study (Appendix~\ref{app:finetune}). AugLeak's calibration depends on its views and on the number of classes; it assumes label-preserving edits, never recovers complete groups and misses many combined edits on tiny images. Duplicates were judged by eye.

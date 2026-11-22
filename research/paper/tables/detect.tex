@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering\small
+\setlength{\tabcolsep}{4pt}
+\caption{\textbf{Recovering siblings against known groups.} AP: average precision over all image pairs. Hit: share of images linked to at least one true sibling at $\alpha=10^{-3}$. Best per column in bold. File-name groups in Leaf-A/B miss repeat shots of the same leaf (Section~\ref{sec:audit}), so precision there is a lower bound.}
+\label{tab:detect}
+\begin{tabular}{@{}lcccccccccc@{}}
+\toprule
+ & \multicolumn{2}{c}{Leaf-A} & \multicolumn{2}{c}{Leaf-B} & \multicolumn{2}{c}{C-Aug weak} & \multicolumn{2}{c}{C-Aug medium} & \multicolumn{2}{c}{C-Aug strong} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}\cmidrule(lr){8-9}\cmidrule(lr){10-11}
+method & AP & hit & AP & hit & AP & hit & AP & hit & AP & hit \\
+\midrule
+pHash & 0.38 & 56 & 0.55 & 74 & 0.50 & \textbf{100} & 0.03 & 3 & 0.01 & 1 \\
+pHash, dihedral search & 0.44 & 63 & 0.64 & 79 & \textbf{1.00} & \textbf{100} & 0.04 & 6 & 0.01 & 1 \\
+ImageNet embedding & 0.03 & 8 & 0.20 & 11 & \textbf{1.00} & \textbf{100} & 0.62 & 43 & 0.07 & 5 \\
+invariant embedding & 0.10 & 28 & 0.49 & 74 & \textbf{1.00} & \textbf{100} & 0.66 & \textbf{74} & 0.07 & \textbf{9} \\
+structure view & 0.51 & 55 & 0.72 & 54 & \textbf{1.00} & 39 & 0.48 & 23 & \textbf{0.12} & 3 \\
+AugLeak (structure + hash) & \textbf{0.57} & \textbf{81} & \textbf{0.76} & \textbf{83} & \textbf{1.00} & \textbf{100} & 0.42 & 26 & 0.09 & 4 \\
+AugLeak (+ invariant) & 0.52 & 80 & -- & -- & \textbf{1.00} & \textbf{100} & \textbf{0.71} & 70 & 0.11 & \textbf{9} \\
+\bottomrule
+\end{tabular}
+\end{table}

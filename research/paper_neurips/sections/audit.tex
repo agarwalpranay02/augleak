@@ -1,0 +1,26 @@
+\section{Auditing public releases}
+\label{sec:audit}
+
+We ran AugLeak on the official or customary splits of six public image collections and inspected the highest-ranked candidate pairs by eye. In Fruits-360, $8\%$ of test images are nearby frames of a training image's capture sequence (Appendix~\ref{app:fruits}). Figure~\ref{fig:audit} shows examples, Appendix Table~\ref{tab:audit} the counts; all judgements are released.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\linewidth]{figs/fig_audit.pdf}
+  \caption{\textbf{Examples from the audit}, all confirmed by inspection. (a) Two ``independent'' source photographs that show the same leaf. (b) PlantDoc test images also in training (lower pair: late blight in test, early blight in training). (c) One radiograph filed under two patient identifiers. (d) CIFAR-10 test images whose recoloured or grayscale copy is in the training set.}
+  \label{fig:audit}
+\end{figure}
+
+\paragraph{Repeat shots defeat file-name groups.}
+In both leaf releases, distinct source photographs are often the same leaf shot again moments later. Among the $60$ highest-ranked cross-source pairs of canonical copies, we judged \numRepAyes{} (Leaf-A) and \numRepByes{} (Leaf-B) to show the same leaf; AugLeak links \numRepAlinked{} of Leaf-A's $600$ and \numRepBlinked{} of Leaf-B's $850$ sources to another source at $\alpha=10^{-2}$. A split by file-name group is therefore itself leaky. In each release one source photograph also appears under two classes (Table~\ref{tab:audit}).
+
+\paragraph{PlantDoc.}
+Eight of the $236$ official test images~\citep{singh2020plantdoc} ($3.4\%$) are byte-identical to a training image \emph{with a different label} (e.g.\ ``corn gray leaf spot'' in training, ``corn leaf blight'' in test). Among the $40$ top-ranked same-class pairs, \numPDyes{} more test photographs ($5.5\%$) also appear in training, often re-cropped or re-watermarked: at least \numPDtotal{} of the test set is compromised. A linear probe scores \numPDaccDup{} on these and \numPDaccRest{} on the rest.
+
+\paragraph{COVID-19 radiographs.}
+In COVID-CXR~\citep{cohen2020covid}, $62.5\%$ of frontal radiographs share a patient with another image, and an image-level split overstates patient-level accuracy by \numCovidLpGap{} (linear probe) and \numCovidKnnGap{} points (1-NN). Patient identifiers are not complete groups either: three radiographs are filed under two identifiers.
+
+\paragraph{Brain MRI.}
+In the official split of a popular brain-tumour MRI collection~\citep{bhuvaji2020brain}, \numBTexact{} of the \numBTntest{} test images (\numBTexactPct{}), all labelled ``no tumour'', are byte-identical to training images. Hubness correction buried three quarters of them, hence AugLeak's exact-copy rule (Section~\ref{sec:method}). It flags \numBTflag{} test images (\numBTflagPct{}) at $\alpha=10^{-2}$ (\numBTcross{} link to another class, where no copy should exist); all \numBTyes{} top non-identical pairs we inspected show the same slice. A linear probe scores \numBTaccFlag{} on flagged images and \numBTaccClean{} on the rest: the official \numBTaccAll{} is largely a score on seen slices.
+
+\paragraph{CIFAR-10.}
+\numCifarText{}

@@ -1,0 +1,17 @@
+AugLeak includes or uses the following third-party material.
+
+Datasets (only small samples are included, for the demo and the registry):
+- Fruits-360, Horea Mureșan and Mihai Oltean (MIT). apps/web/public/demo/fruits360, apps/web/public/registry/fruits-360
+- Brain Tumor Classification (MRI), Sartaj Bhuvaji et al. (CC0 on Kaggle; MIT on GitHub). apps/web/public/registry/brain-mri
+- CIFAR-10, Alex Krizhevsky (2009). apps/web/public/registry/cifar-10
+The paper's experiments also use PlantDoc (CC BY 4.0), the COVID-19 image data collection (per-image
+licences) and two leaf datasets; these are not included in the repository.
+
+Typefaces (SIL Open Font License 1.1):
+- Archivo, Omnibus-Type
+- IBM Plex Sans and IBM Plex Mono, IBM Corp.
+
+Software: Next.js, React (MIT); Tailwind CSS (MIT); sharp (Apache-2.0) and libvips (LGPL-3.0);
+better-auth (MIT); Drizzle ORM (Apache-2.0); PGlite (Apache-2.0); JSZip (MIT or GPLv3);
+idb-keyval (Apache-2.0); Zod (MIT); NumPy, SciPy, Pillow, scikit-learn, Matplotlib (BSD-style);
+PyTorch (BSD-3-Clause); timm (Apache-2.0).
