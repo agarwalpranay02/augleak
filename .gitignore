@@ -1,0 +1,9 @@
+node_modules
+dist
+*.local
+.vercel
+fixtures/*.bin
+fixtures/*.f32
+fixtures/*.f64
+fixtures/*.npy
+__pycache__/
