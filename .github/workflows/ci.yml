@@ -30,7 +30,8 @@ jobs:
         run: |
           npx playwright install --with-deps chromium
           cp -r public .next/standalone/ && cp -r .next/static .next/standalone/.next/ && cp -r drizzle .next/standalone/
-          (cd .next/standalone && PORT=3000 NODE_ENV=production BETTER_AUTH_SECRET=REMOVED API_KEY_PEPPER=REMOVED node server.js &)
+          export BETTER_AUTH_SECRET="$(openssl rand -hex 32)" API_KEY_PEPPER="$(openssl rand -hex 24)"
+          (cd .next/standalone && PORT=3000 NODE_ENV=production node server.js &)
           npx wait-on -t 60000 http://localhost:3000/api/v1/health
           npx playwright test
       - uses: actions/upload-artifact@v4
