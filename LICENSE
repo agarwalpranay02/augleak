@@ -1,7 +1,7 @@
 Copyright (c) 2026 Pranay Agarwal. All rights reserved.
 
 This repository (the AugLeak web application, the AugLeak detector in TypeScript and Python,
-the experiment code, results and the paper's LaTeX source) is proprietary. You may use it,
+the experiment code and results) is proprietary. You may use it,
 and run and modify it for your own use, for personal, educational and research purposes,
 including auditing datasets and reproducing the paper's results. If you use AugLeak or its
 results in published work, please cite the paper. Any other copying, redistribution or

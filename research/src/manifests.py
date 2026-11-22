@@ -6,13 +6,17 @@ Ground-truth augmentation groups come from file names where the release encodes 
 import csv, glob, os, re, sys
 from collections import Counter
 
-# Raw datasets live under AUGLEAK_RAW (default ./raw), one folder per dataset as named below.
-ROOT = os.environ.get("AUGLEAK_RAW", "raw")
+# Raw datasets live in this folder (research/), one folder per dataset as named below
+# (leafA/, leafB/, pratikkayal/plantdoc-dataset/, ...); symlinks are fine. Paths are stored
+# relative to it, matching the paths recorded in results/.
+ROOT = "."
 OUT = "data/manifests"
 os.makedirs(OUT, exist_ok=True)
 
 
 def write(name, rows, fields):
+    for r in rows:
+        r["path"] = os.path.normpath(r["path"])
     with open(f"{OUT}/{name}.csv", "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=fields)
         w.writeheader()

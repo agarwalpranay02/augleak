@@ -152,7 +152,7 @@ export default function ResearchPage() {
 pip install -r requirements.txt
 python augleak_cli.py test path/to/train path/to/test --alpha 1e-3   # audit a split
 python augleak_cli.py scan path/to/data --alpha 1e-3                 # find copy groups
-bash build_paper.sh                                                  # figures, tables and numbers from results/`}</pre>
+bash make_figures.sh                                                 # figures, tables and numbers from results/`}</pre>
         <h3 className="mt-8 text-[17px] font-semibold">Cite</h3>
         <pre className="code mt-3">{`@misc{agarwal2026augleak,
   author = {Agarwal, Pranay},

@@ -2,7 +2,7 @@
 import json, os, glob
 import numpy as np
 
-RES = "results"; P = "paper"
+RES = "results"; P = os.environ.get("AUGLEAK_OUT", "output")  # LaTeX macros and tables are written here
 os.makedirs(f"{P}/tables", exist_ok=True)
 M = {}
 

@@ -18,7 +18,8 @@ C = dict(random=ORANGE, group=BLUE, fresh=AQUA, augleak=BLUE, struct=BLUE, sem=M
 
 COL1, COL2 = 2.7, float(os.environ.get("AUGLEAK_COL2", 5.5))  # \textwidth: 5.5 in (ICLR, NeurIPS), 6.5 in (TMLR)
 SCALE = COL2 / 5.5  # figure heights scale with the width
-FIGDIR = os.environ.get("AUGLEAK_FIGDIR", "paper/figs")
+FIGDIR = os.environ.get("AUGLEAK_FIGDIR", os.path.join(os.environ.get("AUGLEAK_OUT", "output"), "figs"))
+os.makedirs(FIGDIR, exist_ok=True)
 
 
 def use():
