@@ -1,0 +1,85 @@
+{
+ "brain-mri": [
+  {
+   "test": "image(10).jpg",
+   "train": "image(41).jpg",
+   "cls": "no_tumor",
+   "p": 0.0,
+   "kind": "byte-identical"
+  },
+  {
+   "test": "image(6).jpg",
+   "train": "m1(116).jpg",
+   "cls": "meningioma_tumor",
+   "p": 1.714634337200072e-12,
+   "kind": "same slice"
+  },
+  {
+   "test": "image(72).jpg",
+   "train": "m1(182).jpg",
+   "cls": "meningioma_tumor",
+   "p": 1.2707844296579132e-11,
+   "kind": "same slice"
+  },
+  {
+   "test": "image(31).jpg",
+   "train": "m1(141).jpg",
+   "cls": "meningioma_tumor",
+   "p": 3.429571753701342e-11,
+   "kind": "same slice"
+  }
+ ],
+ "fruits-360": [
+  {
+   "test": "r_56_100.jpg",
+   "train": "r_55_100.jpg",
+   "cls": "Banana",
+   "p": 2.977024246092927e-08,
+   "kind": "same fruit, nearby frame"
+  },
+  {
+   "test": "39_100.jpg",
+   "train": "320_100.jpg",
+   "cls": "Cherry 1",
+   "p": 2.2403354853097077e-06,
+   "kind": "same fruit, nearby frame"
+  },
+  {
+   "test": "r_7_100.jpg",
+   "train": "r_2_100.jpg",
+   "cls": "Peach",
+   "p": 7.315513843949207e-05,
+   "kind": "same fruit, nearby frame"
+  }
+ ],
+ "cifar-10": [
+  {
+   "test": "0943.jpg",
+   "train": "1604.jpg",
+   "cls": "frog",
+   "p": 7.425827819306e-15,
+   "kind": "near-duplicate"
+  },
+  {
+   "test": "0290.jpg",
+   "train": "4129.jpg",
+   "cls": "deer",
+   "p": 2.4938925316070693e-08,
+   "kind": "near-duplicate"
+  },
+  {
+   "test": "0674.jpg",
+   "train": "3385.jpg",
+   "cls": "bird",
+   "p": 9.150020891954546e-08,
+   "kind": "near-duplicate"
+  },
+  {
+   "test": "0212.jpg",
+   "train": "2418.jpg",
+   "cls": "deer",
+   "p": 1.1562189052832976e-07,
+   "kind": "near-duplicate"
+  }
+ ]
+}

@@ -1,0 +1,3267 @@
+{
+ "name": "cifar10",
+ "n": 60000,
+ "n_train": 50000,
+ "n_test": 10000,
+ "exact_test_in_train_same": 0,
+ "exact_test_in_train_cross": 0,
+ "gumbel": {
+  "loc": 2.5204240766596064,
+  "scale": 0.3005012402340378
+ },
+ "flags": {
+  "0.01": {
+   "frac_test_flagged": 0.0274,
+   "n_flagged": 274,
+   "frac_crossclass_flagged": 0.0104,
+   "acc_lp_flagged": 0.8832116788321168,
+   "acc_lp_clean": 0.8009459181575159,
+   "acc_1nn_flagged": 0.9452554744525548,
+   "acc_1nn_clean": 0.7283569812872712
+  },
+  "0.001": {
+   "frac_test_flagged": 0.0118,
+   "n_flagged": 118,
+   "frac_crossclass_flagged": 0.0007,
+   "acc_lp_flagged": 0.847457627118644,
+   "acc_lp_clean": 0.8026715239829993,
+   "acc_1nn_flagged": 0.9491525423728814,
+   "acc_1nn_clean": 0.7317344667071443
+  },
+  "0.0001": {
+   "frac_test_flagged": 0.0056,
+   "n_flagged": 56,
+   "frac_crossclass_flagged": 0.0,
+   "acc_lp_flagged": 0.8928571428571429,
+   "acc_lp_clean": 0.8026950925181013,
+   "acc_1nn_flagged": 0.9107142857142857,
+   "acc_1nn_clean": 0.7333065164923572
+  }
+ },
+ "top_pairs": [
+  {
+   "p": 7.425827819306e-15,
+   "test": "yoongikim/cifar-10-images/test/frog/0943.jpg",
+   "train": "yoongikim/cifar-10-images/train/frog/1604.jpg",
+   "label": "frog",
+   "s": 0.98193359375
+  },
+  {
+   "p": 2.4938925316070693e-08,
+   "test": "yoongikim/cifar-10-images/test/deer/0290.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/4129.jpg",
+   "label": "deer",
+   "s": 0.9853515625
+  },
+  {
+   "p": 9.150020891954546e-08,
+   "test": "yoongikim/cifar-10-images/test/bird/0674.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/3385.jpg",
+   "label": "bird",
+   "s": 0.94775390625
+  },
+  {
+   "p": 1.1562189052832976e-07,
+   "test": "yoongikim/cifar-10-images/test/deer/0212.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/2418.jpg",
+   "label": "deer",
+   "s": 0.9755859375
+  },
+  {
+   "p": 1.944723200243949e-07,
+   "test": "yoongikim/cifar-10-images/test/frog/0731.jpg",
+   "train": "yoongikim/cifar-10-images/train/frog/0929.jpg",
+   "label": "frog",
+   "s": 0.982421875
+  },
+  {
+   "p": 2.0485169777526758e-07,
+   "test": "yoongikim/cifar-10-images/test/frog/0645.jpg",
+   "train": "yoongikim/cifar-10-images/train/frog/4156.jpg",
+   "label": "frog",
+   "s": 0.98291015625
+  },
+  {
+   "p": 2.129981821122483e-07,
+   "test": "yoongikim/cifar-10-images/test/deer/0308.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/0139.jpg",
+   "label": "deer",
+   "s": 0.99169921875
+  },
+  {
+   "p": 3.4906212336226996e-07,
+   "test": "yoongikim/cifar-10-images/test/bird/0668.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/3143.jpg",
+   "label": "bird",
+   "s": 0.947265625
+  },
+  {
+   "p": 4.958264298978634e-07,
+   "test": "yoongikim/cifar-10-images/test/frog/0055.jpg",
+   "train": "yoongikim/cifar-10-images/train/frog/4221.jpg",
+   "label": "frog",
+   "s": 0.92333984375
+  },
+  {
+   "p": 7.713912306974437e-07,
+   "test": "yoongikim/cifar-10-images/test/frog/0059.jpg",
+   "train": "yoongikim/cifar-10-images/train/frog/2333.jpg",
+   "label": "frog",
+   "s": 0.8955078125
+  },
+  {
+   "p": 1.0004226615292966e-06,
+   "test": "yoongikim/cifar-10-images/test/automobile/0609.jpg",
+   "train": "yoongikim/cifar-10-images/train/automobile/0370.jpg",
+   "label": "automobile",
+   "s": 0.994140625
+  },
+  {
+   "p": 1.6609466379942877e-06,
+   "test": "yoongikim/cifar-10-images/test/deer/0753.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/0107.jpg",
+   "label": "deer",
+   "s": 0.98193359375
+  },
+  {
+   "p": 1.8191719506533222e-06,
+   "test": "yoongikim/cifar-10-images/test/frog/0580.jpg",
+   "train": "yoongikim/cifar-10-images/train/frog/2358.jpg",
+   "label": "frog",
+   "s": 0.97900390625
+  },
+  {
+   "p": 2.126272920980461e-06,
+   "test": "yoongikim/cifar-10-images/test/horse/0907.jpg",
+   "train": "yoongikim/cifar-10-images/train/horse/3720.jpg",
+   "label": "horse",
+   "s": 0.99853515625
+  },
+  {
+   "p": 2.6521094086031766e-06,
+   "test": "yoongikim/cifar-10-images/test/airplane/0397.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/3938.jpg",
+   "label": "airplane",
+   "s": 0.80224609375
+  },
+  {
+   "p": 3.917008114280384e-06,
+   "test": "yoongikim/cifar-10-images/test/bird/0653.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/0132.jpg",
+   "label": "bird",
+   "s": 0.9326171875
+  },
+  {
+   "p": 4.180051498719157e-06,
+   "test": "yoongikim/cifar-10-images/test/horse/0521.jpg",
+   "train": "yoongikim/cifar-10-images/train/horse/1350.jpg",
+   "label": "horse",
+   "s": 0.87548828125
+  },
+  {
+   "p": 4.403148762347015e-06,
+   "test": "yoongikim/cifar-10-images/test/truck/0215.jpg",
+   "train": "yoongikim/cifar-10-images/train/truck/2199.jpg",
+   "label": "truck",
+   "s": 0.9599609375
+  },
+  {
+   "p": 6.336294599049855e-06,
+   "test": "yoongikim/cifar-10-images/test/truck/0343.jpg",
+   "train": "yoongikim/cifar-10-images/train/truck/3956.jpg",
+   "label": "truck",
+   "s": 0.97412109375
+  },
+  {
+   "p": 6.419198222515869e-06,
+   "test": "yoongikim/cifar-10-images/test/frog/0321.jpg",
+   "train": "yoongikim/cifar-10-images/train/frog/0760.jpg",
+   "label": "frog",
+   "s": 0.98779296875
+  },
+  {
+   "p": 7.0307031173217815e-06,
+   "test": "yoongikim/cifar-10-images/test/deer/0088.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/2701.jpg",
+   "label": "deer",
+   "s": 0.9501953125
+  },
+  {
+   "p": 8.111448311228705e-06,
+   "test": "yoongikim/cifar-10-images/test/bird/0423.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/1791.jpg",
+   "label": "bird",
+   "s": 0.92529296875
+  },
+  {
+   "p": 9.118159384402528e-06,
+   "test": "yoongikim/cifar-10-images/test/frog/0434.jpg",
+   "train": "yoongikim/cifar-10-images/train/frog/2992.jpg",
+   "label": "frog",
+   "s": 0.96630859375
+  },
+  {
+   "p": 1.1081241195783592e-05,
+   "test": "yoongikim/cifar-10-images/test/deer/0722.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/1912.jpg",
+   "label": "deer",
+   "s": 0.99609375
+  },
+  {
+   "p": 1.1672665871589617e-05,
+   "test": "yoongikim/cifar-10-images/test/frog/0171.jpg",
+   "train": "yoongikim/cifar-10-images/train/frog/0549.jpg",
+   "label": "frog",
+   "s": 0.87548828125
+  },
+  {
+   "p": 1.3121356415430012e-05,
+   "test": "yoongikim/cifar-10-images/test/horse/0970.jpg",
+   "train": "yoongikim/cifar-10-images/train/horse/2098.jpg",
+   "label": "horse",
+   "s": 0.87451171875
+  },
+  {
+   "p": 1.346695920890851e-05,
+   "test": "yoongikim/cifar-10-images/test/horse/0736.jpg",
+   "train": "yoongikim/cifar-10-images/train/horse/0972.jpg",
+   "label": "horse",
+   "s": 0.97802734375
+  },
+  {
+   "p": 1.6154933406910125e-05,
+   "test": "yoongikim/cifar-10-images/test/bird/0458.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/1394.jpg",
+   "label": "bird",
+   "s": 0.95703125
+  },
+  {
+   "p": 1.658043678060161e-05,
+   "test": "yoongikim/cifar-10-images/test/dog/0162.jpg",
+   "train": "yoongikim/cifar-10-images/train/dog/0610.jpg",
+   "label": "dog",
+   "s": 0.982421875
+  },
+  {
+   "p": 1.769387453955159e-05,
+   "test": "yoongikim/cifar-10-images/test/deer/0599.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/3179.jpg",
+   "label": "deer",
+   "s": 0.88671875
+  },
+  {
+   "p": 2.3247489183090746e-05,
+   "test": "yoongikim/cifar-10-images/test/deer/0052.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/0520.jpg",
+   "label": "deer",
+   "s": 0.93701171875
+  },
+  {
+   "p": 2.355165505633407e-05,
+   "test": "yoongikim/cifar-10-images/test/automobile/0926.jpg",
+   "train": "yoongikim/cifar-10-images/train/automobile/1196.jpg",
+   "label": "automobile",
+   "s": 0.95556640625
+  },
+  {
+   "p": 2.3859800532448443e-05,
+   "test": "yoongikim/cifar-10-images/test/automobile/0243.jpg",
+   "train": "yoongikim/cifar-10-images/train/automobile/3897.jpg",
+   "label": "automobile",
+   "s": 0.97216796875
+  },
+  {
+   "p": 3.0943835483826794e-05,
+   "test": "yoongikim/cifar-10-images/test/bird/0448.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/0989.jpg",
+   "label": "bird",
+   "s": 0.9814453125
+  },
+  {
+   "p": 3.3021812754812813e-05,
+   "test": "yoongikim/cifar-10-images/test/deer/0822.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/2473.jpg",
+   "label": "deer",
+   "s": 0.89111328125
+  },
+  {
+   "p": 3.3453861940967764e-05,
+   "test": "yoongikim/cifar-10-images/test/dog/0459.jpg",
+   "train": "yoongikim/cifar-10-images/train/dog/2688.jpg",
+   "label": "dog",
+   "s": 0.90478515625
+  },
+  {
+   "p": 3.664069256122877e-05,
+   "test": "yoongikim/cifar-10-images/test/bird/0632.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/2547.jpg",
+   "label": "bird",
+   "s": 0.9580078125
+  },
+  {
+   "p": 3.760575840223692e-05,
+   "test": "yoongikim/cifar-10-images/test/deer/0312.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/1739.jpg",
+   "label": "deer",
+   "s": 0.83349609375
+  },
+  {
+   "p": 3.9612813601514745e-05,
+   "test": "yoongikim/cifar-10-images/test/frog/0942.jpg",
+   "train": "yoongikim/cifar-10-images/train/frog/4663.jpg",
+   "label": "frog",
+   "s": 0.89794921875
+  },
+  {
+   "p": 4.338633612520244e-05,
+   "test": "yoongikim/cifar-10-images/test/frog/0168.jpg",
+   "train": "yoongikim/cifar-10-images/train/frog/0658.jpg",
+   "label": "frog",
+   "s": 0.9951171875
+  },
+  {
+   "p": 4.3953989177309085e-05,
+   "test": "yoongikim/cifar-10-images/test/cat/0327.jpg",
+   "train": "yoongikim/cifar-10-images/train/cat/1670.jpg",
+   "label": "cat",
+   "s": 0.935546875
+  },
+  {
+   "p": 4.629984766501704e-05,
+   "test": "yoongikim/cifar-10-images/test/airplane/0803.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/1206.jpg",
+   "label": "airplane",
+   "s": 0.623046875
+  },
+  {
+   "p": 4.629984766501704e-05,
+   "test": "yoongikim/cifar-10-images/test/automobile/0006.jpg",
+   "train": "yoongikim/cifar-10-images/train/automobile/2002.jpg",
+   "label": "automobile",
+   "s": 0.955078125
+  },
+  {
+   "p": 5.0055454430445924e-05,
+   "test": "yoongikim/cifar-10-images/test/bird/0021.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/0740.jpg",
+   "label": "bird",
+   "s": 0.98046875
+  },
+  {
+   "p": 5.2045993984765373e-05,
+   "test": "yoongikim/cifar-10-images/test/cat/0065.jpg",
+   "train": "yoongikim/cifar-10-images/train/cat/3388.jpg",
+   "label": "cat",
+   "s": 0.99365234375
+  },
+  {
+   "p": 5.272694426479671e-05,
+   "test": "yoongikim/cifar-10-images/test/frog/0535.jpg",
+   "train": "yoongikim/cifar-10-images/train/frog/3811.jpg",
+   "label": "frog",
+   "s": 0.78076171875
+  },
+  {
+   "p": 5.411568855917417e-05,
+   "test": "yoongikim/cifar-10-images/test/cat/0745.jpg",
+   "train": "yoongikim/cifar-10-images/train/cat/0372.jpg",
+   "label": "cat",
+   "s": 0.90771484375
+  },
+  {
+   "p": 5.927071616665176e-05,
+   "test": "yoongikim/cifar-10-images/test/bird/0264.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/1770.jpg",
+   "label": "bird",
+   "s": 0.95556640625
+  },
+  {
+   "p": 6.927608332970934e-05,
+   "test": "yoongikim/cifar-10-images/test/truck/0684.jpg",
+   "train": "yoongikim/cifar-10-images/train/truck/3722.jpg",
+   "label": "truck",
+   "s": 0.97607421875
+  },
+  {
+   "p": 7.018245773019834e-05,
+   "test": "yoongikim/cifar-10-images/test/automobile/0337.jpg",
+   "train": "yoongikim/cifar-10-images/train/automobile/4636.jpg",
+   "label": "automobile",
+   "s": 0.9833984375
+  },
+  {
+   "p": 7.392809817747227e-05,
+   "test": "yoongikim/cifar-10-images/test/deer/0128.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/2759.jpg",
+   "label": "deer",
+   "s": 0.97998046875
+  },
+  {
+   "p": 7.889249194976749e-05,
+   "test": "yoongikim/cifar-10-images/test/ship/0264.jpg",
+   "train": "yoongikim/cifar-10-images/train/ship/1806.jpg",
+   "label": "ship",
+   "s": 0.880859375
+  },
+  {
+   "p": 8.097036747180826e-05,
+   "test": "yoongikim/cifar-10-images/test/bird/0688.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/3554.jpg",
+   "label": "bird",
+   "s": 0.9873046875
+  },
+  {
+   "p": 8.868344203197154e-05,
+   "test": "yoongikim/cifar-10-images/test/frog/0459.jpg",
+   "train": "yoongikim/cifar-10-images/train/frog/3485.jpg",
+   "label": "frog",
+   "s": 0.82958984375
+  },
+  {
+   "p": 9.341643459370422e-05,
+   "test": "yoongikim/cifar-10-images/test/automobile/0844.jpg",
+   "train": "yoongikim/cifar-10-images/train/automobile/3978.jpg",
+   "label": "automobile",
+   "s": 0.9658203125
+  },
+  {
+   "p": 9.463863459957602e-05,
+   "test": "yoongikim/cifar-10-images/test/airplane/0008.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/2776.jpg",
+   "label": "airplane",
+   "s": 0.83544921875
+  },
+  {
+   "p": 0.00010638365523356877,
+   "test": "yoongikim/cifar-10-images/test/automobile/0765.jpg",
+   "train": "yoongikim/cifar-10-images/train/automobile/2990.jpg",
+   "label": "automobile",
+   "s": 0.943359375
+  },
+  {
+   "p": 0.00010918555524786467,
+   "test": "yoongikim/cifar-10-images/test/bird/0268.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/4349.jpg",
+   "label": "bird",
+   "s": 0.9609375
+  },
+  {
+   "p": 0.00011061405678284364,
+   "test": "yoongikim/cifar-10-images/test/frog/0533.jpg",
+   "train": "yoongikim/cifar-10-images/train/frog/4127.jpg",
+   "label": "frog",
+   "s": 0.9873046875
+  },
+  {
+   "p": 0.000118041827792507,
+   "test": "yoongikim/cifar-10-images/test/frog/0650.jpg",
+   "train": "yoongikim/cifar-10-images/train/frog/3264.jpg",
+   "label": "frog",
+   "s": 0.95703125
+  },
+  {
+   "p": 0.00012596834469723566,
+   "test": "yoongikim/cifar-10-images/test/airplane/0706.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/4210.jpg",
+   "label": "airplane",
+   "s": 0.8662109375
+  },
+  {
+   "p": 0.00012928602689496807,
+   "test": "yoongikim/cifar-10-images/test/airplane/0448.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/1424.jpg",
+   "label": "airplane",
+   "s": 0.94384765625
+  },
+  {
+   "p": 0.00014723197182904668,
+   "test": "yoongikim/cifar-10-images/test/frog/0983.jpg",
+   "train": "yoongikim/cifar-10-images/train/frog/2678.jpg",
+   "label": "frog",
+   "s": 0.97021484375
+  },
+  {
+   "p": 0.0001550894288747484,
+   "test": "yoongikim/cifar-10-images/test/truck/0769.jpg",
+   "train": "yoongikim/cifar-10-images/train/truck/0416.jpg",
+   "label": "truck",
+   "s": 0.96044921875
+  },
+  {
+   "p": 0.00016550348885873898,
+   "test": "yoongikim/cifar-10-images/test/airplane/0342.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/0455.jpg",
+   "label": "airplane",
+   "s": 0.82470703125
+  },
+  {
+   "p": 0.00016550348885873898,
+   "test": "yoongikim/cifar-10-images/test/frog/0307.jpg",
+   "train": "yoongikim/cifar-10-images/train/frog/2169.jpg",
+   "label": "frog",
+   "s": 0.96875
+  },
+  {
+   "p": 0.0001743359728749574,
+   "test": "yoongikim/cifar-10-images/test/frog/0294.jpg",
+   "train": "yoongikim/cifar-10-images/train/frog/3178.jpg",
+   "label": "frog",
+   "s": 0.9677734375
+  },
+  {
+   "p": 0.00018363977994233498,
+   "test": "yoongikim/cifar-10-images/test/frog/0207.jpg",
+   "train": "yoongikim/cifar-10-images/train/frog/1474.jpg",
+   "label": "frog",
+   "s": 0.974609375
+  },
+  {
+   "p": 0.00019344005627304557,
+   "test": "yoongikim/cifar-10-images/test/cat/0687.jpg",
+   "train": "yoongikim/cifar-10-images/train/cat/3741.jpg",
+   "label": "cat",
+   "s": 0.99267578125
+  },
+  {
+   "p": 0.0002064290467760978,
+   "test": "yoongikim/cifar-10-images/test/airplane/0703.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/1351.jpg",
+   "label": "airplane",
+   "s": 0.74365234375
+  },
+  {
+   "p": 0.0002064290467760978,
+   "test": "yoongikim/cifar-10-images/test/horse/0431.jpg",
+   "train": "yoongikim/cifar-10-images/train/horse/1239.jpg",
+   "label": "horse",
+   "s": 0.97021484375
+  },
+  {
+   "p": 0.0002091296758274625,
+   "test": "yoongikim/cifar-10-images/test/bird/0355.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/0715.jpg",
+   "label": "bird",
+   "s": 0.94189453125
+  },
+  {
+   "p": 0.0002202901177064442,
+   "test": "yoongikim/cifar-10-images/test/airplane/0351.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/2753.jpg",
+   "label": "airplane",
+   "s": 0.740234375
+  },
+  {
+   "p": 0.00022904955032851138,
+   "test": "yoongikim/cifar-10-images/test/bird/0477.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/3427.jpg",
+   "label": "bird",
+   "s": 0.83984375
+  },
+  {
+   "p": 0.00026084167181390197,
+   "test": "yoongikim/cifar-10-images/test/cat/0391.jpg",
+   "train": "yoongikim/cifar-10-images/train/cat/0648.jpg",
+   "label": "cat",
+   "s": 0.9521484375
+  },
+  {
+   "p": 0.00027121334391260875,
+   "test": "yoongikim/cifar-10-images/test/automobile/0249.jpg",
+   "train": "yoongikim/cifar-10-images/train/automobile/3111.jpg",
+   "label": "automobile",
+   "s": 0.9345703125
+  },
+  {
+   "p": 0.00028199735967251473,
+   "test": "yoongikim/cifar-10-images/test/airplane/0651.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/3112.jpg",
+   "label": "airplane",
+   "s": 0.71533203125
+  },
+  {
+   "p": 0.00028568647762521586,
+   "test": "yoongikim/cifar-10-images/test/ship/0372.jpg",
+   "train": "yoongikim/cifar-10-images/train/ship/3587.jpg",
+   "label": "ship",
+   "s": 0.927734375
+  },
+  {
+   "p": 0.00029321010780700884,
+   "test": "yoongikim/cifar-10-images/test/frog/0303.jpg",
+   "train": "yoongikim/cifar-10-images/train/frog/2870.jpg",
+   "label": "frog",
+   "s": 0.88916015625
+  },
+  {
+   "p": 0.000297045890270199,
+   "test": "yoongikim/cifar-10-images/test/bird/0777.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/0595.jpg",
+   "label": "bird",
+   "s": 0.845703125
+  },
+  {
+   "p": 0.00030486862802074405,
+   "test": "yoongikim/cifar-10-images/test/cat/0534.jpg",
+   "train": "yoongikim/cifar-10-images/train/cat/1871.jpg",
+   "label": "cat",
+   "s": 0.93896484375
+  },
+  {
+   "p": 0.0003128973462296527,
+   "test": "yoongikim/cifar-10-images/test/dog/0534.jpg",
+   "train": "yoongikim/cifar-10-images/train/dog/2695.jpg",
+   "label": "dog",
+   "s": 0.78515625
+  },
+  {
+   "p": 0.0003169906368372175,
+   "test": "yoongikim/cifar-10-images/test/cat/0842.jpg",
+   "train": "yoongikim/cifar-10-images/train/cat/3522.jpg",
+   "label": "cat",
+   "s": 0.99658203125
+  },
+  {
+   "p": 0.00032113746684636765,
+   "test": "yoongikim/cifar-10-images/test/truck/0435.jpg",
+   "train": "yoongikim/cifar-10-images/train/truck/0400.jpg",
+   "label": "truck",
+   "s": 0.96728515625
+  },
+  {
+   "p": 0.0003253385363149554,
+   "test": "yoongikim/cifar-10-images/test/frog/0106.jpg",
+   "train": "yoongikim/cifar-10-images/train/frog/3992.jpg",
+   "label": "frog",
+   "s": 0.908203125
+  },
+  {
+   "p": 0.0003339062397196586,
+   "test": "yoongikim/cifar-10-images/test/deer/0286.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/2001.jpg",
+   "label": "deer",
+   "s": 0.671875
+  },
+  {
+   "p": 0.0003339062397196586,
+   "test": "yoongikim/cifar-10-images/test/frog/0929.jpg",
+   "train": "yoongikim/cifar-10-images/train/frog/1812.jpg",
+   "label": "frog",
+   "s": 0.75927734375
+  },
+  {
+   "p": 0.00035172435279531703,
+   "test": "yoongikim/cifar-10-images/test/automobile/0357.jpg",
+   "train": "yoongikim/cifar-10-images/train/automobile/4830.jpg",
+   "label": "automobile",
+   "s": 0.953125
+  },
+  {
+   "p": 0.0003563254837441895,
+   "test": "yoongikim/cifar-10-images/test/deer/0692.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/1600.jpg",
+   "label": "deer",
+   "s": 0.94189453125
+  },
+  {
+   "p": 0.0003563254837441895,
+   "test": "yoongikim/cifar-10-images/test/frog/0313.jpg",
+   "train": "yoongikim/cifar-10-images/train/frog/4526.jpg",
+   "label": "frog",
+   "s": 0.9794921875
+  },
+  {
+   "p": 0.00037533972189668954,
+   "test": "yoongikim/cifar-10-images/test/truck/0077.jpg",
+   "train": "yoongikim/cifar-10-images/train/truck/2750.jpg",
+   "label": "truck",
+   "s": 0.986328125
+  },
+  {
+   "p": 0.00039536839703833634,
+   "test": "yoongikim/cifar-10-images/test/horse/0033.jpg",
+   "train": "yoongikim/cifar-10-images/train/horse/0778.jpg",
+   "label": "horse",
+   "s": 0.7939453125
+  },
+  {
+   "p": 0.00040577994378392004,
+   "test": "yoongikim/cifar-10-images/test/cat/0335.jpg",
+   "train": "yoongikim/cifar-10-images/train/cat/4391.jpg",
+   "label": "cat",
+   "s": 0.9228515625
+  },
+  {
+   "p": 0.0004330239107219151,
+   "test": "yoongikim/cifar-10-images/test/horse/0401.jpg",
+   "train": "yoongikim/cifar-10-images/train/horse/4901.jpg",
+   "label": "horse",
+   "s": 0.97412109375
+  },
+  {
+   "p": 0.00045024040765169915,
+   "test": "yoongikim/cifar-10-images/test/automobile/0931.jpg",
+   "train": "yoongikim/cifar-10-images/train/automobile/4655.jpg",
+   "label": "automobile",
+   "s": 0.96875
+  },
+  {
+   "p": 0.00045612999599864467,
+   "test": "yoongikim/cifar-10-images/test/automobile/0479.jpg",
+   "train": "yoongikim/cifar-10-images/train/automobile/3021.jpg",
+   "label": "automobile",
+   "s": 1.0
+  },
+  {
+   "p": 0.00045612999599864467,
+   "test": "yoongikim/cifar-10-images/test/deer/0434.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/1797.jpg",
+   "label": "deer",
+   "s": 0.95849609375
+  },
+  {
+   "p": 0.0004804687218704174,
+   "test": "yoongikim/cifar-10-images/test/airplane/0158.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/2875.jpg",
+   "label": "airplane",
+   "s": 0.84228515625
+  },
+  {
+   "p": 0.0004804687218704174,
+   "test": "yoongikim/cifar-10-images/test/automobile/0365.jpg",
+   "train": "yoongikim/cifar-10-images/train/automobile/4654.jpg",
+   "label": "automobile",
+   "s": 0.97607421875
+  },
+  {
+   "p": 0.0004804687218704174,
+   "test": "yoongikim/cifar-10-images/test/deer/0791.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/1386.jpg",
+   "label": "deer",
+   "s": 0.7685546875
+  },
+  {
+   "p": 0.0005194327379768925,
+   "test": "yoongikim/cifar-10-images/test/airplane/0147.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/2329.jpg",
+   "label": "airplane",
+   "s": 0.9033203125
+  },
+  {
+   "p": 0.0005400838151350052,
+   "test": "yoongikim/cifar-10-images/test/deer/0405.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/0056.jpg",
+   "label": "deer",
+   "s": 0.80810546875
+  },
+  {
+   "p": 0.0005838809552581902,
+   "test": "yoongikim/cifar-10-images/test/dog/0770.jpg",
+   "train": "yoongikim/cifar-10-images/train/dog/0683.jpg",
+   "label": "dog",
+   "s": 0.986328125
+  },
+  {
+   "p": 0.0005838809552581902,
+   "test": "yoongikim/cifar-10-images/test/horse/0497.jpg",
+   "train": "yoongikim/cifar-10-images/train/horse/1355.jpg",
+   "label": "horse",
+   "s": 0.90185546875
+  },
+  {
+   "p": 0.0005915181763739256,
+   "test": "yoongikim/cifar-10-images/test/automobile/0281.jpg",
+   "train": "yoongikim/cifar-10-images/train/automobile/2120.jpg",
+   "label": "automobile",
+   "s": 0.984375
+  },
+  {
+   "p": 0.0005992552631513493,
+   "test": "yoongikim/cifar-10-images/test/deer/0440.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/4577.jpg",
+   "label": "deer",
+   "s": 0.9931640625
+  },
+  {
+   "p": 0.0006150342710148467,
+   "test": "yoongikim/cifar-10-images/test/bird/0343.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/1369.jpg",
+   "label": "bird",
+   "s": 0.97314453125
+  },
+  {
+   "p": 0.0006478492516617782,
+   "test": "yoongikim/cifar-10-images/test/ship/0645.jpg",
+   "train": "yoongikim/cifar-10-images/train/ship/4888.jpg",
+   "label": "ship",
+   "s": 0.94287109375
+  },
+  {
+   "p": 0.0006736040609748814,
+   "test": "yoongikim/cifar-10-images/test/deer/0390.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/2549.jpg",
+   "label": "deer",
+   "s": 0.8955078125
+  },
+  {
+   "p": 0.0006736040609748814,
+   "test": "yoongikim/cifar-10-images/test/truck/0082.jpg",
+   "train": "yoongikim/cifar-10-images/train/truck/4679.jpg",
+   "label": "truck",
+   "s": 0.85205078125
+  },
+  {
+   "p": 0.0006824144685375499,
+   "test": "yoongikim/cifar-10-images/test/cat/0562.jpg",
+   "train": "yoongikim/cifar-10-images/train/cat/2880.jpg",
+   "label": "cat",
+   "s": 0.9580078125
+  },
+  {
+   "p": 0.000709542906819227,
+   "test": "yoongikim/cifar-10-images/test/frog/0974.jpg",
+   "train": "yoongikim/cifar-10-images/train/frog/0365.jpg",
+   "label": "frog",
+   "s": 0.94873046875
+  },
+  {
+   "p": 0.0007188232076081117,
+   "test": "yoongikim/cifar-10-images/test/cat/0867.jpg",
+   "train": "yoongikim/cifar-10-images/train/cat/4561.jpg",
+   "label": "cat",
+   "s": 0.8994140625
+  },
+  {
+   "p": 0.000808000642351843,
+   "test": "yoongikim/cifar-10-images/test/bird/0051.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/0605.jpg",
+   "label": "bird",
+   "s": 0.69091796875
+  },
+  {
+   "p": 0.0008511069046595731,
+   "test": "yoongikim/cifar-10-images/test/deer/0374.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/4325.jpg",
+   "label": "deer",
+   "s": 0.9423828125
+  },
+  {
+   "p": 0.0009321474343186219,
+   "test": "yoongikim/cifar-10-images/test/bird/0634.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/4450.jpg",
+   "label": "bird",
+   "s": 1.0
+  },
+  {
+   "p": 0.0009443378630845835,
+   "test": "yoongikim/cifar-10-images/test/bird/0960.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/3514.jpg",
+   "label": "bird",
+   "s": 0.796875
+  },
+  {
+   "p": 0.0009443378630845835,
+   "test": "yoongikim/cifar-10-images/test/horse/0823.jpg",
+   "train": "yoongikim/cifar-10-images/train/horse/1174.jpg",
+   "label": "horse",
+   "s": 0.63720703125
+  },
+  {
+   "p": 0.001007722246894471,
+   "test": "yoongikim/cifar-10-images/test/deer/0861.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/4927.jpg",
+   "label": "deer",
+   "s": 0.81982421875
+  },
+  {
+   "p": 0.0010209005221502791,
+   "test": "yoongikim/cifar-10-images/test/cat/0011.jpg",
+   "train": "yoongikim/cifar-10-images/train/cat/2685.jpg",
+   "label": "cat",
+   "s": 0.97314453125
+  },
+  {
+   "p": 0.0010209005221502791,
+   "test": "yoongikim/cifar-10-images/test/deer/0415.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/1325.jpg",
+   "label": "deer",
+   "s": 0.83984375
+  },
+  {
+   "p": 0.0010342510442976828,
+   "test": "yoongikim/cifar-10-images/test/automobile/0051.jpg",
+   "train": "yoongikim/cifar-10-images/train/automobile/1660.jpg",
+   "label": "automobile",
+   "s": 0.919921875
+  },
+  {
+   "p": 0.0010477760623432012,
+   "test": "yoongikim/cifar-10-images/test/airplane/0325.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/2816.jpg",
+   "label": "airplane",
+   "s": 0.67919921875
+  },
+  {
+   "p": 0.00114753224084757,
+   "test": "yoongikim/cifar-10-images/test/airplane/0393.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/1608.jpg",
+   "label": "airplane",
+   "s": 0.794921875
+  },
+  {
+   "p": 0.0012087413143978699,
+   "test": "yoongikim/cifar-10-images/test/frog/0703.jpg",
+   "train": "yoongikim/cifar-10-images/train/frog/3104.jpg",
+   "label": "frog",
+   "s": 0.99169921875
+  },
+  {
+   "p": 0.0012087413143978699,
+   "test": "yoongikim/cifar-10-images/test/horse/0512.jpg",
+   "train": "yoongikim/cifar-10-images/train/horse/2020.jpg",
+   "label": "horse",
+   "s": 0.97314453125
+  },
+  {
+   "p": 0.0012245467625891448,
+   "test": "yoongikim/cifar-10-images/test/frog/0914.jpg",
+   "train": "yoongikim/cifar-10-images/train/frog/1460.jpg",
+   "label": "frog",
+   "s": 0.84619140625
+  },
+  {
+   "p": 0.0012245467625891448,
+   "test": "yoongikim/cifar-10-images/test/horse/0370.jpg",
+   "train": "yoongikim/cifar-10-images/train/horse/0093.jpg",
+   "label": "horse",
+   "s": 0.92431640625
+  },
+  {
+   "p": 0.0012405587537485166,
+   "test": "yoongikim/cifar-10-images/test/airplane/0250.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/2491.jpg",
+   "label": "airplane",
+   "s": 0.65380859375
+  },
+  {
+   "p": 0.0012405587537485166,
+   "test": "yoongikim/cifar-10-images/test/airplane/0676.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/3867.jpg",
+   "label": "airplane",
+   "s": 0.966796875
+  },
+  {
+   "p": 0.00125677998356456,
+   "test": "yoongikim/cifar-10-images/test/horse/0696.jpg",
+   "train": "yoongikim/cifar-10-images/train/horse/2801.jpg",
+   "label": "horse",
+   "s": 0.9521484375
+  },
+  {
+   "p": 0.00125677998356456,
+   "test": "yoongikim/cifar-10-images/test/truck/0644.jpg",
+   "train": "yoongikim/cifar-10-images/train/truck/2264.jpg",
+   "label": "truck",
+   "s": 0.98779296875
+  },
+  {
+   "p": 0.0012732131828195022,
+   "test": "yoongikim/cifar-10-images/test/airplane/0690.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/4430.jpg",
+   "label": "airplane",
+   "s": 0.970703125
+  },
+  {
+   "p": 0.001323812441030441,
+   "test": "yoongikim/cifar-10-images/test/horse/0285.jpg",
+   "train": "yoongikim/cifar-10-images/train/horse/0092.jpg",
+   "label": "horse",
+   "s": 0.97705078125
+  },
+  {
+   "p": 0.0013586568123722129,
+   "test": "yoongikim/cifar-10-images/test/automobile/0974.jpg",
+   "train": "yoongikim/cifar-10-images/train/automobile/1170.jpg",
+   "label": "automobile",
+   "s": 0.951171875
+  },
+  {
+   "p": 0.0014687858845961145,
+   "test": "yoongikim/cifar-10-images/test/automobile/0834.jpg",
+   "train": "yoongikim/cifar-10-images/train/automobile/4256.jpg",
+   "label": "automobile",
+   "s": 0.958984375
+  },
+  {
+   "p": 0.0015673438342527443,
+   "test": "yoongikim/cifar-10-images/test/cat/0602.jpg",
+   "train": "yoongikim/cifar-10-images/train/cat/1118.jpg",
+   "label": "cat",
+   "s": 0.94921875
+  },
+  {
+   "p": 0.0015878346247401645,
+   "test": "yoongikim/cifar-10-images/test/bird/0572.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/4833.jpg",
+   "label": "bird",
+   "s": 0.75927734375
+  },
+  {
+   "p": 0.001608593087298283,
+   "test": "yoongikim/cifar-10-images/test/airplane/0077.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/1642.jpg",
+   "label": "airplane",
+   "s": 0.74658203125
+  },
+  {
+   "p": 0.0016509270377160056,
+   "test": "yoongikim/cifar-10-images/test/airplane/0223.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/2189.jpg",
+   "label": "airplane",
+   "s": 0.701171875
+  },
+  {
+   "p": 0.0016509270377160056,
+   "test": "yoongikim/cifar-10-images/test/airplane/0263.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/2875.jpg",
+   "label": "airplane",
+   "s": 0.80224609375
+  },
+  {
+   "p": 0.0016725096441519889,
+   "test": "yoongikim/cifar-10-images/test/airplane/0154.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/1281.jpg",
+   "label": "airplane",
+   "s": 0.876953125
+  },
+  {
+   "p": 0.001716524264218725,
+   "test": "yoongikim/cifar-10-images/test/horse/0565.jpg",
+   "train": "yoongikim/cifar-10-images/train/horse/4901.jpg",
+   "label": "horse",
+   "s": 0.935546875
+  },
+  {
+   "p": 0.0017616961732402625,
+   "test": "yoongikim/cifar-10-images/test/horse/0894.jpg",
+   "train": "yoongikim/cifar-10-images/train/horse/0093.jpg",
+   "label": "horse",
+   "s": 0.93408203125
+  },
+  {
+   "p": 0.0018316906141573413,
+   "test": "yoongikim/cifar-10-images/test/deer/0176.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/2770.jpg",
+   "label": "deer",
+   "s": 0.96240234375
+  },
+  {
+   "p": 0.0018316906141573413,
+   "test": "yoongikim/cifar-10-images/test/frog/0101.jpg",
+   "train": "yoongikim/cifar-10-images/train/frog/2263.jpg",
+   "label": "frog",
+   "s": 0.9130859375
+  },
+  {
+   "p": 0.0018798903766459893,
+   "test": "yoongikim/cifar-10-images/test/deer/0531.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/3654.jpg",
+   "label": "deer",
+   "s": 0.89208984375
+  },
+  {
+   "p": 0.0018798903766459893,
+   "test": "yoongikim/cifar-10-images/test/frog/0481.jpg",
+   "train": "yoongikim/cifar-10-images/train/frog/0186.jpg",
+   "label": "frog",
+   "s": 0.8046875
+  },
+  {
+   "p": 0.0019293572587326,
+   "test": "yoongikim/cifar-10-images/test/deer/0633.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/3061.jpg",
+   "label": "deer",
+   "s": 0.7646484375
+  },
+  {
+   "p": 0.00195457622525603,
+   "test": "yoongikim/cifar-10-images/test/bird/0931.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/3163.jpg",
+   "label": "bird",
+   "s": 0.91455078125
+  },
+  {
+   "p": 0.00200600639320369,
+   "test": "yoongikim/cifar-10-images/test/bird/0512.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/0200.jpg",
+   "label": "bird",
+   "s": 0.83837890625
+  },
+  {
+   "p": 0.00200600639320369,
+   "test": "yoongikim/cifar-10-images/test/horse/0047.jpg",
+   "train": "yoongikim/cifar-10-images/train/horse/1727.jpg",
+   "label": "horse",
+   "s": 0.98095703125
+  },
+  {
+   "p": 0.002058788431195081,
+   "test": "yoongikim/cifar-10-images/test/airplane/0856.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/0254.jpg",
+   "label": "airplane",
+   "s": 0.75048828125
+  },
+  {
+   "p": 0.0021129577993792303,
+   "test": "yoongikim/cifar-10-images/test/airplane/0050.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/0468.jpg",
+   "label": "airplane",
+   "s": 0.8974609375
+  },
+  {
+   "p": 0.00216855088406501,
+   "test": "yoongikim/cifar-10-images/test/dog/0074.jpg",
+   "train": "yoongikim/cifar-10-images/train/dog/1063.jpg",
+   "label": "dog",
+   "s": 0.9619140625
+  },
+  {
+   "p": 0.0021968929499526224,
+   "test": "yoongikim/cifar-10-images/test/bird/0644.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/2330.jpg",
+   "label": "bird",
+   "s": 0.9873046875
+  },
+  {
+   "p": 0.0022256050216985265,
+   "test": "yoongikim/cifar-10-images/test/truck/0925.jpg",
+   "train": "yoongikim/cifar-10-images/train/truck/3144.jpg",
+   "label": "truck",
+   "s": 0.94873046875
+  },
+  {
+   "p": 0.0022546919188511467,
+   "test": "yoongikim/cifar-10-images/test/frog/0691.jpg",
+   "train": "yoongikim/cifar-10-images/train/frog/0660.jpg",
+   "label": "frog",
+   "s": 0.98486328125
+  },
+  {
+   "p": 0.002284158523449847,
+   "test": "yoongikim/cifar-10-images/test/ship/0202.jpg",
+   "train": "yoongikim/cifar-10-images/train/ship/4484.jpg",
+   "label": "ship",
+   "s": 0.7509765625
+  },
+  {
+   "p": 0.0023442507004240117,
+   "test": "yoongikim/cifar-10-images/test/deer/0724.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/4614.jpg",
+   "label": "deer",
+   "s": 0.9755859375
+  },
+  {
+   "p": 0.0023442507004240117,
+   "test": "yoongikim/cifar-10-images/test/deer/0747.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/0109.jpg",
+   "label": "deer",
+   "s": 0.86572265625
+  },
+  {
+   "p": 0.0024059218895114694,
+   "test": "yoongikim/cifar-10-images/test/dog/0651.jpg",
+   "train": "yoongikim/cifar-10-images/train/dog/0736.jpg",
+   "label": "dog",
+   "s": 0.9912109375
+  },
+  {
+   "p": 0.0024373625058732814,
+   "test": "yoongikim/cifar-10-images/test/frog/0840.jpg",
+   "train": "yoongikim/cifar-10-images/train/frog/0560.jpg",
+   "label": "frog",
+   "s": 0.96337890625
+  },
+  {
+   "p": 0.0025341679402186216,
+   "test": "yoongikim/cifar-10-images/test/airplane/0657.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/4124.jpg",
+   "label": "airplane",
+   "s": 0.73681640625
+  },
+  {
+   "p": 0.0025341679402186216,
+   "test": "yoongikim/cifar-10-images/test/automobile/0428.jpg",
+   "train": "yoongikim/cifar-10-images/train/automobile/3187.jpg",
+   "label": "automobile",
+   "s": 0.8310546875
+  },
+  {
+   "p": 0.0026348131441047864,
+   "test": "yoongikim/cifar-10-images/test/bird/0819.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/3763.jpg",
+   "label": "bird",
+   "s": 0.93359375
+  },
+  {
+   "p": 0.0026692409105117053,
+   "test": "yoongikim/cifar-10-images/test/airplane/0060.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/2570.jpg",
+   "label": "airplane",
+   "s": 0.71337890625
+  },
+  {
+   "p": 0.0027041179169601014,
+   "test": "yoongikim/cifar-10-images/test/horse/0645.jpg",
+   "train": "yoongikim/cifar-10-images/train/horse/1209.jpg",
+   "label": "horse",
+   "s": 0.81494140625
+  },
+  {
+   "p": 0.002775243109505255,
+   "test": "yoongikim/cifar-10-images/test/deer/0918.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/0835.jpg",
+   "label": "deer",
+   "s": 0.94921875
+  },
+  {
+   "p": 0.002775243109505255,
+   "test": "yoongikim/cifar-10-images/test/truck/0700.jpg",
+   "train": "yoongikim/cifar-10-images/train/truck/2631.jpg",
+   "label": "truck",
+   "s": 0.96240234375
+  },
+  {
+   "p": 0.002811503215458395,
+   "test": "yoongikim/cifar-10-images/test/automobile/0603.jpg",
+   "train": "yoongikim/cifar-10-images/train/automobile/1660.jpg",
+   "label": "automobile",
+   "s": 0.90673828125
+  },
+  {
+   "p": 0.002811503215458395,
+   "test": "yoongikim/cifar-10-images/test/automobile/0760.jpg",
+   "train": "yoongikim/cifar-10-images/train/automobile/2475.jpg",
+   "label": "automobile",
+   "s": 0.9404296875
+  },
+  {
+   "p": 0.002811503215458395,
+   "test": "yoongikim/cifar-10-images/test/frog/0385.jpg",
+   "train": "yoongikim/cifar-10-images/train/frog/3482.jpg",
+   "label": "frog",
+   "s": 0.96923828125
+  },
+  {
+   "p": 0.0028482364031134954,
+   "test": "yoongikim/cifar-10-images/test/automobile/0248.jpg",
+   "train": "yoongikim/cifar-10-images/train/automobile/4910.jpg",
+   "label": "automobile",
+   "s": 0.6962890625
+  },
+  {
+   "p": 0.002885448826896806,
+   "test": "yoongikim/cifar-10-images/test/deer/0432.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/3271.jpg",
+   "label": "deer",
+   "s": 0.80712890625
+  },
+  {
+   "p": 0.002885448826896806,
+   "test": "yoongikim/cifar-10-images/test/horse/0205.jpg",
+   "train": "yoongikim/cifar-10-images/train/horse/4400.jpg",
+   "label": "horse",
+   "s": 0.79052734375
+  },
+  {
+   "p": 0.002923146720829563,
+   "test": "yoongikim/cifar-10-images/test/automobile/0540.jpg",
+   "train": "yoongikim/cifar-10-images/train/automobile/3748.jpg",
+   "label": "automobile",
+   "s": 0.7822265625
+  },
+  {
+   "p": 0.0030392167791078364,
+   "test": "yoongikim/cifar-10-images/test/frog/0254.jpg",
+   "train": "yoongikim/cifar-10-images/train/frog/1380.jpg",
+   "label": "frog",
+   "s": 0.837890625
+  },
+  {
+   "p": 0.0031598883506884804,
+   "test": "yoongikim/cifar-10-images/test/cat/0548.jpg",
+   "train": "yoongikim/cifar-10-images/train/cat/0635.jpg",
+   "label": "cat",
+   "s": 0.87109375
+  },
+  {
+   "p": 0.0031598883506884804,
+   "test": "yoongikim/cifar-10-images/test/horse/0605.jpg",
+   "train": "yoongikim/cifar-10-images/train/horse/4241.jpg",
+   "label": "horse",
+   "s": 0.77099609375
+  },
+  {
+   "p": 0.0032011659910382477,
+   "test": "yoongikim/cifar-10-images/test/bird/0245.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/1187.jpg",
+   "label": "bird",
+   "s": 0.7734375
+  },
+  {
+   "p": 0.0033282569880903083,
+   "test": "yoongikim/cifar-10-images/test/deer/0084.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/0829.jpg",
+   "label": "deer",
+   "s": 0.9755859375
+  },
+  {
+   "p": 0.0034157704960665895,
+   "test": "yoongikim/cifar-10-images/test/airplane/0340.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/3789.jpg",
+   "label": "airplane",
+   "s": 0.8388671875
+  },
+  {
+   "p": 0.0034157704960665895,
+   "test": "yoongikim/cifar-10-images/test/bird/0214.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/3330.jpg",
+   "label": "bird",
+   "s": 0.88671875
+  },
+  {
+   "p": 0.003460384921109162,
+   "test": "yoongikim/cifar-10-images/test/airplane/0324.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/0542.jpg",
+   "label": "airplane",
+   "s": 0.96826171875
+  },
+  {
+   "p": 0.003597748706162023,
+   "test": "yoongikim/cifar-10-images/test/bird/0875.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/3871.jpg",
+   "label": "bird",
+   "s": 0.7978515625
+  },
+  {
+   "p": 0.003644735655171645,
+   "test": "yoongikim/cifar-10-images/test/deer/0004.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/4687.jpg",
+   "label": "deer",
+   "s": 0.9765625
+  },
+  {
+   "p": 0.003644735655171645,
+   "test": "yoongikim/cifar-10-images/test/frog/0038.jpg",
+   "train": "yoongikim/cifar-10-images/train/frog/4387.jpg",
+   "label": "frog",
+   "s": 0.97265625
+  },
+  {
+   "p": 0.003644735655171645,
+   "test": "yoongikim/cifar-10-images/test/ship/0102.jpg",
+   "train": "yoongikim/cifar-10-images/train/ship/2290.jpg",
+   "label": "ship",
+   "s": 0.966796875
+  },
+  {
+   "p": 0.0036923351206003523,
+   "test": "yoongikim/cifar-10-images/test/bird/0273.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/4244.jpg",
+   "label": "bird",
+   "s": 0.7958984375
+  },
+  {
+   "p": 0.0037405550571943287,
+   "test": "yoongikim/cifar-10-images/test/airplane/0478.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/2414.jpg",
+   "label": "airplane",
+   "s": 0.82421875
+  },
+  {
+   "p": 0.0037405550571943287,
+   "test": "yoongikim/cifar-10-images/test/bird/0520.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/4255.jpg",
+   "label": "bird",
+   "s": 0.82080078125
+  },
+  {
+   "p": 0.0038890187870408753,
+   "test": "yoongikim/cifar-10-images/test/bird/0703.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/4684.jpg",
+   "label": "bird",
+   "s": 0.87109375
+  },
+  {
+   "p": 0.003991247473397783,
+   "test": "yoongikim/cifar-10-images/test/cat/0348.jpg",
+   "train": "yoongikim/cifar-10-images/train/cat/0845.jpg",
+   "label": "cat",
+   "s": 0.99072265625
+  },
+  {
+   "p": 0.003991247473397783,
+   "test": "yoongikim/cifar-10-images/test/deer/0347.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/4187.jpg",
+   "label": "deer",
+   "s": 0.734375
+  },
+  {
+   "p": 0.003991247473397783,
+   "test": "yoongikim/cifar-10-images/test/horse/0307.jpg",
+   "train": "yoongikim/cifar-10-images/train/horse/1333.jpg",
+   "label": "horse",
+   "s": 0.99951171875
+  },
+  {
+   "p": 0.004043363119674589,
+   "test": "yoongikim/cifar-10-images/test/frog/0967.jpg",
+   "train": "yoongikim/cifar-10-images/train/frog/1096.jpg",
+   "label": "frog",
+   "s": 0.77490234375
+  },
+  {
+   "p": 0.004096157864837246,
+   "test": "yoongikim/cifar-10-images/test/deer/0214.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/3725.jpg",
+   "label": "deer",
+   "s": 0.9208984375
+  },
+  {
+   "p": 0.004203820014080964,
+   "test": "yoongikim/cifar-10-images/test/airplane/0661.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/2297.jpg",
+   "label": "airplane",
+   "s": 0.9619140625
+  },
+  {
+   "p": 0.004370630500156933,
+   "test": "yoongikim/cifar-10-images/test/ship/0188.jpg",
+   "train": "yoongikim/cifar-10-images/train/ship/4415.jpg",
+   "label": "ship",
+   "s": 0.78662109375
+  },
+  {
+   "p": 0.004485490544177124,
+   "test": "yoongikim/cifar-10-images/test/airplane/0022.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/4057.jpg",
+   "label": "airplane",
+   "s": 0.60986328125
+  },
+  {
+   "p": 0.004485490544177124,
+   "test": "yoongikim/cifar-10-images/test/airplane/0307.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/1930.jpg",
+   "label": "airplane",
+   "s": 0.8291015625
+  },
+  {
+   "p": 0.004603362123054629,
+   "test": "yoongikim/cifar-10-images/test/airplane/0592.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/3279.jpg",
+   "label": "airplane",
+   "s": 0.837890625
+  },
+  {
+   "p": 0.004603362123054629,
+   "test": "yoongikim/cifar-10-images/test/dog/0124.jpg",
+   "train": "yoongikim/cifar-10-images/train/dog/3568.jpg",
+   "label": "dog",
+   "s": 0.93212890625
+  },
+  {
+   "p": 0.004603362123054629,
+   "test": "yoongikim/cifar-10-images/test/frog/0642.jpg",
+   "train": "yoongikim/cifar-10-images/train/frog/3999.jpg",
+   "label": "frog",
+   "s": 0.88525390625
+  },
+  {
+   "p": 0.0047243238243136355,
+   "test": "yoongikim/cifar-10-images/test/bird/0035.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/4639.jpg",
+   "label": "bird",
+   "s": 0.9443359375
+  },
+  {
+   "p": 0.0047243238243136355,
+   "test": "yoongikim/cifar-10-images/test/frog/0502.jpg",
+   "train": "yoongikim/cifar-10-images/train/frog/4616.jpg",
+   "label": "frog",
+   "s": 0.8984375
+  },
+  {
+   "p": 0.004785988583366316,
+   "test": "yoongikim/cifar-10-images/test/frog/0936.jpg",
+   "train": "yoongikim/cifar-10-images/train/frog/0677.jpg",
+   "label": "frog",
+   "s": 0.98193359375
+  },
+  {
+   "p": 0.004911737276443274,
+   "test": "yoongikim/cifar-10-images/test/automobile/0839.jpg",
+   "train": "yoongikim/cifar-10-images/train/automobile/4709.jpg",
+   "label": "automobile",
+   "s": 0.79541015625
+  },
+  {
+   "p": 0.004911737276443274,
+   "test": "yoongikim/cifar-10-images/test/bird/0823.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/3455.jpg",
+   "label": "bird",
+   "s": 0.74365234375
+  },
+  {
+   "p": 0.004911737276443274,
+   "test": "yoongikim/cifar-10-images/test/truck/0372.jpg",
+   "train": "yoongikim/cifar-10-images/train/truck/3407.jpg",
+   "label": "truck",
+   "s": 0.93212890625
+  },
+  {
+   "p": 0.005040781558757933,
+   "test": "yoongikim/cifar-10-images/test/bird/0878.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/4105.jpg",
+   "label": "bird",
+   "s": 0.583984375
+  },
+  {
+   "p": 0.005173207353709984,
+   "test": "yoongikim/cifar-10-images/test/frog/0156.jpg",
+   "train": "yoongikim/cifar-10-images/train/frog/0329.jpg",
+   "label": "frog",
+   "s": 0.951171875
+  },
+  {
+   "p": 0.005173207353709984,
+   "test": "yoongikim/cifar-10-images/test/frog/0664.jpg",
+   "train": "yoongikim/cifar-10-images/train/frog/0849.jpg",
+   "label": "frog",
+   "s": 0.9443359375
+  },
+  {
+   "p": 0.005173207353709984,
+   "test": "yoongikim/cifar-10-images/test/horse/0347.jpg",
+   "train": "yoongikim/cifar-10-images/train/horse/0769.jpg",
+   "label": "horse",
+   "s": 0.71923828125
+  },
+  {
+   "p": 0.005173207353709984,
+   "test": "yoongikim/cifar-10-images/test/ship/0047.jpg",
+   "train": "yoongikim/cifar-10-images/train/ship/3815.jpg",
+   "label": "ship",
+   "s": 0.79931640625
+  },
+  {
+   "p": 0.00530910280108592,
+   "test": "yoongikim/cifar-10-images/test/horse/0036.jpg",
+   "train": "yoongikim/cifar-10-images/train/horse/4062.jpg",
+   "label": "horse",
+   "s": 0.93408203125
+  },
+  {
+   "p": 0.00530910280108592,
+   "test": "yoongikim/cifar-10-images/test/horse/0079.jpg",
+   "train": "yoongikim/cifar-10-images/train/horse/3706.jpg",
+   "label": "horse",
+   "s": 0.93505859375
+  },
+  {
+   "p": 0.0053783798078878495,
+   "test": "yoongikim/cifar-10-images/test/deer/0971.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/0700.jpg",
+   "label": "deer",
+   "s": 0.94970703125
+  },
+  {
+   "p": 0.005448558312955778,
+   "test": "yoongikim/cifar-10-images/test/airplane/0667.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/3313.jpg",
+   "label": "airplane",
+   "s": 0.78759765625
+  },
+  {
+   "p": 0.0056646202252907864,
+   "test": "yoongikim/cifar-10-images/test/automobile/0945.jpg",
+   "train": "yoongikim/cifar-10-images/train/automobile/2138.jpg",
+   "label": "automobile",
+   "s": 0.98193359375
+  },
+  {
+   "p": 0.005738522884671703,
+   "test": "yoongikim/cifar-10-images/test/deer/0818.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/1474.jpg",
+   "label": "deer",
+   "s": 0.97119140625
+  },
+  {
+   "p": 0.00581338688325844,
+   "test": "yoongikim/cifar-10-images/test/dog/0427.jpg",
+   "train": "yoongikim/cifar-10-images/train/dog/1773.jpg",
+   "label": "dog",
+   "s": 0.9677734375
+  },
+  {
+   "p": 0.0059660487810047685,
+   "test": "yoongikim/cifar-10-images/test/airplane/0084.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/1436.jpg",
+   "label": "airplane",
+   "s": 0.8349609375
+  },
+  {
+   "p": 0.006283466363079081,
+   "test": "yoongikim/cifar-10-images/test/automobile/0815.jpg",
+   "train": "yoongikim/cifar-10-images/train/automobile/4289.jpg",
+   "label": "automobile",
+   "s": 0.734375
+  },
+  {
+   "p": 0.006283466363079081,
+   "test": "yoongikim/cifar-10-images/test/frog/0194.jpg",
+   "train": "yoongikim/cifar-10-images/train/frog/0672.jpg",
+   "label": "frog",
+   "s": 0.96875
+  },
+  {
+   "p": 0.006448432657306806,
+   "test": "yoongikim/cifar-10-images/test/deer/0122.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/2085.jpg",
+   "label": "deer",
+   "s": 0.85205078125
+  },
+  {
+   "p": 0.006532527581446347,
+   "test": "yoongikim/cifar-10-images/test/automobile/0010.jpg",
+   "train": "yoongikim/cifar-10-images/train/automobile/4396.jpg",
+   "label": "automobile",
+   "s": 0.9716796875
+  },
+  {
+   "p": 0.006617715542908645,
+   "test": "yoongikim/cifar-10-images/test/bird/0554.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/4810.jpg",
+   "label": "bird",
+   "s": 0.7548828125
+  },
+  {
+   "p": 0.006704010652426704,
+   "test": "yoongikim/cifar-10-images/test/deer/0710.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/4447.jpg",
+   "label": "deer",
+   "s": 0.8662109375
+  },
+  {
+   "p": 0.006791427200364759,
+   "test": "yoongikim/cifar-10-images/test/airplane/0727.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/2129.jpg",
+   "label": "airplane",
+   "s": 0.88818359375
+  },
+  {
+   "p": 0.006791427200364759,
+   "test": "yoongikim/cifar-10-images/test/deer/0385.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/4770.jpg",
+   "label": "deer",
+   "s": 0.6923828125
+  },
+  {
+   "p": 0.00687997965893807,
+   "test": "yoongikim/cifar-10-images/test/automobile/0415.jpg",
+   "train": "yoongikim/cifar-10-images/train/automobile/3641.jpg",
+   "label": "automobile",
+   "s": 0.94580078125
+  },
+  {
+   "p": 0.00687997965893807,
+   "test": "yoongikim/cifar-10-images/test/bird/0571.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/2547.jpg",
+   "label": "bird",
+   "s": 0.77685546875
+  },
+  {
+   "p": 0.00687997965893807,
+   "test": "yoongikim/cifar-10-images/test/deer/0988.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/0589.jpg",
+   "label": "deer",
+   "s": 0.92041015625
+  },
+  {
+   "p": 0.006969682684458318,
+   "test": "yoongikim/cifar-10-images/test/cat/0084.jpg",
+   "train": "yoongikim/cifar-10-images/train/cat/3672.jpg",
+   "label": "cat",
+   "s": 0.916015625
+  },
+  {
+   "p": 0.007060551119604958,
+   "test": "yoongikim/cifar-10-images/test/airplane/0231.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/1837.jpg",
+   "label": "airplane",
+   "s": 0.736328125
+  },
+  {
+   "p": 0.0073879869882115656,
+   "test": "yoongikim/cifar-10-images/test/cat/0834.jpg",
+   "train": "yoongikim/cifar-10-images/train/cat/2051.jpg",
+   "label": "cat",
+   "s": 0.72265625
+  },
+  {
+   "p": 0.007435982462314734,
+   "test": "yoongikim/cifar-10-images/test/bird/0348.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/3091.jpg",
+   "label": "bird",
+   "s": 0.86572265625
+  },
+  {
+   "p": 0.007532907270963794,
+   "test": "yoongikim/cifar-10-images/test/deer/0721.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/4387.jpg",
+   "label": "deer",
+   "s": 0.72119140625
+  },
+  {
+   "p": 0.007532907270963794,
+   "test": "yoongikim/cifar-10-images/test/ship/0290.jpg",
+   "train": "yoongikim/cifar-10-images/train/ship/2072.jpg",
+   "label": "ship",
+   "s": 0.953125
+  },
+  {
+   "p": 0.0075818406079875295,
+   "test": "yoongikim/cifar-10-images/test/automobile/0909.jpg",
+   "train": "yoongikim/cifar-10-images/train/automobile/4056.jpg",
+   "label": "automobile",
+   "s": 0.7333984375
+  },
+  {
+   "p": 0.0075818406079875295,
+   "test": "yoongikim/cifar-10-images/test/horse/0459.jpg",
+   "train": "yoongikim/cifar-10-images/train/horse/2037.jpg",
+   "label": "horse",
+   "s": 0.8525390625
+  },
+  {
+   "p": 0.007680659248673608,
+   "test": "yoongikim/cifar-10-images/test/dog/0280.jpg",
+   "train": "yoongikim/cifar-10-images/train/dog/0620.jpg",
+   "label": "dog",
+   "s": 0.7578125
+  },
+  {
+   "p": 0.007680659248673608,
+   "test": "yoongikim/cifar-10-images/test/horse/0152.jpg",
+   "train": "yoongikim/cifar-10-images/train/horse/2685.jpg",
+   "label": "horse",
+   "s": 0.8544921875
+  },
+  {
+   "p": 0.007730548631175775,
+   "test": "yoongikim/cifar-10-images/test/bird/0144.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/3514.jpg",
+   "label": "bird",
+   "s": 0.77734375
+  },
+  {
+   "p": 0.007780760795828258,
+   "test": "yoongikim/cifar-10-images/test/frog/0875.jpg",
+   "train": "yoongikim/cifar-10-images/train/frog/0211.jpg",
+   "label": "frog",
+   "s": 0.97705078125
+  },
+  {
+   "p": 0.007831297814395486,
+   "test": "yoongikim/cifar-10-images/test/airplane/0318.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/2862.jpg",
+   "label": "airplane",
+   "s": 0.71728515625
+  },
+  {
+   "p": 0.007831297814395486,
+   "test": "yoongikim/cifar-10-images/test/automobile/0345.jpg",
+   "train": "yoongikim/cifar-10-images/train/automobile/2435.jpg",
+   "label": "automobile",
+   "s": 0.97119140625
+  },
+  {
+   "p": 0.008036736322580208,
+   "test": "yoongikim/cifar-10-images/test/dog/0558.jpg",
+   "train": "yoongikim/cifar-10-images/train/dog/1518.jpg",
+   "label": "dog",
+   "s": 0.9208984375
+  },
+  {
+   "p": 0.008088929147789758,
+   "test": "yoongikim/cifar-10-images/test/bird/0557.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/0315.jpg",
+   "label": "bird",
+   "s": 0.830078125
+  },
+  {
+   "p": 0.008194329649190066,
+   "test": "yoongikim/cifar-10-images/test/ship/0383.jpg",
+   "train": "yoongikim/cifar-10-images/train/ship/0530.jpg",
+   "label": "ship",
+   "s": 0.98974609375
+  },
+  {
+   "p": 0.008301097786985245,
+   "test": "yoongikim/cifar-10-images/test/bird/0157.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/0572.jpg",
+   "label": "bird",
+   "s": 0.80517578125
+  },
+  {
+   "p": 0.008301097786985245,
+   "test": "yoongikim/cifar-10-images/test/deer/0241.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/2770.jpg",
+   "label": "deer",
+   "s": 0.93798828125
+  },
+  {
+   "p": 0.008355000209178263,
+   "test": "yoongikim/cifar-10-images/test/ship/0498.jpg",
+   "train": "yoongikim/cifar-10-images/train/ship/1193.jpg",
+   "label": "ship",
+   "s": 0.8173828125
+  },
+  {
+   "p": 0.008463852860762186,
+   "test": "yoongikim/cifar-10-images/test/dog/0383.jpg",
+   "train": "yoongikim/cifar-10-images/train/dog/2468.jpg",
+   "label": "dog",
+   "s": 0.673828125
+  },
+  {
+   "p": 0.008574117552939327,
+   "test": "yoongikim/cifar-10-images/test/automobile/0268.jpg",
+   "train": "yoongikim/cifar-10-images/train/automobile/4760.jpg",
+   "label": "automobile",
+   "s": 0.8408203125
+  },
+  {
+   "p": 0.00868581244127476,
+   "test": "yoongikim/cifar-10-images/test/airplane/0104.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/4295.jpg",
+   "label": "airplane",
+   "s": 0.716796875
+  },
+  {
+   "p": 0.00868581244127476,
+   "test": "yoongikim/cifar-10-images/test/dog/0367.jpg",
+   "train": "yoongikim/cifar-10-images/train/dog/0566.jpg",
+   "label": "dog",
+   "s": 0.96533203125
+  },
+  {
+   "p": 0.0087989559105194,
+   "test": "yoongikim/cifar-10-images/test/airplane/0929.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/0230.jpg",
+   "label": "airplane",
+   "s": 0.97265625
+  },
+  {
+   "p": 0.008913566577390616,
+   "test": "yoongikim/cifar-10-images/test/automobile/0596.jpg",
+   "train": "yoongikim/cifar-10-images/train/automobile/0885.jpg",
+   "label": "automobile",
+   "s": 0.99755859375
+  },
+  {
+   "p": 0.008913566577390616,
+   "test": "yoongikim/cifar-10-images/test/dog/0739.jpg",
+   "train": "yoongikim/cifar-10-images/train/dog/1557.jpg",
+   "label": "dog",
+   "s": 0.9990234375
+  },
+  {
+   "p": 0.008971427991779898,
+   "test": "yoongikim/cifar-10-images/test/horse/0303.jpg",
+   "train": "yoongikim/cifar-10-images/train/horse/3535.jpg",
+   "label": "horse",
+   "s": 0.8486328125
+  },
+  {
+   "p": 0.009029663293383538,
+   "test": "yoongikim/cifar-10-images/test/truck/0323.jpg",
+   "train": "yoongikim/cifar-10-images/train/truck/4450.jpg",
+   "label": "truck",
+   "s": 0.9541015625
+  },
+  {
+   "p": 0.00914726514761345,
+   "test": "yoongikim/cifar-10-images/test/automobile/0128.jpg",
+   "train": "yoongikim/cifar-10-images/train/automobile/2312.jpg",
+   "label": "automobile",
+   "s": 0.9716796875
+  },
+  {
+   "p": 0.009266391469689312,
+   "test": "yoongikim/cifar-10-images/test/bird/0387.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/1187.jpg",
+   "label": "bird",
+   "s": 0.68798828125
+  },
+  {
+   "p": 0.009266391469689312,
+   "test": "yoongikim/cifar-10-images/test/bird/0704.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/4447.jpg",
+   "label": "bird",
+   "s": 0.759765625
+  },
+  {
+   "p": 0.009447982213245007,
+   "test": "yoongikim/cifar-10-images/test/horse/0466.jpg",
+   "train": "yoongikim/cifar-10-images/train/horse/4534.jpg",
+   "label": "horse",
+   "s": 0.9873046875
+  },
+  {
+   "p": 0.009571005876514367,
+   "test": "yoongikim/cifar-10-images/test/frog/0123.jpg",
+   "train": "yoongikim/cifar-10-images/train/frog/4754.jpg",
+   "label": "frog",
+   "s": 0.98046875
+  },
+  {
+   "p": 0.009571005876514367,
+   "test": "yoongikim/cifar-10-images/test/ship/0864.jpg",
+   "train": "yoongikim/cifar-10-images/train/ship/2750.jpg",
+   "label": "ship",
+   "s": 0.798828125
+  },
+  {
+   "p": 0.009758536609484699,
+   "test": "yoongikim/cifar-10-images/test/cat/0817.jpg",
+   "train": "yoongikim/cifar-10-images/train/cat/3662.jpg",
+   "label": "cat",
+   "s": 0.71435546875
+  },
+  {
+   "p": 0.00982185582407652,
+   "test": "yoongikim/cifar-10-images/test/bird/0587.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/2912.jpg",
+   "label": "bird",
+   "s": 0.6845703125
+  },
+  {
+   "p": 0.00982185582407652,
+   "test": "yoongikim/cifar-10-images/test/frog/0067.jpg",
+   "train": "yoongikim/cifar-10-images/train/frog/2357.jpg",
+   "label": "frog",
+   "s": 0.912109375
+  },
+  {
+   "p": 0.00988558383734287,
+   "test": "yoongikim/cifar-10-images/test/ship/0147.jpg",
+   "train": "yoongikim/cifar-10-images/train/ship/2511.jpg",
+   "label": "ship",
+   "s": 0.80029296875
+  },
+  {
+   "p": 0.010079246875368555,
+   "test": "yoongikim/cifar-10-images/test/ship/0821.jpg",
+   "train": "yoongikim/cifar-10-images/train/ship/2379.jpg",
+   "label": "ship",
+   "s": 0.7705078125
+  },
+  {
+   "p": 0.010144636371622481,
+   "test": "yoongikim/cifar-10-images/test/bird/0305.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/0698.jpg",
+   "label": "bird",
+   "s": 0.98193359375
+  },
+  {
+   "p": 0.010144636371622481,
+   "test": "yoongikim/cifar-10-images/test/bird/0322.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/1700.jpg",
+   "label": "bird",
+   "s": 0.71484375
+  },
+  {
+   "p": 0.010144636371622481,
+   "test": "yoongikim/cifar-10-images/test/bird/0868.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/0945.jpg",
+   "label": "bird",
+   "s": 0.806640625
+  },
+  {
+   "p": 0.010210447893149174,
+   "test": "yoongikim/cifar-10-images/test/deer/0736.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/3950.jpg",
+   "label": "deer",
+   "s": 0.755859375
+  },
+  {
+   "p": 0.010276684135085418,
+   "test": "yoongikim/cifar-10-images/test/dog/0890.jpg",
+   "train": "yoongikim/cifar-10-images/train/dog/1484.jpg",
+   "label": "dog",
+   "s": 0.810546875
+  },
+  {
+   "p": 0.010410441645019744,
+   "test": "yoongikim/cifar-10-images/test/automobile/0913.jpg",
+   "train": "yoongikim/cifar-10-images/train/automobile/1861.jpg",
+   "label": "automobile",
+   "s": 0.91650390625
+  },
+  {
+   "p": 0.010410441645019744,
+   "test": "yoongikim/cifar-10-images/test/ship/0994.jpg",
+   "train": "yoongikim/cifar-10-images/train/ship/1898.jpg",
+   "label": "ship",
+   "s": 0.76708984375
+  },
+  {
+   "p": 0.01047796838787884,
+   "test": "yoongikim/cifar-10-images/test/airplane/0036.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/3887.jpg",
+   "label": "airplane",
+   "s": 0.85986328125
+  },
+  {
+   "p": 0.01047796838787884,
+   "test": "yoongikim/cifar-10-images/test/airplane/0922.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/2753.jpg",
+   "label": "airplane",
+   "s": 0.67529296875
+  },
+  {
+   "p": 0.010614331664928608,
+   "test": "yoongikim/cifar-10-images/test/deer/0535.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/2706.jpg",
+   "label": "deer",
+   "s": 0.98876953125
+  },
+  {
+   "p": 0.010683173777124282,
+   "test": "yoongikim/cifar-10-images/test/airplane/0345.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/4716.jpg",
+   "label": "airplane",
+   "s": 0.89599609375
+  },
+  {
+   "p": 0.010683173777124282,
+   "test": "yoongikim/cifar-10-images/test/airplane/0633.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/1100.jpg",
+   "label": "airplane",
+   "s": 0.81298828125
+  },
+  {
+   "p": 0.010683173777124282,
+   "test": "yoongikim/cifar-10-images/test/airplane/0811.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/4129.jpg",
+   "label": "airplane",
+   "s": 0.9560546875
+  },
+  {
+   "p": 0.010892375842809856,
+   "test": "yoongikim/cifar-10-images/test/airplane/0911.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/3666.jpg",
+   "label": "airplane",
+   "s": 0.75732421875
+  },
+  {
+   "p": 0.010963011275594505,
+   "test": "yoongikim/cifar-10-images/test/airplane/0317.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/1216.jpg",
+   "label": "airplane",
+   "s": 0.806640625
+  },
+  {
+   "p": 0.011034102208868708,
+   "test": "yoongikim/cifar-10-images/test/dog/0933.jpg",
+   "train": "yoongikim/cifar-10-images/train/dog/3868.jpg",
+   "label": "dog",
+   "s": 0.5693359375
+  },
+  {
+   "p": 0.011250137141293259,
+   "test": "yoongikim/cifar-10-images/test/airplane/0261.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/0527.jpg",
+   "label": "airplane",
+   "s": 0.7880859375
+  },
+  {
+   "p": 0.011250137141293259,
+   "test": "yoongikim/cifar-10-images/test/airplane/0404.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/2753.jpg",
+   "label": "airplane",
+   "s": 0.72216796875
+  },
+  {
+   "p": 0.011250137141293259,
+   "test": "yoongikim/cifar-10-images/test/cat/0871.jpg",
+   "train": "yoongikim/cifar-10-images/train/cat/2871.jpg",
+   "label": "cat",
+   "s": 0.84814453125
+  },
+  {
+   "p": 0.011250137141293259,
+   "test": "yoongikim/cifar-10-images/test/ship/0967.jpg",
+   "train": "yoongikim/cifar-10-images/train/ship/2584.jpg",
+   "label": "ship",
+   "s": 0.798828125
+  },
+  {
+   "p": 0.011323079296996814,
+   "test": "yoongikim/cifar-10-images/test/automobile/0283.jpg",
+   "train": "yoongikim/cifar-10-images/train/automobile/4591.jpg",
+   "label": "automobile",
+   "s": 0.65966796875
+  },
+  {
+   "p": 0.011470377209495494,
+   "test": "yoongikim/cifar-10-images/test/deer/0514.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/4439.jpg",
+   "label": "deer",
+   "s": 0.830078125
+  },
+  {
+   "p": 0.01154473897564563,
+   "test": "yoongikim/cifar-10-images/test/ship/0794.jpg",
+   "train": "yoongikim/cifar-10-images/train/ship/1004.jpg",
+   "label": "ship",
+   "s": 0.59228515625
+  },
+  {
+   "p": 0.011770711963051288,
+   "test": "yoongikim/cifar-10-images/test/frog/0414.jpg",
+   "train": "yoongikim/cifar-10-images/train/frog/0203.jpg",
+   "label": "frog",
+   "s": 0.98779296875
+  },
+  {
+   "p": 0.011923797781715798,
+   "test": "yoongikim/cifar-10-images/test/airplane/0247.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/1162.jpg",
+   "label": "airplane",
+   "s": 0.76025390625
+  },
+  {
+   "p": 0.011923797781715798,
+   "test": "yoongikim/cifar-10-images/test/bird/0725.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/2241.jpg",
+   "label": "bird",
+   "s": 0.7607421875
+  },
+  {
+   "p": 0.012078862388831347,
+   "test": "yoongikim/cifar-10-images/test/bird/0487.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/2230.jpg",
+   "label": "bird",
+   "s": 0.55419921875
+  },
+  {
+   "p": 0.012078862388831347,
+   "test": "yoongikim/cifar-10-images/test/horse/0527.jpg",
+   "train": "yoongikim/cifar-10-images/train/horse/4034.jpg",
+   "label": "horse",
+   "s": 0.732421875
+  },
+  {
+   "p": 0.012078862388831347,
+   "test": "yoongikim/cifar-10-images/test/ship/0112.jpg",
+   "train": "yoongikim/cifar-10-images/train/ship/0595.jpg",
+   "label": "ship",
+   "s": 0.93115234375
+  },
+  {
+   "p": 0.012157144618767542,
+   "test": "yoongikim/cifar-10-images/test/airplane/0664.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/3981.jpg",
+   "label": "airplane",
+   "s": 0.9150390625
+  },
+  {
+   "p": 0.012235931041773682,
+   "test": "yoongikim/cifar-10-images/test/airplane/0301.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/1617.jpg",
+   "label": "airplane",
+   "s": 0.84765625
+  },
+  {
+   "p": 0.012395029311866028,
+   "test": "yoongikim/cifar-10-images/test/bird/0941.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/2092.jpg",
+   "label": "bird",
+   "s": 0.74072265625
+  },
+  {
+   "p": 0.012556183088057721,
+   "test": "yoongikim/cifar-10-images/test/airplane/0086.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/1117.jpg",
+   "label": "airplane",
+   "s": 0.85498046875
+  },
+  {
+   "p": 0.012556183088057721,
+   "test": "yoongikim/cifar-10-images/test/deer/0585.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/0483.jpg",
+   "label": "deer",
+   "s": 0.74658203125
+  },
+  {
+   "p": 0.012801825250083415,
+   "test": "yoongikim/cifar-10-images/test/automobile/0050.jpg",
+   "train": "yoongikim/cifar-10-images/train/automobile/1076.jpg",
+   "label": "automobile",
+   "s": 0.763671875
+  },
+  {
+   "p": 0.01305224118540651,
+   "test": "yoongikim/cifar-10-images/test/airplane/0990.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/1923.jpg",
+   "label": "airplane",
+   "s": 0.5361328125
+  },
+  {
+   "p": 0.013221882358847444,
+   "test": "yoongikim/cifar-10-images/test/airplane/0245.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/0573.jpg",
+   "label": "airplane",
+   "s": 0.8076171875
+  },
+  {
+   "p": 0.013221882358847444,
+   "test": "yoongikim/cifar-10-images/test/airplane/0398.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/1717.jpg",
+   "label": "airplane",
+   "s": 0.98583984375
+  },
+  {
+   "p": 0.013307522403940349,
+   "test": "yoongikim/cifar-10-images/test/automobile/0640.jpg",
+   "train": "yoongikim/cifar-10-images/train/automobile/2984.jpg",
+   "label": "automobile",
+   "s": 0.75537109375
+  },
+  {
+   "p": 0.013307522403940349,
+   "test": "yoongikim/cifar-10-images/test/frog/0972.jpg",
+   "train": "yoongikim/cifar-10-images/train/frog/1736.jpg",
+   "label": "frog",
+   "s": 0.9072265625
+  },
+  {
+   "p": 0.013393713378886679,
+   "test": "yoongikim/cifar-10-images/test/bird/0565.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/2092.jpg",
+   "label": "bird",
+   "s": 0.8046875
+  },
+  {
+   "p": 0.013393713378886679,
+   "test": "yoongikim/cifar-10-images/test/horse/0378.jpg",
+   "train": "yoongikim/cifar-10-images/train/horse/4805.jpg",
+   "label": "horse",
+   "s": 0.9033203125
+  },
+  {
+   "p": 0.013567762119572698,
+   "test": "yoongikim/cifar-10-images/test/airplane/0438.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/1408.jpg",
+   "label": "airplane",
+   "s": 0.849609375
+  },
+  {
+   "p": 0.013655626939868777,
+   "test": "yoongikim/cifar-10-images/test/cat/0576.jpg",
+   "train": "yoongikim/cifar-10-images/train/cat/3705.jpg",
+   "label": "cat",
+   "s": 0.697265625
+  },
+  {
+   "p": 0.013833055279885086,
+   "test": "yoongikim/cifar-10-images/test/bird/0822.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/4119.jpg",
+   "label": "bird",
+   "s": 0.62255859375
+  },
+  {
+   "p": 0.013922625985189502,
+   "test": "yoongikim/cifar-10-images/test/deer/0521.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/0076.jpg",
+   "label": "deer",
+   "s": 0.72412109375
+  },
+  {
+   "p": 0.014286703908527744,
+   "test": "yoongikim/cifar-10-images/test/automobile/0287.jpg",
+   "train": "yoongikim/cifar-10-images/train/automobile/3588.jpg",
+   "label": "automobile",
+   "s": 0.7470703125
+  },
+  {
+   "p": 0.014379190574718152,
+   "test": "yoongikim/cifar-10-images/test/horse/0506.jpg",
+   "train": "yoongikim/cifar-10-images/train/horse/3636.jpg",
+   "label": "horse",
+   "s": 0.77783203125
+  },
+  {
+   "p": 0.014379190574718152,
+   "test": "yoongikim/cifar-10-images/test/ship/0480.jpg",
+   "train": "yoongikim/cifar-10-images/train/ship/1739.jpg",
+   "label": "ship",
+   "s": 0.82080078125
+  },
+  {
+   "p": 0.014472271558219027,
+   "test": "yoongikim/cifar-10-images/test/airplane/0122.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/4920.jpg",
+   "label": "airplane",
+   "s": 0.6669921875
+  },
+  {
+   "p": 0.014472271558219027,
+   "test": "yoongikim/cifar-10-images/test/airplane/0905.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/0867.jpg",
+   "label": "airplane",
+   "s": 0.83203125
+  },
+  {
+   "p": 0.014472271558219027,
+   "test": "yoongikim/cifar-10-images/test/dog/0645.jpg",
+   "train": "yoongikim/cifar-10-images/train/dog/4668.jpg",
+   "label": "dog",
+   "s": 0.64990234375
+  },
+  {
+   "p": 0.014472271558219027,
+   "test": "yoongikim/cifar-10-images/test/frog/0537.jpg",
+   "train": "yoongikim/cifar-10-images/train/frog/3235.jpg",
+   "label": "frog",
+   "s": 0.85986328125
+  },
+  {
+   "p": 0.014472271558219027,
+   "test": "yoongikim/cifar-10-images/test/horse/0259.jpg",
+   "train": "yoongikim/cifar-10-images/train/horse/3636.jpg",
+   "label": "horse",
+   "s": 0.79736328125
+  },
+  {
+   "p": 0.014472271558219027,
+   "test": "yoongikim/cifar-10-images/test/ship/0592.jpg",
+   "train": "yoongikim/cifar-10-images/train/ship/2255.jpg",
+   "label": "ship",
+   "s": 0.7578125
+  },
+  {
+   "p": 0.01456595062059614,
+   "test": "yoongikim/cifar-10-images/test/deer/0112.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/3231.jpg",
+   "label": "deer",
+   "s": 0.59765625
+  },
+  {
+   "p": 0.014660231546470651,
+   "test": "yoongikim/cifar-10-images/test/automobile/0333.jpg",
+   "train": "yoongikim/cifar-10-images/train/automobile/0207.jpg",
+   "label": "automobile",
+   "s": 0.736328125
+  },
+  {
+   "p": 0.014755118143650523,
+   "test": "yoongikim/cifar-10-images/test/frog/0152.jpg",
+   "train": "yoongikim/cifar-10-images/train/frog/4625.jpg",
+   "label": "frog",
+   "s": 0.97900390625
+  },
+  {
+   "p": 0.014946723699885063,
+   "test": "yoongikim/cifar-10-images/test/truck/0361.jpg",
+   "train": "yoongikim/cifar-10-images/train/truck/3917.jpg",
+   "label": "truck",
+   "s": 0.9736328125
+  },
+  {
+   "p": 0.015043450391680894,
+   "test": "yoongikim/cifar-10-images/test/horse/0221.jpg",
+   "train": "yoongikim/cifar-10-images/train/horse/1950.jpg",
+   "label": "horse",
+   "s": 0.90234375
+  },
+  {
+   "p": 0.01514079822053153,
+   "test": "yoongikim/cifar-10-images/test/frog/0801.jpg",
+   "train": "yoongikim/cifar-10-images/train/frog/2789.jpg",
+   "label": "frog",
+   "s": 0.98779296875
+  },
+  {
+   "p": 0.01514079822053153,
+   "test": "yoongikim/cifar-10-images/test/horse/0705.jpg",
+   "train": "yoongikim/cifar-10-images/train/horse/3229.jpg",
+   "label": "horse",
+   "s": 0.72509765625
+  },
+  {
+   "p": 0.015238771112171425,
+   "test": "yoongikim/cifar-10-images/test/deer/0828.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/3351.jpg",
+   "label": "deer",
+   "s": 0.75390625
+  },
+  {
+   "p": 0.015337373016323182,
+   "test": "yoongikim/cifar-10-images/test/dog/0582.jpg",
+   "train": "yoongikim/cifar-10-images/train/dog/1407.jpg",
+   "label": "dog",
+   "s": 0.9375
+  },
+  {
+   "p": 0.015337373016323182,
+   "test": "yoongikim/cifar-10-images/test/ship/0534.jpg",
+   "train": "yoongikim/cifar-10-images/train/ship/0161.jpg",
+   "label": "ship",
+   "s": 0.763671875
+  },
+  {
+   "p": 0.015436607906833188,
+   "test": "yoongikim/cifar-10-images/test/dog/0674.jpg",
+   "train": "yoongikim/cifar-10-images/train/dog/0450.jpg",
+   "label": "dog",
+   "s": 0.78173828125
+  },
+  {
+   "p": 0.01553647978180799,
+   "test": "yoongikim/cifar-10-images/test/automobile/0108.jpg",
+   "train": "yoongikim/cifar-10-images/train/automobile/0498.jpg",
+   "label": "automobile",
+   "s": 0.67822265625
+  },
+  {
+   "p": 0.01553647978180799,
+   "test": "yoongikim/cifar-10-images/test/bird/0766.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/0200.jpg",
+   "label": "bird",
+   "s": 0.69482421875
+  },
+  {
+   "p": 0.01553647978180799,
+   "test": "yoongikim/cifar-10-images/test/cat/0649.jpg",
+   "train": "yoongikim/cifar-10-images/train/cat/2617.jpg",
+   "label": "cat",
+   "s": 0.89306640625
+  },
+  {
+   "p": 0.01583995766136974,
+   "test": "yoongikim/cifar-10-images/test/airplane/0934.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/1004.jpg",
+   "label": "airplane",
+   "s": 0.74609375
+  },
+  {
+   "p": 0.016253759470793543,
+   "test": "yoongikim/cifar-10-images/test/bird/0702.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/1004.jpg",
+   "label": "bird",
+   "s": 0.7255859375
+  },
+  {
+   "p": 0.016253759470793543,
+   "test": "yoongikim/cifar-10-images/test/horse/0177.jpg",
+   "train": "yoongikim/cifar-10-images/train/horse/3668.jpg",
+   "label": "horse",
+   "s": 0.87841796875
+  },
+  {
+   "p": 0.016786116098895378,
+   "test": "yoongikim/cifar-10-images/test/dog/0539.jpg",
+   "train": "yoongikim/cifar-10-images/train/dog/1210.jpg",
+   "label": "dog",
+   "s": 0.65869140625
+  },
+  {
+   "p": 0.016894643889971927,
+   "test": "yoongikim/cifar-10-images/test/airplane/0322.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/3121.jpg",
+   "label": "airplane",
+   "s": 0.88671875
+  },
+  {
+   "p": 0.016894643889971927,
+   "test": "yoongikim/cifar-10-images/test/bird/0619.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/2111.jpg",
+   "label": "bird",
+   "s": 0.7841796875
+  },
+  {
+   "p": 0.017003867264154673,
+   "test": "yoongikim/cifar-10-images/test/automobile/0318.jpg",
+   "train": "yoongikim/cifar-10-images/train/automobile/0186.jpg",
+   "label": "automobile",
+   "s": 0.95703125
+  },
+  {
+   "p": 0.017003867264154673,
+   "test": "yoongikim/cifar-10-images/test/ship/0211.jpg",
+   "train": "yoongikim/cifar-10-images/train/ship/2255.jpg",
+   "label": "ship",
+   "s": 0.75634765625
+  },
+  {
+   "p": 0.017224418303540413,
+   "test": "yoongikim/cifar-10-images/test/automobile/0478.jpg",
+   "train": "yoongikim/cifar-10-images/train/automobile/2923.jpg",
+   "label": "automobile",
+   "s": 0.84033203125
+  },
+  {
+   "p": 0.017335754806057462,
+   "test": "yoongikim/cifar-10-images/test/airplane/0564.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/3279.jpg",
+   "label": "airplane",
+   "s": 0.7939453125
+  },
+  {
+   "p": 0.017674061832037728,
+   "test": "yoongikim/cifar-10-images/test/airplane/0563.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/4173.jpg",
+   "label": "airplane",
+   "s": 0.8310546875
+  },
+  {
+   "p": 0.017788278389998607,
+   "test": "yoongikim/cifar-10-images/test/airplane/0085.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/3297.jpg",
+   "label": "airplane",
+   "s": 0.82763671875
+  },
+  {
+   "p": 0.017788278389998607,
+   "test": "yoongikim/cifar-10-images/test/dog/0077.jpg",
+   "train": "yoongikim/cifar-10-images/train/dog/2166.jpg",
+   "label": "dog",
+   "s": 0.83740234375
+  },
+  {
+   "p": 0.01790322631243341,
+   "test": "yoongikim/cifar-10-images/test/frog/0559.jpg",
+   "train": "yoongikim/cifar-10-images/train/frog/0935.jpg",
+   "label": "frog",
+   "s": 0.57177734375
+  },
+  {
+   "p": 0.01790322631243341,
+   "test": "yoongikim/cifar-10-images/test/horse/0190.jpg",
+   "train": "yoongikim/cifar-10-images/train/horse/0745.jpg",
+   "label": "horse",
+   "s": 0.67431640625
+  },
+  {
+   "p": 0.018018910194498715,
+   "test": "yoongikim/cifar-10-images/test/horse/0746.jpg",
+   "train": "yoongikim/cifar-10-images/train/horse/2586.jpg",
+   "label": "horse",
+   "s": 0.79931640625
+  },
+  {
+   "p": 0.01825250435689911,
+   "test": "yoongikim/cifar-10-images/test/bird/0195.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/3239.jpg",
+   "label": "bird",
+   "s": 0.6826171875
+  },
+  {
+   "p": 0.01825250435689911,
+   "test": "yoongikim/cifar-10-images/test/horse/0806.jpg",
+   "train": "yoongikim/cifar-10-images/train/horse/1564.jpg",
+   "label": "horse",
+   "s": 0.8759765625
+  },
+  {
+   "p": 0.01848909819559221,
+   "test": "yoongikim/cifar-10-images/test/airplane/0476.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/0799.jpg",
+   "label": "airplane",
+   "s": 0.5517578125
+  },
+  {
+   "p": 0.01848909819559221,
+   "test": "yoongikim/cifar-10-images/test/dog/0789.jpg",
+   "train": "yoongikim/cifar-10-images/train/dog/0399.jpg",
+   "label": "dog",
+   "s": 0.927734375
+  },
+  {
+   "p": 0.018608531778690967,
+   "test": "yoongikim/cifar-10-images/test/airplane/0000.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/3753.jpg",
+   "label": "airplane",
+   "s": 0.96923828125
+  },
+  {
+   "p": 0.018728729479821037,
+   "test": "yoongikim/cifar-10-images/test/airplane/0570.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/1642.jpg",
+   "label": "airplane",
+   "s": 0.7578125
+  },
+  {
+   "p": 0.018728729479821037,
+   "test": "yoongikim/cifar-10-images/test/deer/0020.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/1930.jpg",
+   "label": "deer",
+   "s": 0.873046875
+  },
+  {
+   "p": 0.01884969609139274,
+   "test": "yoongikim/cifar-10-images/test/airplane/0343.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/1744.jpg",
+   "label": "airplane",
+   "s": 0.87060546875
+  },
+  {
+   "p": 0.01884969609139274,
+   "test": "yoongikim/cifar-10-images/test/airplane/0378.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/4871.jpg",
+   "label": "airplane",
+   "s": 0.53662109375
+  },
+  {
+   "p": 0.018971436434613513,
+   "test": "yoongikim/cifar-10-images/test/bird/0829.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/1928.jpg",
+   "label": "bird",
+   "s": 0.62255859375
+  },
+  {
+   "p": 0.01909395535964432,
+   "test": "yoongikim/cifar-10-images/test/dog/0034.jpg",
+   "train": "yoongikim/cifar-10-images/train/dog/3288.jpg",
+   "label": "dog",
+   "s": 0.791015625
+  },
+  {
+   "p": 0.019217257745756652,
+   "test": "yoongikim/cifar-10-images/test/frog/0354.jpg",
+   "train": "yoongikim/cifar-10-images/train/frog/0020.jpg",
+   "label": "frog",
+   "s": 0.70458984375
+  },
+  {
+   "p": 0.0193413485014901,
+   "test": "yoongikim/cifar-10-images/test/deer/0619.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/0880.jpg",
+   "label": "deer",
+   "s": 0.779296875
+  },
+  {
+   "p": 0.019591914903269662,
+   "test": "yoongikim/cifar-10-images/test/ship/0182.jpg",
+   "train": "yoongikim/cifar-10-images/train/ship/4592.jpg",
+   "label": "ship",
+   "s": 0.763671875
+  },
+  {
+   "p": 0.01971840051416303,
+   "test": "yoongikim/cifar-10-images/test/automobile/0963.jpg",
+   "train": "yoongikim/cifar-10-images/train/automobile/4995.jpg",
+   "label": "automobile",
+   "s": 0.78662109375
+  },
+  {
+   "p": 0.01971840051416303,
+   "test": "yoongikim/cifar-10-images/test/bird/0062.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/3585.jpg",
+   "label": "bird",
+   "s": 0.755859375
+  },
+  {
+   "p": 0.019973801692121734,
+   "test": "yoongikim/cifar-10-images/test/automobile/0663.jpg",
+   "train": "yoongikim/cifar-10-images/train/automobile/1902.jpg",
+   "label": "automobile",
+   "s": 0.703125
+  },
+  {
+   "p": 0.019973801692121734,
+   "test": "yoongikim/cifar-10-images/test/bird/0324.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/0160.jpg",
+   "label": "bird",
+   "s": 0.6826171875
+  },
+  {
+   "p": 0.019973801692121734,
+   "test": "yoongikim/cifar-10-images/test/horse/0718.jpg",
+   "train": "yoongikim/cifar-10-images/train/horse/1803.jpg",
+   "label": "horse",
+   "s": 0.81689453125
+  },
+  {
+   "p": 0.020232476678048655,
+   "test": "yoongikim/cifar-10-images/test/ship/0423.jpg",
+   "train": "yoongikim/cifar-10-images/train/ship/0226.jpg",
+   "label": "ship",
+   "s": 0.80322265625
+  },
+  {
+   "p": 0.020494466537531782,
+   "test": "yoongikim/cifar-10-images/test/horse/0942.jpg",
+   "train": "yoongikim/cifar-10-images/train/horse/4249.jpg",
+   "label": "horse",
+   "s": 0.974609375
+  },
+  {
+   "p": 0.020626717512087375,
+   "test": "yoongikim/cifar-10-images/test/frog/0879.jpg",
+   "train": "yoongikim/cifar-10-images/train/frog/2176.jpg",
+   "label": "frog",
+   "s": 0.94189453125
+  },
+  {
+   "p": 0.020759812827596865,
+   "test": "yoongikim/cifar-10-images/test/automobile/0216.jpg",
+   "train": "yoongikim/cifar-10-images/train/automobile/2984.jpg",
+   "label": "automobile",
+   "s": 0.73974609375
+  },
+  {
+   "p": 0.020759812827596865,
+   "test": "yoongikim/cifar-10-images/test/automobile/0911.jpg",
+   "train": "yoongikim/cifar-10-images/train/automobile/3695.jpg",
+   "label": "automobile",
+   "s": 0.67236328125
+  },
+  {
+   "p": 0.020759812827596865,
+   "test": "yoongikim/cifar-10-images/test/bird/0325.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/4684.jpg",
+   "label": "bird",
+   "s": 0.79443359375
+  },
+  {
+   "p": 0.020759812827596865,
+   "test": "yoongikim/cifar-10-images/test/dog/0838.jpg",
+   "train": "yoongikim/cifar-10-images/train/dog/1492.jpg",
+   "label": "dog",
+   "s": 0.78271484375
+  },
+  {
+   "p": 0.020893757756337037,
+   "test": "yoongikim/cifar-10-images/test/deer/0467.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/4743.jpg",
+   "label": "deer",
+   "s": 0.79052734375
+  },
+  {
+   "p": 0.021164217699649296,
+   "test": "yoongikim/cifar-10-images/test/ship/0776.jpg",
+   "train": "yoongikim/cifar-10-images/train/ship/2594.jpg",
+   "label": "ship",
+   "s": 0.673828125
+  },
+  {
+   "p": 0.021300743416306847,
+   "test": "yoongikim/cifar-10-images/test/deer/0195.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/2640.jpg",
+   "label": "deer",
+   "s": 0.77294921875
+  },
+  {
+   "p": 0.021438140150700214,
+   "test": "yoongikim/cifar-10-images/test/deer/0219.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/4027.jpg",
+   "label": "deer",
+   "s": 0.81787109375
+  },
+  {
+   "p": 0.021576413333640625,
+   "test": "yoongikim/cifar-10-images/test/dog/0665.jpg",
+   "train": "yoongikim/cifar-10-images/train/dog/2715.jpg",
+   "label": "dog",
+   "s": 0.80126953125
+  },
+  {
+   "p": 0.021576413333640625,
+   "test": "yoongikim/cifar-10-images/test/horse/0024.jpg",
+   "train": "yoongikim/cifar-10-images/train/horse/2797.jpg",
+   "label": "horse",
+   "s": 0.6416015625
+  },
+  {
+   "p": 0.021715568428149593,
+   "test": "yoongikim/cifar-10-images/test/deer/0232.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/2819.jpg",
+   "label": "deer",
+   "s": 0.9921875
+  },
+  {
+   "p": 0.021855610929628053,
+   "test": "yoongikim/cifar-10-images/test/cat/0924.jpg",
+   "train": "yoongikim/cifar-10-images/train/cat/0593.jpg",
+   "label": "cat",
+   "s": 0.94677734375
+  },
+  {
+   "p": 0.021855610929628053,
+   "test": "yoongikim/cifar-10-images/test/dog/0231.jpg",
+   "train": "yoongikim/cifar-10-images/train/dog/3829.jpg",
+   "label": "dog",
+   "s": 0.72412109375
+  },
+  {
+   "p": 0.021996546366026153,
+   "test": "yoongikim/cifar-10-images/test/automobile/0277.jpg",
+   "train": "yoongikim/cifar-10-images/train/automobile/3272.jpg",
+   "label": "automobile",
+   "s": 0.96044921875
+  },
+  {
+   "p": 0.021996546366026153,
+   "test": "yoongikim/cifar-10-images/test/automobile/0278.jpg",
+   "train": "yoongikim/cifar-10-images/train/automobile/0251.jpg",
+   "label": "automobile",
+   "s": 0.78173828125
+  },
+  {
+   "p": 0.022138380298013544,
+   "test": "yoongikim/cifar-10-images/test/dog/0389.jpg",
+   "train": "yoongikim/cifar-10-images/train/dog/1426.jpg",
+   "label": "dog",
+   "s": 0.78271484375
+  },
+  {
+   "p": 0.022138380298013544,
+   "test": "yoongikim/cifar-10-images/test/horse/0879.jpg",
+   "train": "yoongikim/cifar-10-images/train/horse/4188.jpg",
+   "label": "horse",
+   "s": 0.69970703125
+  },
+  {
+   "p": 0.0222811183191504,
+   "test": "yoongikim/cifar-10-images/test/bird/0066.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/1226.jpg",
+   "label": "bird",
+   "s": 0.70947265625
+  }
+ ],
+ "top_cross": [
+  {
+   "p": 0.0003128973462296527,
+   "test": "yoongikim/cifar-10-images/test/cat/0709.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/1923.jpg",
+   "test_label": "cat",
+   "train_label": "airplane"
+  },
+  {
+   "p": 0.0004219134827903139,
+   "test": "yoongikim/cifar-10-images/test/bird/0477.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/4414.jpg",
+   "test_label": "bird",
+   "train_label": "airplane"
+  },
+  {
+   "p": 0.00045024040765169915,
+   "test": "yoongikim/cifar-10-images/test/airplane/0393.jpg",
+   "train": "yoongikim/cifar-10-images/train/ship/1235.jpg",
+   "test_label": "airplane",
+   "train_label": "ship"
+  },
+  {
+   "p": 0.0004867536300773948,
+   "test": "yoongikim/cifar-10-images/test/bird/0794.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/4159.jpg",
+   "test_label": "bird",
+   "train_label": "airplane"
+  },
+  {
+   "p": 0.0005992552631513493,
+   "test": "yoongikim/cifar-10-images/test/airplane/0803.jpg",
+   "train": "yoongikim/cifar-10-images/train/automobile/2050.jpg",
+   "test_label": "airplane",
+   "train_label": "automobile"
+  },
+  {
+   "p": 0.0007571737197158292,
+   "test": "yoongikim/cifar-10-images/test/horse/0823.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/3891.jpg",
+   "test_label": "horse",
+   "train_label": "deer"
+  },
+  {
+   "p": 0.0008292738500901995,
+   "test": "yoongikim/cifar-10-images/test/bird/0960.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/0818.jpg",
+   "test_label": "bird",
+   "train_label": "airplane"
+  },
+  {
+   "p": 0.0010209005221502791,
+   "test": "yoongikim/cifar-10-images/test/deer/0112.jpg",
+   "train": "yoongikim/cifar-10-images/train/truck/3725.jpg",
+   "test_label": "deer",
+   "train_label": "truck"
+  },
+  {
+   "p": 0.00114753224084757,
+   "test": "yoongikim/cifar-10-images/test/airplane/0503.jpg",
+   "train": "yoongikim/cifar-10-images/train/ship/4484.jpg",
+   "test_label": "airplane",
+   "train_label": "ship"
+  },
+  {
+   "p": 0.0012087413143978699,
+   "test": "yoongikim/cifar-10-images/test/automobile/0540.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/4455.jpg",
+   "test_label": "automobile",
+   "train_label": "deer"
+  },
+  {
+   "p": 0.001289861117843736,
+   "test": "yoongikim/cifar-10-images/test/bird/0322.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/4871.jpg",
+   "test_label": "bird",
+   "train_label": "airplane"
+  },
+  {
+   "p": 0.001376421197940979,
+   "test": "yoongikim/cifar-10-images/test/deer/0698.jpg",
+   "train": "yoongikim/cifar-10-images/train/cat/2494.jpg",
+   "test_label": "deer",
+   "train_label": "cat"
+  },
+  {
+   "p": 0.001608593087298283,
+   "test": "yoongikim/cifar-10-images/test/cat/0576.jpg",
+   "train": "yoongikim/cifar-10-images/train/automobile/4056.jpg",
+   "test_label": "cat",
+   "train_label": "automobile"
+  },
+  {
+   "p": 0.0016725096441519889,
+   "test": "yoongikim/cifar-10-images/test/airplane/0651.jpg",
+   "train": "yoongikim/cifar-10-images/train/automobile/1014.jpg",
+   "test_label": "airplane",
+   "train_label": "automobile"
+  },
+  {
+   "p": 0.0016725096441519889,
+   "test": "yoongikim/cifar-10-images/test/deer/0020.jpg",
+   "train": "yoongikim/cifar-10-images/train/truck/1004.jpg",
+   "test_label": "deer",
+   "train_label": "truck"
+  },
+  {
+   "p": 0.00190446336998039,
+   "test": "yoongikim/cifar-10-images/test/bird/0573.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/3736.jpg",
+   "test_label": "bird",
+   "train_label": "airplane"
+  },
+  {
+   "p": 0.00190446336998039,
+   "test": "yoongikim/cifar-10-images/test/truck/0001.jpg",
+   "train": "yoongikim/cifar-10-images/train/ship/2782.jpg",
+   "test_label": "truck",
+   "train_label": "ship"
+  },
+  {
+   "p": 0.002058788431195081,
+   "test": "yoongikim/cifar-10-images/test/bird/0051.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/3736.jpg",
+   "test_label": "bird",
+   "train_label": "airplane"
+  },
+  {
+   "p": 0.0021405740661854904,
+   "test": "yoongikim/cifar-10-images/test/airplane/0727.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/4684.jpg",
+   "test_label": "airplane",
+   "train_label": "bird"
+  },
+  {
+   "p": 0.00216855088406501,
+   "test": "yoongikim/cifar-10-images/test/airplane/0325.jpg",
+   "train": "yoongikim/cifar-10-images/train/ship/2148.jpg",
+   "test_label": "airplane",
+   "train_label": "ship"
+  },
+  {
+   "p": 0.00216855088406501,
+   "test": "yoongikim/cifar-10-images/test/bird/0512.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/0992.jpg",
+   "test_label": "bird",
+   "train_label": "airplane"
+  },
+  {
+   "p": 0.0021968929499526224,
+   "test": "yoongikim/cifar-10-images/test/airplane/0397.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/4892.jpg",
+   "test_label": "airplane",
+   "train_label": "bird"
+  },
+  {
+   "p": 0.0023140097808276414,
+   "test": "yoongikim/cifar-10-images/test/bird/0703.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/2300.jpg",
+   "test_label": "bird",
+   "train_label": "airplane"
+  },
+  {
+   "p": 0.0023140097808276414,
+   "test": "yoongikim/cifar-10-images/test/ship/0967.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/2591.jpg",
+   "test_label": "ship",
+   "train_label": "airplane"
+  },
+  {
+   "p": 0.0024692134798935178,
+   "test": "yoongikim/cifar-10-images/test/automobile/0875.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/1053.jpg",
+   "test_label": "automobile",
+   "train_label": "airplane"
+  },
+  {
+   "p": 0.002501480154098854,
+   "test": "yoongikim/cifar-10-images/test/bird/0572.jpg",
+   "train": "yoongikim/cifar-10-images/train/horse/2273.jpg",
+   "test_label": "bird",
+   "train_label": "horse"
+  },
+  {
+   "p": 0.0025341679402186216,
+   "test": "yoongikim/cifar-10-images/test/ship/0548.jpg",
+   "train": "yoongikim/cifar-10-images/train/automobile/2636.jpg",
+   "test_label": "ship",
+   "train_label": "automobile"
+  },
+  {
+   "p": 0.002775243109505255,
+   "test": "yoongikim/cifar-10-images/test/airplane/0657.jpg",
+   "train": "yoongikim/cifar-10-images/train/ship/1440.jpg",
+   "test_label": "airplane",
+   "train_label": "ship"
+  },
+  {
+   "p": 0.002775243109505255,
+   "test": "yoongikim/cifar-10-images/test/deer/0828.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/3736.jpg",
+   "test_label": "deer",
+   "train_label": "airplane"
+  },
+  {
+   "p": 0.002811503215458395,
+   "test": "yoongikim/cifar-10-images/test/airplane/0073.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/4444.jpg",
+   "test_label": "airplane",
+   "train_label": "bird"
+  },
+  {
+   "p": 0.002811503215458395,
+   "test": "yoongikim/cifar-10-images/test/bird/0110.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/1937.jpg",
+   "test_label": "bird",
+   "train_label": "airplane"
+  },
+  {
+   "p": 0.0030392167791078364,
+   "test": "yoongikim/cifar-10-images/test/automobile/0283.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/0043.jpg",
+   "test_label": "automobile",
+   "train_label": "deer"
+  },
+  {
+   "p": 0.0030789205216131244,
+   "test": "yoongikim/cifar-10-images/test/bird/0292.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/1323.jpg",
+   "test_label": "bird",
+   "train_label": "airplane"
+  },
+  {
+   "p": 0.0030789205216131244,
+   "test": "yoongikim/cifar-10-images/test/ship/0416.jpg",
+   "train": "yoongikim/cifar-10-images/train/truck/1004.jpg",
+   "test_label": "ship",
+   "train_label": "truck"
+  },
+  {
+   "p": 0.003119142134340958,
+   "test": "yoongikim/cifar-10-images/test/bird/0747.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/4992.jpg",
+   "test_label": "bird",
+   "train_label": "airplane"
+  },
+  {
+   "p": 0.0031598883506884804,
+   "test": "yoongikim/cifar-10-images/test/truck/0628.jpg",
+   "train": "yoongikim/cifar-10-images/train/ship/4484.jpg",
+   "test_label": "truck",
+   "train_label": "ship"
+  },
+  {
+   "p": 0.0032011659910382477,
+   "test": "yoongikim/cifar-10-images/test/automobile/0248.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/0096.jpg",
+   "test_label": "automobile",
+   "train_label": "airplane"
+  },
+  {
+   "p": 0.0032429819638670897,
+   "test": "yoongikim/cifar-10-images/test/airplane/0223.jpg",
+   "train": "yoongikim/cifar-10-images/train/automobile/4143.jpg",
+   "test_label": "airplane",
+   "train_label": "automobile"
+  },
+  {
+   "p": 0.0032853432668687324,
+   "test": "yoongikim/cifar-10-images/test/ship/0152.jpg",
+   "train": "yoongikim/cifar-10-images/train/truck/4946.jpg",
+   "test_label": "ship",
+   "train_label": "truck"
+  },
+  {
+   "p": 0.0033717303070829483,
+   "test": "yoongikim/cifar-10-images/test/airplane/0242.jpg",
+   "train": "yoongikim/cifar-10-images/train/ship/0686.jpg",
+   "test_label": "airplane",
+   "train_label": "ship"
+  },
+  {
+   "p": 0.0033717303070829483,
+   "test": "yoongikim/cifar-10-images/test/horse/0347.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/4876.jpg",
+   "test_label": "horse",
+   "train_label": "airplane"
+  },
+  {
+   "p": 0.0035513664200601345,
+   "test": "yoongikim/cifar-10-images/test/airplane/0378.jpg",
+   "train": "yoongikim/cifar-10-images/train/frog/3427.jpg",
+   "test_label": "airplane",
+   "train_label": "frog"
+  },
+  {
+   "p": 0.003597748706162023,
+   "test": "yoongikim/cifar-10-images/test/deer/0734.jpg",
+   "train": "yoongikim/cifar-10-images/train/frog/2143.jpg",
+   "test_label": "deer",
+   "train_label": "frog"
+  },
+  {
+   "p": 0.003939802225750374,
+   "test": "yoongikim/cifar-10-images/test/airplane/0297.jpg",
+   "train": "yoongikim/cifar-10-images/train/horse/1219.jpg",
+   "test_label": "airplane",
+   "train_label": "horse"
+  },
+  {
+   "p": 0.003991247473397783,
+   "test": "yoongikim/cifar-10-images/test/deer/0347.jpg",
+   "train": "yoongikim/cifar-10-images/train/truck/3499.jpg",
+   "test_label": "deer",
+   "train_label": "truck"
+  },
+  {
+   "p": 0.004096157864837246,
+   "test": "yoongikim/cifar-10-images/test/airplane/0856.jpg",
+   "train": "yoongikim/cifar-10-images/train/ship/1253.jpg",
+   "test_label": "airplane",
+   "train_label": "ship"
+  },
+  {
+   "p": 0.004203820014080964,
+   "test": "yoongikim/cifar-10-images/test/automobile/0358.jpg",
+   "train": "yoongikim/cifar-10-images/train/frog/2990.jpg",
+   "test_label": "automobile",
+   "train_label": "frog"
+  },
+  {
+   "p": 0.004258705384174921,
+   "test": "yoongikim/cifar-10-images/test/airplane/0008.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/4184.jpg",
+   "test_label": "airplane",
+   "train_label": "bird"
+  },
+  {
+   "p": 0.004370630500156933,
+   "test": "yoongikim/cifar-10-images/test/automobile/0391.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/3892.jpg",
+   "test_label": "automobile",
+   "train_label": "deer"
+  },
+  {
+   "p": 0.004370630500156933,
+   "test": "yoongikim/cifar-10-images/test/bird/0245.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/0138.jpg",
+   "test_label": "bird",
+   "train_label": "airplane"
+  },
+  {
+   "p": 0.004370630500156933,
+   "test": "yoongikim/cifar-10-images/test/bird/0565.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/2649.jpg",
+   "test_label": "bird",
+   "train_label": "airplane"
+  },
+  {
+   "p": 0.004427688914078733,
+   "test": "yoongikim/cifar-10-images/test/dog/0645.jpg",
+   "train": "yoongikim/cifar-10-images/train/horse/3211.jpg",
+   "test_label": "dog",
+   "train_label": "horse"
+  },
+  {
+   "p": 0.004485490544177124,
+   "test": "yoongikim/cifar-10-images/test/ship/0619.jpg",
+   "train": "yoongikim/cifar-10-images/train/horse/4693.jpg",
+   "test_label": "ship",
+   "train_label": "horse"
+  },
+  {
+   "p": 0.004485490544177124,
+   "test": "yoongikim/cifar-10-images/test/truck/0383.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/2744.jpg",
+   "test_label": "truck",
+   "train_label": "bird"
+  },
+  {
+   "p": 0.004544045027043655,
+   "test": "yoongikim/cifar-10-images/test/cat/0513.jpg",
+   "train": "yoongikim/cifar-10-images/train/airplane/1355.jpg",
+   "test_label": "cat",
+   "train_label": "airplane"
+  },
+  {
+   "p": 0.004663451717930417,
+   "test": "yoongikim/cifar-10-images/test/airplane/0050.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/4184.jpg",
+   "test_label": "airplane",
+   "train_label": "bird"
+  },
+  {
+   "p": 0.004663451717930417,
+   "test": "yoongikim/cifar-10-images/test/cat/0155.jpg",
+   "train": "yoongikim/cifar-10-images/train/ship/0517.jpg",
+   "test_label": "cat",
+   "train_label": "ship"
+  },
+  {
+   "p": 0.0047243238243136355,
+   "test": "yoongikim/cifar-10-images/test/truck/0995.jpg",
+   "train": "yoongikim/cifar-10-images/train/deer/2785.jpg",
+   "test_label": "truck",
+   "train_label": "deer"
+  },
+  {
+   "p": 0.004785988583366316,
+   "test": "yoongikim/cifar-10-images/test/bird/0829.jpg",
+   "train": "yoongikim/cifar-10-images/train/cat/1530.jpg",
+   "test_label": "bird",
+   "train_label": "cat"
+  },
+  {
+   "p": 0.004785988583366316,
+   "test": "yoongikim/cifar-10-images/test/frog/0078.jpg",
+   "train": "yoongikim/cifar-10-images/train/bird/0605.jpg",
+   "test_label": "frog",
+   "train_label": "bird"
+  }
+ ],
+ "acc_lp_all": 0.8032,
+ "acc_1nn_all": 0.7343
+}

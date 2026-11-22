@@ -1,0 +1,285 @@
+{
+ "note": "Visual inspection of 40 flagged Fruits-360 test-train pairs (the 20 highest-ranked and 20 drawn at random from ranks 21-164, i.e. p<1e-4). same_object=True when both images show the same physical fruit in nearly the same pose.",
+ "pairs": [
+  {
+   "p": 2.977024246092927e-08,
+   "test": "horea94/fruit-images-dataset/Test/Banana/r_56_100.jpg",
+   "train": "horea94/fruit-images-dataset/Training/Banana/r_55_100.jpg",
+   "label": "Banana",
+   "same_object": true
+  },
+  {
+   "p": 3.156653128734774e-08,
+   "test": "horea94/fruit-images-dataset/Test/Banana/r_57_100.jpg",
+   "train": "horea94/fruit-images-dataset/Training/Banana/r_55_100.jpg",
+   "label": "Banana",
+   "same_object": true
+  },
+  {
+   "p": 3.2032289747924714e-08,
+   "test": "horea94/fruit-images-dataset/Test/Banana/r_54_100.jpg",
+   "train": "horea94/fruit-images-dataset/Training/Banana/r_53_100.jpg",
+   "label": "Banana",
+   "same_object": true
+  },
+  {
+   "p": 3.5490804310050256e-08,
+   "test": "horea94/fruit-images-dataset/Test/Banana/r_51_100.jpg",
+   "train": "horea94/fruit-images-dataset/Training/Banana/r_55_100.jpg",
+   "label": "Banana",
+   "same_object": true
+  },
+  {
+   "p": 3.6014464708359654e-08,
+   "test": "horea94/fruit-images-dataset/Test/Banana/r_52_100.jpg",
+   "train": "horea94/fruit-images-dataset/Training/Banana/r_55_100.jpg",
+   "label": "Banana",
+   "same_object": true
+  },
+  {
+   "p": 3.7632262684568554e-08,
+   "test": "horea94/fruit-images-dataset/Test/Banana/r_47_100.jpg",
+   "train": "horea94/fruit-images-dataset/Training/Banana/r_53_100.jpg",
+   "label": "Banana",
+   "same_object": true
+  },
+  {
+   "p": 4.108914140791572e-08,
+   "test": "horea94/fruit-images-dataset/Test/Banana/r_48_100.jpg",
+   "train": "horea94/fruit-images-dataset/Training/Banana/r_53_100.jpg",
+   "label": "Banana",
+   "same_object": true
+  },
+  {
+   "p": 4.231061240213576e-08,
+   "test": "horea94/fruit-images-dataset/Test/Banana/r_59_100.jpg",
+   "train": "horea94/fruit-images-dataset/Training/Banana/r_53_100.jpg",
+   "label": "Banana",
+   "same_object": true
+  },
+  {
+   "p": 4.898470938905845e-08,
+   "test": "horea94/fruit-images-dataset/Test/Banana/r_49_100.jpg",
+   "train": "horea94/fruit-images-dataset/Training/Banana/r_55_100.jpg",
+   "label": "Banana",
+   "same_object": true
+  },
+  {
+   "p": 5.0440894633763386e-08,
+   "test": "horea94/fruit-images-dataset/Test/Banana/r_50_100.jpg",
+   "train": "horea94/fruit-images-dataset/Training/Banana/r_55_100.jpg",
+   "label": "Banana",
+   "same_object": true
+  },
+  {
+   "p": 5.348441752583061e-08,
+   "test": "horea94/fruit-images-dataset/Test/Banana/r_60_100.jpg",
+   "train": "horea94/fruit-images-dataset/Training/Banana/r_58_100.jpg",
+   "label": "Banana",
+   "same_object": true
+  },
+  {
+   "p": 5.507436713283419e-08,
+   "test": "horea94/fruit-images-dataset/Test/Banana/r_44_100.jpg",
+   "train": "horea94/fruit-images-dataset/Training/Banana/r_53_100.jpg",
+   "label": "Banana",
+   "same_object": true
+  },
+  {
+   "p": 5.507436713283419e-08,
+   "test": "horea94/fruit-images-dataset/Test/Banana/r_45_100.jpg",
+   "train": "horea94/fruit-images-dataset/Training/Banana/r_53_100.jpg",
+   "label": "Banana",
+   "same_object": true
+  },
+  {
+   "p": 6.013346782327672e-08,
+   "test": "horea94/fruit-images-dataset/Test/Banana/r_61_100.jpg",
+   "train": "horea94/fruit-images-dataset/Training/Banana/r_62_100.jpg",
+   "label": "Banana",
+   "same_object": true
+  },
+  {
+   "p": 6.961895076683387e-08,
+   "test": "horea94/fruit-images-dataset/Test/Banana/r_46_100.jpg",
+   "train": "horea94/fruit-images-dataset/Training/Banana/r_53_100.jpg",
+   "label": "Banana",
+   "same_object": true
+  },
+  {
+   "p": 7.064616577550673e-08,
+   "test": "horea94/fruit-images-dataset/Test/Banana/r_63_100.jpg",
+   "train": "horea94/fruit-images-dataset/Training/Banana/r_62_100.jpg",
+   "label": "Banana",
+   "same_object": true
+  },
+  {
+   "p": 7.71356831611831e-08,
+   "test": "horea94/fruit-images-dataset/Test/Banana/r_41_100.jpg",
+   "train": "horea94/fruit-images-dataset/Training/Banana/r_53_100.jpg",
+   "label": "Banana",
+   "same_object": true
+  },
+  {
+   "p": 8.8004611743905e-08,
+   "test": "horea94/fruit-images-dataset/Test/Banana/r_42_100.jpg",
+   "train": "horea94/fruit-images-dataset/Training/Banana/r_53_100.jpg",
+   "label": "Banana",
+   "same_object": true
+  },
+  {
+   "p": 1.0040504426571661e-07,
+   "test": "horea94/fruit-images-dataset/Test/Banana/r_43_100.jpg",
+   "train": "horea94/fruit-images-dataset/Training/Banana/r_53_100.jpg",
+   "label": "Banana",
+   "same_object": true
+  },
+  {
+   "p": 1.018865024846236e-07,
+   "test": "horea94/fruit-images-dataset/Test/Banana/r_66_100.jpg",
+   "train": "horea94/fruit-images-dataset/Training/Banana/r_64_100.jpg",
+   "label": "Banana",
+   "same_object": true
+  },
+  {
+   "p": 3.0379930053115897e-05,
+   "test": "horea94/fruit-images-dataset/Test/Banana/108_100.jpg",
+   "train": "horea94/fruit-images-dataset/Training/Banana/107_100.jpg",
+   "label": "Banana",
+   "same_object": true
+  },
+  {
+   "p": 2.2403354853097077e-06,
+   "test": "horea94/fruit-images-dataset/Test/Cherry 1/39_100.jpg",
+   "train": "horea94/fruit-images-dataset/Training/Cherry 1/320_100.jpg",
+   "label": "Cherry 1",
+   "same_object": true
+  },
+  {
+   "p": 9.168216638642454e-07,
+   "test": "horea94/fruit-images-dataset/Test/Banana/r_317_100.jpg",
+   "train": "horea94/fruit-images-dataset/Training/Banana/r_17_100.jpg",
+   "label": "Banana",
+   "same_object": true
+  },
+  {
+   "p": 7.315513843949207e-05,
+   "test": "horea94/fruit-images-dataset/Test/Peach/r_7_100.jpg",
+   "train": "horea94/fruit-images-dataset/Training/Peach/r_2_100.jpg",
+   "label": "Peach",
+   "same_object": true
+  },
+  {
+   "p": 5.162932073345466e-06,
+   "test": "horea94/fruit-images-dataset/Test/Cherry 1/r_96_100.jpg",
+   "train": "horea94/fruit-images-dataset/Training/Cherry 1/r_100_100.jpg",
+   "label": "Cherry 1",
+   "same_object": true
+  },
+  {
+   "p": 9.140697332014632e-06,
+   "test": "horea94/fruit-images-dataset/Test/Banana/r_228_100.jpg",
+   "train": "horea94/fruit-images-dataset/Training/Banana/r_224_100.jpg",
+   "label": "Banana",
+   "same_object": true
+  },
+  {
+   "p": 7.104328748141701e-05,
+   "test": "horea94/fruit-images-dataset/Test/Peach/r_327_100.jpg",
+   "train": "horea94/fruit-images-dataset/Training/Peach/r_1_100.jpg",
+   "label": "Peach",
+   "same_object": true
+  },
+  {
+   "p": 3.784443167259999e-05,
+   "test": "horea94/fruit-images-dataset/Test/Banana/114_100.jpg",
+   "train": "horea94/fruit-images-dataset/Training/Banana/117_100.jpg",
+   "label": "Banana",
+   "same_object": true
+  },
+  {
+   "p": 8.620549527174547e-06,
+   "test": "horea94/fruit-images-dataset/Test/Banana/r_242_100.jpg",
+   "train": "horea94/fruit-images-dataset/Training/Banana/r_247_100.jpg",
+   "label": "Banana",
+   "same_object": true
+  },
+  {
+   "p": 9.55130266576773e-06,
+   "test": "horea94/fruit-images-dataset/Test/Banana/r_241_100.jpg",
+   "train": "horea94/fruit-images-dataset/Training/Banana/r_247_100.jpg",
+   "label": "Banana",
+   "same_object": true
+  },
+  {
+   "p": 3.3370870392618235e-07,
+   "test": "horea94/fruit-images-dataset/Test/Banana/r_326_100.jpg",
+   "train": "horea94/fruit-images-dataset/Training/Banana/r_322_100.jpg",
+   "label": "Banana",
+   "same_object": true
+  },
+  {
+   "p": 1.8463379187402627e-05,
+   "test": "horea94/fruit-images-dataset/Test/Cherry 1/97_100.jpg",
+   "train": "horea94/fruit-images-dataset/Training/Cherry 1/101_100.jpg",
+   "label": "Cherry 1",
+   "same_object": true
+  },
+  {
+   "p": 9.835236124536805e-06,
+   "test": "horea94/fruit-images-dataset/Test/Banana/r_245_100.jpg",
+   "train": "horea94/fruit-images-dataset/Training/Banana/r_248_100.jpg",
+   "label": "Banana",
+   "same_object": true
+  },
+  {
+   "p": 1.2507553394344986e-07,
+   "test": "horea94/fruit-images-dataset/Test/Banana/r_34_100.jpg",
+   "train": "horea94/fruit-images-dataset/Training/Banana/r_26_100.jpg",
+   "label": "Banana",
+   "same_object": true
+  },
+  {
+   "p": 7.780495852848473e-06,
+   "test": "horea94/fruit-images-dataset/Test/Cherry 1/r_92_100.jpg",
+   "train": "horea94/fruit-images-dataset/Training/Cherry 1/r_100_100.jpg",
+   "label": "Cherry 1",
+   "same_object": true
+  },
+  {
+   "p": 1.5810671665559578e-07,
+   "test": "horea94/fruit-images-dataset/Test/Banana/r_31_100.jpg",
+   "train": "horea94/fruit-images-dataset/Training/Banana/r_27_100.jpg",
+   "label": "Banana",
+   "same_object": true
+  },
+  {
+   "p": 1.7930362075918434e-05,
+   "test": "horea94/fruit-images-dataset/Test/Banana/r_232_100.jpg",
+   "train": "horea94/fruit-images-dataset/Training/Banana/r_218_100.jpg",
+   "label": "Banana",
+   "same_object": true
+  },
+  {
+   "p": 5.394854406603637e-06,
+   "test": "horea94/fruit-images-dataset/Test/Banana/r_227_100.jpg",
+   "train": "horea94/fruit-images-dataset/Training/Banana/r_224_100.jpg",
+   "label": "Banana",
+   "same_object": true
+  },
+  {
+   "p": 1.504029019970809e-05,
+   "test": "horea94/fruit-images-dataset/Test/Cherry 1/r_89_100.jpg",
+   "train": "horea94/fruit-images-dataset/Training/Cherry 1/r_100_100.jpg",
+   "label": "Cherry 1",
+   "same_object": true
+  },
+  {
+   "p": 1.2879369706288682e-07,
+   "test": "horea94/fruit-images-dataset/Test/Banana/r_37_100.jpg",
+   "train": "horea94/fruit-images-dataset/Training/Banana/r_26_100.jpg",
+   "label": "Banana",
+   "same_object": true
+  }
+ ]
+}

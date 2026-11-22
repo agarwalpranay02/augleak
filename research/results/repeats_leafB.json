@@ -1,0 +1,742 @@
+{
+ "name": "leafB",
+ "n_sources": 850,
+ "gumbel": [
+  2.0495321232936505,
+  0.28192802391415067
+ ],
+ "linked": {
+  "0.01": 117,
+  "0.001": 69,
+  "0.0001": 42
+ },
+ "pairs": [
+  {
+   "p": 3.738107310746422e-08,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_356_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_357_Original.jpg",
+   "s": 0.9951171875
+  },
+  {
+   "p": 7.269174694799745e-08,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_357_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_356_Original.jpg",
+   "s": 0.9951171875
+  },
+  {
+   "p": 1.2652593402001124e-07,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_158_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_157_Original.jpg",
+   "s": 0.98486328125
+  },
+  {
+   "p": 1.5792734278697623e-07,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_157_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_158_Original.jpg",
+   "s": 0.98486328125
+  },
+  {
+   "p": 2.4947684081070895e-07,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_111_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_106_Original.jpg",
+   "s": 0.837890625
+  },
+  {
+   "p": 4.2825978355315297e-07,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_130_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_129_Original.jpg",
+   "s": 0.81103515625
+  },
+  {
+   "p": 9.049919318170157e-07,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_162_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_166_Original.jpg",
+   "s": 0.93017578125
+  },
+  {
+   "p": 1.129594168468881e-06,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_166_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_162_Original.jpg",
+   "s": 0.93017578125
+  },
+  {
+   "p": 1.2620056650676539e-06,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_132_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_134_Original.jpg",
+   "s": 0.91259765625
+  },
+  {
+   "p": 1.3525336909513071e-06,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_328_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_326_Original.jpg",
+   "s": 0.93310546875
+  },
+  {
+   "p": 1.4099384812348377e-06,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_106_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_111_Original.jpg",
+   "s": 0.837890625
+  },
+  {
+   "p": 1.688207409805654e-06,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_326_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_328_Original.jpg",
+   "s": 0.93310546875
+  },
+  {
+   "p": 2.1966231641838807e-06,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_129_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_130_Original.jpg",
+   "s": 0.81103515625
+  },
+  {
+   "p": 3.6677321563346888e-06,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_265_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_266_Original.jpg",
+   "s": 0.98486328125
+  },
+  {
+   "p": 4.9748418689399085e-06,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_393_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_396_Original.jpg",
+   "s": 0.95361328125
+  },
+  {
+   "p": 5.044250283998401e-06,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_396_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_393_Original.jpg",
+   "s": 0.95361328125
+  },
+  {
+   "p": 5.114627074713416e-06,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_266_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_265_Original.jpg",
+   "s": 0.98486328125
+  },
+  {
+   "p": 5.185985751645331e-06,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_134_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_132_Original.jpg",
+   "s": 0.91259765625
+  },
+  {
+   "p": 6.296136548904816e-06,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_165_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_164_Original.jpg",
+   "s": 0.9599609375
+  },
+  {
+   "p": 6.296136548904816e-06,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_327_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_326_Original.jpg",
+   "s": 0.91943359375
+  },
+  {
+   "p": 1.683854303781494e-05,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_389_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_384_Original.jpg",
+   "s": 0.87890625
+  },
+  {
+   "p": 1.7073471018517495e-05,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_241_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_242_Original.jpg",
+   "s": 0.8046875
+  },
+  {
+   "p": 1.8553492326154125e-05,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_164_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_165_Original.jpg",
+   "s": 0.9599609375
+  },
+  {
+   "p": 1.9074812542528037e-05,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_384_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_389_Original.jpg",
+   "s": 0.87890625
+  },
+  {
+   "p": 2.659961306563921e-05,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_242_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_241_Original.jpg",
+   "s": 0.8046875
+  },
+  {
+   "p": 3.0132197477832615e-05,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_091_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_228_Original.jpg",
+   "s": 0.88623046875
+  },
+  {
+   "p": 3.558262295406559e-05,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_146_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_141_Original.jpg",
+   "s": 0.74560546875
+  },
+  {
+   "p": 4.566130043007565e-05,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_154_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_155_Original.jpg",
+   "s": 0.9658203125
+  },
+  {
+   "p": 4.9619408758039854e-05,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_152_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_150_Original.jpg",
+   "s": 0.97802734375
+  },
+  {
+   "p": 4.9619408758039854e-05,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_394_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_393_Original.jpg",
+   "s": 0.8818359375
+  },
+  {
+   "p": 5.941213473487194e-05,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_137_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_139_Original.jpg",
+   "s": 0.96240234375
+  },
+  {
+   "p": 6.54629200133167e-05,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_142_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_143_Original.jpg",
+   "s": 0.9658203125
+  },
+  {
+   "p": 7.01586398473986e-05,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_178_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_182_Original.jpg",
+   "s": 0.84033203125
+  },
+  {
+   "p": 7.113745268096345e-05,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_140_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_137_Original.jpg",
+   "s": 0.962890625
+  },
+  {
+   "p": 7.212992085347819e-05,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_139_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_137_Original.jpg",
+   "s": 0.96240234375
+  },
+  {
+   "p": 7.212992085347819e-05,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_182_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_178_Original.jpg",
+   "s": 0.84033203125
+  },
+  {
+   "p": 7.624019682378817e-05,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_292_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_128_Original.jpg",
+   "s": 0.81591796875
+  },
+  {
+   "p": 7.838234756023249e-05,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_155_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_154_Original.jpg",
+   "s": 0.9658203125
+  },
+  {
+   "p": 8.636505681221282e-05,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_150_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_152_Original.jpg",
+   "s": 0.97802734375
+  },
+  {
+   "p": 8.756996231692417e-05,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_145_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_144_Original.jpg",
+   "s": 0.99169921875
+  },
+  {
+   "p": 9.003043559031752e-05,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_228_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_091_Original.jpg",
+   "s": 0.88623046875
+  },
+  {
+   "p": 9.128647558886886e-05,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_128_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_292_Original.jpg",
+   "s": 0.81591796875
+  },
+  {
+   "p": 0.00011714218783765512,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_234_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_232_Original.jpg",
+   "s": 0.83154296875
+  },
+  {
+   "p": 0.00012211368460476784,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_144_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_145_Original.jpg",
+   "s": 0.99169921875
+  },
+  {
+   "p": 0.0001238172993451976,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_143_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_142_Original.jpg",
+   "s": 0.9658203125
+  },
+  {
+   "p": 0.00014221681416435873,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_374_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_369_Original.jpg",
+   "s": 0.90771484375
+  },
+  {
+   "p": 0.00015670012046873111,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_397_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_399_Original.jpg",
+   "s": 0.919921875
+  },
+  {
+   "p": 0.00016562917434638855,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_369_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_374_Original.jpg",
+   "s": 0.90771484375
+  },
+  {
+   "p": 0.0001750669771817569,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_399_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_397_Original.jpg",
+   "s": 0.919921875
+  },
+  {
+   "p": 0.00019289540888336461,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_336_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_333_Original.jpg",
+   "s": 0.94775390625
+  },
+  {
+   "p": 0.00021851063586411784,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_333_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_336_Original.jpg",
+   "s": 0.94775390625
+  },
+  {
+   "p": 0.0002341833337119283,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_350_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_351_Original.jpg",
+   "s": 0.865234375
+  },
+  {
+   "p": 0.00027273356358707316,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_370_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_371_Original.jpg",
+   "s": 0.927734375
+  },
+  {
+   "p": 0.0002882734579212972,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_377_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_380_Original.jpg",
+   "s": 0.98388671875
+  },
+  {
+   "p": 0.0003220595714584856,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_380_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_377_Original.jpg",
+   "s": 0.98388671875
+  },
+  {
+   "p": 0.00035485474545263206,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_371_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_370_Original.jpg",
+   "s": 0.927734375
+  },
+  {
+   "p": 0.0003803048784657242,
+   "a": "leafB/Unhealthy_Leaves/Phomopsis_Blight/Phomopsis_Blight_144_Original.jpg",
+   "b": "leafB/Unhealthy_Leaves/Phomopsis_Blight/Phomopsis_Blight_040_Original.jpg",
+   "s": 0.81103515625
+  },
+  {
+   "p": 0.00039644274573707235,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_141_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_146_Original.jpg",
+   "s": 0.74560546875
+  },
+  {
+   "p": 0.0004681372922080893,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_351_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_350_Original.jpg",
+   "s": 0.865234375
+  },
+  {
+   "p": 0.0005158036535104756,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_379_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_377_Original.jpg",
+   "s": 0.97705078125
+  },
+  {
+   "p": 0.0005842864156072746,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_391_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_388_Original.jpg",
+   "s": 0.7333984375
+  },
+  {
+   "p": 0.0007192119524549327,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_184_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_206_Original.jpg",
+   "s": 0.88037109375
+  },
+  {
+   "p": 0.0007292426796263577,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_386_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_387_Original.jpg",
+   "s": 0.9619140625
+  },
+  {
+   "p": 0.0007497256174492006,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_387_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_386_Original.jpg",
+   "s": 0.9619140625
+  },
+  {
+   "p": 0.0007815333649440203,
+   "a": "leafB/Unhealthy_Leaves/Little_Leaf/Little_Leaf_129_Original.jpg",
+   "b": "leafB/Unhealthy_Leaves/Little_Leaf/Little_Leaf_193_Original.jpg",
+   "s": 0.64013671875
+  },
+  {
+   "p": 0.0008034844507733823,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_159_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_160_Original.jpg",
+   "s": 0.953125
+  },
+  {
+   "p": 0.0008375720065161574,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_160_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_159_Original.jpg",
+   "s": 0.953125
+  },
+  {
+   "p": 0.000873105083339758,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_088_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_083_Original.jpg",
+   "s": 0.91845703125
+  },
+  {
+   "p": 0.000897627007117829,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_180_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_181_Original.jpg",
+   "s": 0.94287109375
+  },
+  {
+   "p": 0.0010381202761603257,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_181_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_180_Original.jpg",
+   "s": 0.94287109375
+  },
+  {
+   "p": 0.0010672743208140426,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_232_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_234_Original.jpg",
+   "s": 0.83154296875
+  },
+  {
+   "p": 0.001074689805608359,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_260_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_264_Original.jpg",
+   "s": 0.96826171875
+  },
+  {
+   "p": 0.00109724666317148,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_388_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_391_Original.jpg",
+   "s": 0.7333984375
+  },
+  {
+   "p": 0.001322786102673462,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_083_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_088_Original.jpg",
+   "s": 0.91845703125
+  },
+  {
+   "p": 0.0014473560858779206,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_365_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_366_Original.jpg",
+   "s": 0.9658203125
+  },
+  {
+   "p": 0.0015297727431349726,
+   "a": "leafB/Unhealthy_Leaves/Phomopsis_Blight/Phomopsis_Blight_040_Original.jpg",
+   "b": "leafB/Unhealthy_Leaves/Phomopsis_Blight/Phomopsis_Blight_144_Original.jpg",
+   "s": 0.76953125
+  },
+  {
+   "p": 0.0016971519774749558,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_110_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_108_Original.jpg",
+   "s": 0.7568359375
+  },
+  {
+   "p": 0.0017937799574876193,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_264_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_260_Original.jpg",
+   "s": 0.96826171875
+  },
+  {
+   "p": 0.0018569441157854955,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_173_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_175_Original.jpg",
+   "s": 0.8662109375
+  },
+  {
+   "p": 0.002060083679075606,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_385_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_381_Original.jpg",
+   "s": 0.88232421875
+  },
+  {
+   "p": 0.002147424712205337,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_206_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_184_Original.jpg",
+   "s": 0.88037109375
+  },
+  {
+   "p": 0.002207697458129312,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_263_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_260_Original.jpg",
+   "s": 0.9599609375
+  },
+  {
+   "p": 0.0022230278482974915,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_366_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_365_Original.jpg",
+   "s": 0.9658203125
+  },
+  {
+   "p": 0.0022696599819281072,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_381_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_385_Original.jpg",
+   "s": 0.88232421875
+  },
+  {
+   "p": 0.0023823033293747884,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_183_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_206_Original.jpg",
+   "s": 0.8408203125
+  },
+  {
+   "p": 0.0024661654773551703,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_108_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_110_Original.jpg",
+   "s": 0.7568359375
+  },
+  {
+   "p": 0.0025707009081607974,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_056_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_184_Original.jpg",
+   "s": 0.90576171875
+  },
+  {
+   "p": 0.0026428381987279666,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_372_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_252_Original.jpg",
+   "s": 0.7841796875
+  },
+  {
+   "p": 0.0032076773863312295,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_332_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_330_Original.jpg",
+   "s": 0.95751953125
+  },
+  {
+   "p": 0.00350943999300938,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_202_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_198_Original.jpg",
+   "s": 0.90966796875
+  },
+  {
+   "p": 0.0035583161985824337,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_252_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_372_Original.jpg",
+   "s": 0.77685546875
+  },
+  {
+   "p": 0.004029935126583056,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_330_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_331_Original.jpg",
+   "s": 0.9677734375
+  },
+  {
+   "p": 0.004563919104821218,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_023_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_211_Original.jpg",
+   "s": 0.71435546875
+  },
+  {
+   "p": 0.004724396715114165,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_225_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_058_Original.jpg",
+   "s": 0.97412109375
+  },
+  {
+   "p": 0.004790152993793754,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_359_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_358_Original.jpg",
+   "s": 0.888671875
+  },
+  {
+   "p": 0.004823372720239123,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_089_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_033_Original.jpg",
+   "s": 0.6181640625
+  },
+  {
+   "p": 0.004992950399951751,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_358_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_359_Original.jpg",
+   "s": 0.888671875
+  },
+  {
+   "p": 0.005027572971530066,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_331_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_330_Original.jpg",
+   "s": 0.9677734375
+  },
+  {
+   "p": 0.00535015245611826,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_308_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_307_Original.jpg",
+   "s": 0.6435546875
+  },
+  {
+   "p": 0.005387245258832865,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_400_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_172_Original.jpg",
+   "s": 0.9306640625
+  },
+  {
+   "p": 0.005615249957571693,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_058_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_225_Original.jpg",
+   "s": 0.97412109375
+  },
+  {
+   "p": 0.005615249957571693,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_198_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_202_Original.jpg",
+   "s": 0.90966796875
+  },
+  {
+   "p": 0.005732835506795264,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_310_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_156_Original.jpg",
+   "s": 0.806640625
+  },
+  {
+   "p": 0.005893443957207514,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_334_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_335_Original.jpg",
+   "s": 0.84228515625
+  },
+  {
+   "p": 0.0059342921711899674,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_346_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_345_Original.jpg",
+   "s": 0.9052734375
+  },
+  {
+   "p": 0.00686039372676007,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_149_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_148_Original.jpg",
+   "s": 0.98681640625
+  },
+  {
+   "p": 0.006955775725890282,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_341_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_340_Original.jpg",
+   "s": 0.7900390625
+  },
+  {
+   "p": 0.006955775725890282,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_175_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_173_Original.jpg",
+   "s": 0.8662109375
+  },
+  {
+   "p": 0.007052479133763834,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_148_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_149_Original.jpg",
+   "s": 0.98681640625
+  },
+  {
+   "p": 0.007401611777594549,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_245_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_206_Original.jpg",
+   "s": 0.7421875
+  },
+  {
+   "p": 0.007875910563978282,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_230_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_092_Original.jpg",
+   "s": 0.98193359375
+  },
+  {
+   "p": 0.008040643510955849,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_174_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_173_Original.jpg",
+   "s": 0.82763671875
+  },
+  {
+   "p": 0.008040643510955849,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_092_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_230_Original.jpg",
+   "s": 0.98193359375
+  },
+  {
+   "p": 0.008265637206945346,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_353_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_348_Original.jpg",
+   "s": 0.89208984375
+  },
+  {
+   "p": 0.008855927351740978,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_324_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_329_Original.jpg",
+   "s": 0.8466796875
+  },
+  {
+   "p": 0.009686461158673672,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_314_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_297_Original.jpg",
+   "s": 0.77685546875
+  },
+  {
+   "p": 0.009820940086555752,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_172_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_400_Original.jpg",
+   "s": 0.9306640625
+  },
+  {
+   "p": 0.010095496119088486,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_378_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_382_Original.jpg",
+   "s": 0.95703125
+  },
+  {
+   "p": 0.010165320024558147,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_138_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_135_Original.jpg",
+   "s": 0.796875
+  },
+  {
+   "p": 0.010377687395422037,
+   "a": "leafB/Healthy_Leaves/Healthy_Leaves_340_Original.jpg",
+   "b": "leafB/Healthy_Leaves/Healthy_Leaves_341_Original.jpg",
+   "s": 0.7900390625
+  }
+ ],
+ "exact_cross_class_sources": [
+  [
+   "leafB/Unhealthy_Leaves/Little_Leaf/Little_Leaf_007_Original.jpg",
+   "leafB/Unhealthy_Leaves/Phomopsis_Blight/Phomopsis_Blight_052_Original.jpg"
+  ]
+ ],
+ "exact_same_class_sources": []
+}

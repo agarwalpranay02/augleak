@@ -1,0 +1,2119 @@
+{
+ "name": "plantdoc",
+ "n": 2578,
+ "n_train": 2342,
+ "n_test": 236,
+ "exact_test_in_train_same": 3,
+ "exact_test_in_train_cross": 8,
+ "gumbel": {
+  "loc": 2.0285145077423192,
+  "scale": 0.3516254457692166
+ },
+ "flags": {
+  "0.01": {
+   "frac_test_flagged": 0.01694915254237288,
+   "n_flagged": 4,
+   "frac_crossclass_flagged": 0.025423728813559324,
+   "acc_lp_flagged": 1.0,
+   "acc_lp_clean": 0.5,
+   "acc_1nn_flagged": 1.0,
+   "acc_1nn_clean": 0.3103448275862069
+  },
+  "0.001": {
+   "frac_test_flagged": 0.012711864406779662,
+   "n_flagged": 3,
+   "frac_crossclass_flagged": 0.00847457627118644,
+   "acc_lp_flagged": 1.0,
+   "acc_lp_clean": 0.5021459227467812,
+   "acc_1nn_flagged": 1.0,
+   "acc_1nn_clean": 0.3133047210300429
+  },
+  "0.0001": {
+   "frac_test_flagged": 0.00423728813559322,
+   "n_flagged": 1,
+   "frac_crossclass_flagged": 0.0,
+   "acc_lp_flagged": 1.0,
+   "acc_lp_clean": 0.5063829787234042,
+   "acc_1nn_flagged": 1.0,
+   "acc_1nn_clean": 0.3191489361702128
+  }
+ },
+ "top_pairs": [
+  {
+   "p": 4.764731449935721e-12,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf bacterial spot/07.17.18-Common_Tomato_Diseases_Canker-258x300.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato leaf bacterial spot/bacterial-canker3x2400-2ia1kgd.jpg",
+   "label": "Tomato leaf bacterial spot",
+   "s": 1.0
+  },
+  {
+   "p": 0.00018705360301264718,
+   "test": "pratikkayal/plantdoc-dataset/test/Blueberry leaf/blueberry-leaves-normal-above-and-iron-deficient-below-bgahf8.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Blueberry leaf/blueberry-leaves-normal-above-and-iron-deficient-below-bgahf8.jpg",
+   "label": "Blueberry leaf",
+   "s": 1.0
+  },
+  {
+   "p": 0.0008856509026204971,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato Septoria leaf spot/early-blight-septoria-ls-fig-3.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato Septoria leaf spot/early-blight-septoria-ls-fig-3.jpg",
+   "label": "Tomato Septoria leaf spot",
+   "s": 1.0
+  },
+  {
+   "p": 0.0010815916707087828,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf yellow virus/tylcv-seminar-1-638.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato leaf yellow virus/tylcv-seminar-1-638.jpg",
+   "label": "Tomato leaf yellow virus",
+   "s": 1.0
+  },
+  {
+   "p": 0.018627376306807136,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato Septoria leaf spot/55830b60a7cf2.image.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato Septoria leaf spot/tomato-plant-is-infected-with-septoria-leaf-spot-1.jpg",
+   "label": "Tomato Septoria leaf spot",
+   "s": 0.4521484375
+  },
+  {
+   "p": 0.03404729695594344,
+   "test": "pratikkayal/plantdoc-dataset/test/Corn Gray leaf spot/strom5.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Corn Gray leaf spot/IMG_5251.jpg",
+   "label": "Corn Gray leaf spot",
+   "s": 0.67431640625
+  },
+  {
+   "p": 0.06385030575167479,
+   "test": "pratikkayal/plantdoc-dataset/test/Apple Scab Leaf/apple-scab-5366820.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Apple Scab Leaf/Apple-Scab.jpg",
+   "label": "Apple Scab Leaf",
+   "s": 0.66796875
+  },
+  {
+   "p": 0.11809634318728207,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato Septoria leaf spot/6447731_orig.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato Septoria leaf spot/128110613-56a6d3633df78cf7729070ad.jpg",
+   "label": "Tomato Septoria leaf spot",
+   "s": 0.58251953125
+  },
+  {
+   "p": 0.13445301489455944,
+   "test": "pratikkayal/plantdoc-dataset/test/Corn leaf blight/corn-gray-leaf-spot-f4.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Corn leaf blight/Corn-gray-leaf-spot-8-21.jpg",
+   "label": "Corn leaf blight",
+   "s": 0.818359375
+  },
+  {
+   "p": 0.18158794357868327,
+   "test": "pratikkayal/plantdoc-dataset/test/Blueberry leaf/stock-photo-two-sides-of-blueberry-leaf-isolated-on-white-15582232.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Blueberry leaf/blueberry-leaves-5931369.jpg",
+   "label": "Blueberry leaf",
+   "s": 0.8232421875
+  },
+  {
+   "p": 0.19668943324476754,
+   "test": "pratikkayal/plantdoc-dataset/test/Corn leaf blight/2013Corn_GrayLeafSpot_0815_0003.JPG.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Corn leaf blight/img_0099-2.jpg",
+   "label": "Corn leaf blight",
+   "s": 0.71533203125
+  },
+  {
+   "p": 0.25471191386647113,
+   "test": "pratikkayal/plantdoc-dataset/test/Apple rust leaf/9343310-small.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Apple rust leaf/cedar-apple-rust.jpg",
+   "label": "Apple rust leaf",
+   "s": 0.560546875
+  },
+  {
+   "p": 0.28531090608687987,
+   "test": "pratikkayal/plantdoc-dataset/test/Corn rust leaf/12-19striprustJIM.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Corn rust leaf/corn-rust-disease-pests-leaf-260nw-1038062233.jpg",
+   "label": "Corn rust leaf",
+   "s": 0.755859375
+  },
+  {
+   "p": 0.287987711350689,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf bacterial spot/Bacterial_spots563.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato leaf bacterial spot/BacterialSpot06.jpg",
+   "label": "Tomato leaf bacterial spot",
+   "s": 0.487548828125
+  },
+  {
+   "p": 0.2988923100122082,
+   "test": "pratikkayal/plantdoc-dataset/test/Bell_pepper leaf spot/Bacterial-spot-pepper2.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Bell_pepper leaf spot/bacspot_confused_w_pseudomonas.jpg",
+   "label": "Bell_pepper leaf spot",
+   "s": 0.55029296875
+  },
+  {
+   "p": 0.307278705871711,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf bacterial spot/%2320+Bacterial+Spot+and+Speck.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato leaf bacterial spot/05-069f12.jpg",
+   "label": "Tomato leaf bacterial spot",
+   "s": 0.73095703125
+  },
+  {
+   "p": 0.31011387859259465,
+   "test": "pratikkayal/plantdoc-dataset/test/Strawberry leaf/strawberry-leaves-isolated-white-17473157.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Strawberry leaf/depositphotos_40207459-stock-photo-strawberry-leaves-collection-isolated-on.jpg",
+   "label": "Strawberry leaf",
+   "s": 0.60546875
+  },
+  {
+   "p": 0.31153891685623697,
+   "test": "pratikkayal/plantdoc-dataset/test/Raspberry leaf/depositphotos_1323551-stock-photo-raspberry-leaves.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Raspberry leaf/edible_weeds_raspberry_leaf.jpg",
+   "label": "Raspberry leaf",
+   "s": 0.81787109375
+  },
+  {
+   "p": 0.3380392636638476,
+   "test": "pratikkayal/plantdoc-dataset/test/Cherry leaf/d7b79dbc0bca0eb3e63fbe5dfb256ccd53d90a4eb1413_1260x1260.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Cherry leaf/2febe52cfac784c3191c804390d51ab756a3a7c8b9314_1260x1260.jpg",
+   "label": "Cherry leaf",
+   "s": 0.94775390625
+  },
+  {
+   "p": 0.33955864006788783,
+   "test": "pratikkayal/plantdoc-dataset/test/Corn rust leaf/80104747.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Corn rust leaf/rust.jpg",
+   "label": "Corn rust leaf",
+   "s": 0.853515625
+  },
+  {
+   "p": 0.3487786408026987,
+   "test": "pratikkayal/plantdoc-dataset/test/Soyabean leaf/stock-photo-fresh-soy-leaves-isolated-on-white-94700095.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Soyabean leaf/soy-leaf-27914090.jpg",
+   "label": "Soyabean leaf",
+   "s": 0.81494140625
+  },
+  {
+   "p": 0.3791376008058276,
+   "test": "pratikkayal/plantdoc-dataset/test/Strawberry leaf/wild-strawberry-leaf-top-view-rotated-KTBXCY.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Strawberry leaf/strawberry-leaf-stock-image-3663564.jpg",
+   "label": "Strawberry leaf",
+   "s": 0.787109375
+  },
+  {
+   "p": 0.3924397355391535,
+   "test": "pratikkayal/plantdoc-dataset/test/Strawberry leaf/strawberry-leaf-22360816.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Strawberry leaf/strawberry+leaf+eila+collage+obsession.jpg",
+   "label": "Strawberry leaf",
+   "s": 0.85546875
+  },
+  {
+   "p": 0.3924397355391535,
+   "test": "pratikkayal/plantdoc-dataset/test/grape leaf/depositphotos_6898486-stock-photo-grape-leaves.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/grape leaf/grape-leave-clipping-path-3817989.jpg",
+   "label": "grape leaf",
+   "s": 0.939453125
+  },
+  {
+   "p": 0.3958123735926939,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf late blight/18c.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato leaf late blight/late_blight1.jpg",
+   "label": "Tomato leaf late blight",
+   "s": 1.0
+  },
+  {
+   "p": 0.39750568920987267,
+   "test": "pratikkayal/plantdoc-dataset/test/Potato leaf early blight/potato-early-blight-alternaria-alternata-lesion-on-a-potato-leaf-a1w1em.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Potato leaf early blight/potato-early-blight-alternaria-alternata-lesion-on-a-potato-leaf-X96EFD.jpg",
+   "label": "Potato leaf early blight",
+   "s": 0.97314453125
+  },
+  {
+   "p": 0.39750568920987267,
+   "test": "pratikkayal/plantdoc-dataset/test/grape leaf/730-grape-leaf-2560x1600-nature-wallpaper.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/grape leaf/4635766-green-grapevine-leaves.jpg",
+   "label": "grape leaf",
+   "s": 0.634765625
+  },
+  {
+   "p": 0.39920365118236134,
+   "test": "pratikkayal/plantdoc-dataset/test/Bell_pepper leaf spot/01.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Bell_pepper leaf spot/TCSV_Pepper%20%284%29.jpg",
+   "label": "Bell_pepper leaf spot",
+   "s": 0.6455078125
+  },
+  {
+   "p": 0.4112182697123583,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf/DSCN1015.JPG.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato leaf/late_blight_tomato_leaf4x1200.jpg",
+   "label": "Tomato leaf",
+   "s": 0.61181640625
+  },
+  {
+   "p": 0.41295287243433243,
+   "test": "pratikkayal/plantdoc-dataset/test/Apple leaf/20180511_091133-24l1vhg-e1526047988236.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Apple leaf/closeup-red-apple-fruit-leaf-isolated-white-background-57605895.jpg",
+   "label": "Apple leaf",
+   "s": 0.7021484375
+  },
+  {
+   "p": 0.41295287243433243,
+   "test": "pratikkayal/plantdoc-dataset/test/Cherry leaf/fc729af279e9087d00bd32d89a1552a756a3ad9de7f2b_1260x1260.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Cherry leaf/2febe52cfac784c3191c804390d51ab756a3a7c8b9314_1260x1260.jpg",
+   "label": "Cherry leaf",
+   "s": 0.91650390625
+  },
+  {
+   "p": 0.41295287243433243,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf mosaic virus/everystockphoto-21099455-l.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato leaf mosaic virus/tomato-mosaic-virus-disease-on-260nw-625499771.jpg",
+   "label": "Tomato leaf mosaic virus",
+   "s": 0.6181640625
+  },
+  {
+   "p": 0.44130728000816605,
+   "test": "pratikkayal/plantdoc-dataset/test/Apple leaf/20180511_091252-1gy5xf5-e1526048000596.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Apple leaf/stock-photo-whole-ripe-green-apple-with-apple-leaf-and-green-apple-half-isolated-on-white-background-with-566226067.jpg",
+   "label": "Apple leaf",
+   "s": 0.5830078125
+  },
+  {
+   "p": 0.4467458433989877,
+   "test": "pratikkayal/plantdoc-dataset/test/grape leaf/DSCN7317.JPG.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/grape leaf/muscadine-leaves-762506.JPG.jpg",
+   "label": "grape leaf",
+   "s": 0.47900390625
+  },
+  {
+   "p": 0.45222151229726587,
+   "test": "pratikkayal/plantdoc-dataset/test/Apple Scab Leaf/apples_apple-scab_10_zoom.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Apple Scab Leaf/12-20_apple_scab1.jpg",
+   "label": "Apple Scab Leaf",
+   "s": 0.444580078125
+  },
+  {
+   "p": 0.46886438635466415,
+   "test": "pratikkayal/plantdoc-dataset/test/Corn leaf blight/0796.20graylssymt.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Corn leaf blight/Figure%202.JPG.jpg",
+   "label": "Corn leaf blight",
+   "s": 0.7490234375
+  },
+  {
+   "p": 0.4726054025483262,
+   "test": "pratikkayal/plantdoc-dataset/test/Potato leaf early blight/earlyblightpotato.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Potato leaf early blight/potato-blight-phytophthora-infestans-close-up-of-upper-surface-of-bmmrxd.jpg",
+   "label": "Potato leaf early blight",
+   "s": 0.68115234375
+  },
+  {
+   "p": 0.4726054025483262,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato Septoria leaf spot/RARZ4.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato Septoria leaf spot/Septoria-leaf-spot-hc.jpg",
+   "label": "Tomato Septoria leaf spot",
+   "s": 0.421142578125
+  },
+  {
+   "p": 0.4991986222486357,
+   "test": "pratikkayal/plantdoc-dataset/test/Soyabean leaf/Soybean%20edamame%20leaf1.JPG.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Soyabean leaf/soy-leaf-27914090.jpg",
+   "label": "Soyabean leaf",
+   "s": 0.7724609375
+  },
+  {
+   "p": 0.510798819466364,
+   "test": "pratikkayal/plantdoc-dataset/test/Raspberry leaf/depositphotos_2795312-stock-photo-green-raspberry-leaf.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Raspberry leaf/raspberry-green-leaves-isolated-white-background-46020616.jpg",
+   "label": "Raspberry leaf",
+   "s": 0.8876953125
+  },
+  {
+   "p": 0.510798819466364,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf mosaic virus/ill-tomato-of-tomato-mosaic-virus-DBE17N.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato leaf mosaic virus/tomato-mosaic-virus-disease-on-260nw-625499771.jpg",
+   "label": "Tomato leaf mosaic virus",
+   "s": 0.6005859375
+  },
+  {
+   "p": 0.5127431685704373,
+   "test": "pratikkayal/plantdoc-dataset/test/Potato leaf early blight/early-blight-alternaria-alternata-leaf-spotting-on-potato-leaf-X91XJE.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Potato leaf early blight/early-blight-alternaria-alternata-leaf-spotting-on-potato-leaf-ACG5WF.jpg",
+   "label": "Potato leaf early blight",
+   "s": 0.9990234375
+  },
+  {
+   "p": 0.5303742713976182,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato Septoria leaf spot/7-17-Photo3_Septoria-MARY.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato Septoria leaf spot/tomato-septoria-leaf-spot-600.jpg",
+   "label": "Tomato Septoria leaf spot",
+   "s": 0.6025390625
+  },
+  {
+   "p": 0.5363009230889378,
+   "test": "pratikkayal/plantdoc-dataset/test/Apple leaf/apple-leaf-9834637.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Apple leaf/Dwarf-Apple-Pink-Lady-2545.jpeg.jpg",
+   "label": "Apple leaf",
+   "s": 0.81591796875
+  },
+  {
+   "p": 0.5502167708019429,
+   "test": "pratikkayal/plantdoc-dataset/test/Strawberry leaf/strawberry-leaves-stock-image-948674.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Strawberry leaf/green-strawberry-leaf-isolated-white-single-background-78801845.jpg",
+   "label": "Strawberry leaf",
+   "s": 0.7294921875
+  },
+  {
+   "p": 0.564241740468038,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato mold leaf/black_leaf_mold_in_zina_tina.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato mold leaf/8915974546_00664cefe3_z.jpg",
+   "label": "Tomato mold leaf",
+   "s": 0.68603515625
+  },
+  {
+   "p": 0.5763374822016353,
+   "test": "pratikkayal/plantdoc-dataset/test/Peach leaf/peach-leaf-10223898.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Peach leaf/peach-leaf-isolated-white-background-42295196.jpg",
+   "label": "Peach leaf",
+   "s": 0.82470703125
+  },
+  {
+   "p": 0.5824074424068669,
+   "test": "pratikkayal/plantdoc-dataset/test/Squash Powdery mildew leaf/Powdery-Mildew-on-squash.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Squash Powdery mildew leaf/Powdery-Mildew-on-Cucumber-Leaf.jpg",
+   "label": "Squash Powdery mildew leaf",
+   "s": 0.86376953125
+  },
+  {
+   "p": 0.5844336855568023,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf yellow virus/glyphosate.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato leaf yellow virus/IMG_2687.JPG.jpg",
+   "label": "Tomato leaf yellow virus",
+   "s": 0.6328125
+  },
+  {
+   "p": 0.5864613009667733,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf mosaic virus/tmv-tomato-34.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato leaf mosaic virus/ab40cce958c60d8b6e0ec2e4fdb8f526.jpg",
+   "label": "Tomato leaf mosaic virus",
+   "s": 0.65966796875
+  },
+  {
+   "p": 0.6068008034478394,
+   "test": "pratikkayal/plantdoc-dataset/test/Raspberry leaf/iron-deficiency-raspberry-leaf-chlorosis-isolated-32457798.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Raspberry leaf/edible_weeds_raspberry_leaf.jpg",
+   "label": "Raspberry leaf",
+   "s": 0.73876953125
+  },
+  {
+   "p": 0.6149609111190725,
+   "test": "pratikkayal/plantdoc-dataset/test/Apple leaf/apple-leaf-closeup-37636177.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Apple leaf/depositphotos_4505396-Green-apple-leaf.jpg",
+   "label": "Apple leaf",
+   "s": 0.87939453125
+  },
+  {
+   "p": 0.6170023791883139,
+   "test": "pratikkayal/plantdoc-dataset/test/Blueberry leaf/leaf-blueberry-15281271.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Blueberry leaf/stock-photo-leaf-blueberry-57690040.jpg",
+   "label": "Blueberry leaf",
+   "s": 0.767578125
+  },
+  {
+   "p": 0.6251722112063424,
+   "test": "pratikkayal/plantdoc-dataset/test/Corn rust leaf/393.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Corn rust leaf/Southern-rust-2_Wise.jpg",
+   "label": "Corn rust leaf",
+   "s": 0.7236328125
+  },
+  {
+   "p": 0.6415180416010324,
+   "test": "pratikkayal/plantdoc-dataset/test/Corn leaf blight/0c.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Corn leaf blight/Northern-Corn-Blight.jpg",
+   "label": "Corn leaf blight",
+   "s": 0.671875
+  },
+  {
+   "p": 0.6415180416010324,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf yellow virus/17fc47.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato leaf yellow virus/tomato_leaf_roll.JPG.jpg",
+   "label": "Tomato leaf yellow virus",
+   "s": 0.430419921875
+  },
+  {
+   "p": 0.6456028407009138,
+   "test": "pratikkayal/plantdoc-dataset/test/grape leaf/grape-leaf-picture-id119212425?k=6&m=119212425&s=612x612&w=0&h=8RZBWGcvXe4tAwhhvYZVFzWyRyiN5iTxKfWBpPT1FcU=.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/grape leaf/Grape_leaf_01.jpg",
+   "label": "grape leaf",
+   "s": 0.8359375
+  },
+  {
+   "p": 0.653766830972101,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf mosaic virus/page_2.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato leaf mosaic virus/tomato-fern-leaf-a-symptom-of-tmv-cmv-or-pepmv-virus-on-tomato-plants-h6ey8w.jpg",
+   "label": "Tomato leaf mosaic virus",
+   "s": 0.53466796875
+  },
+  {
+   "p": 0.6578449677750544,
+   "test": "pratikkayal/plantdoc-dataset/test/Apple Scab Leaf/apples_apple-scab_01_zoom.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Apple Scab Leaf/500_F_125294801_k0A2teQwKxZfTV1pcaerZFf9Th04F04q.jpg",
+   "label": "Apple Scab Leaf",
+   "s": 0.53955078125
+  },
+  {
+   "p": 0.6578449677750544,
+   "test": "pratikkayal/plantdoc-dataset/test/Corn rust leaf/5496239405_d95bdb97d1_z.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Corn rust leaf/Common-rust-east-central-Indiana.jpg",
+   "label": "Corn rust leaf",
+   "s": 0.755859375
+  },
+  {
+   "p": 0.6598828385232929,
+   "test": "pratikkayal/plantdoc-dataset/test/Potato leaf late blight/20090710-lateblight.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Potato leaf late blight/potato-solanum-tuberosum-late-blight.jpg",
+   "label": "Potato leaf late blight",
+   "s": 0.64111328125
+  },
+  {
+   "p": 0.6649734824659802,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf/Tomato59.JPG.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato leaf/Tomato%2Bleaf.jpg",
+   "label": "Tomato leaf",
+   "s": 0.61572265625
+  },
+  {
+   "p": 0.6720890405852364,
+   "test": "pratikkayal/plantdoc-dataset/test/Apple leaf/apple-leaf-14319997.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Apple leaf/stock-photo-apple-leaf-isolated-on-white-background-287560226.jpg",
+   "label": "Apple leaf",
+   "s": 0.96044921875
+  },
+  {
+   "p": 0.6720890405852364,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf yellow virus/fwa2013313115151.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato leaf yellow virus/tylcv-seminar-1-638.jpg",
+   "label": "Tomato leaf yellow virus",
+   "s": 0.63427734375
+  },
+  {
+   "p": 0.6822258109771865,
+   "test": "pratikkayal/plantdoc-dataset/test/Corn leaf blight/2015070295153021.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Corn leaf blight/DSCN0128.jpg",
+   "label": "Corn leaf blight",
+   "s": 0.6865234375
+  },
+  {
+   "p": 0.6882886826978536,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf/main-qimg-d9c2a93f60568485c989670d9bbf703b.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato leaf/depositphotos_120361722-stock-photo-tomato-leaf-closeup.jpg",
+   "label": "Tomato leaf",
+   "s": 0.55322265625
+  },
+  {
+   "p": 0.6913139691978781,
+   "test": "pratikkayal/plantdoc-dataset/test/Peach leaf/peach-leaf-16690421.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Peach leaf/peach-leaf-isolated-white-background-42295196.jpg",
+   "label": "Peach leaf",
+   "s": 0.791015625
+  },
+  {
+   "p": 0.6943348368467367,
+   "test": "pratikkayal/plantdoc-dataset/test/Corn rust leaf/0796.52srusttelia.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Corn rust leaf/Corn-southern-rust-C-Schleicher-7-31-F1.jpg",
+   "label": "Corn rust leaf",
+   "s": 0.4619140625
+  },
+  {
+   "p": 0.7053696461800429,
+   "test": "pratikkayal/plantdoc-dataset/test/Apple leaf/apple-leaf-isolated-white-background-56631026.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Apple leaf/4633813-sweet-apple-with-leaf.jpg",
+   "label": "Apple leaf",
+   "s": 0.8291015625
+  },
+  {
+   "p": 0.7063692913095614,
+   "test": "pratikkayal/plantdoc-dataset/test/Corn rust leaf/0796.39maizerust.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Corn rust leaf/southern-rust-als.jpg",
+   "label": "Corn rust leaf",
+   "s": 0.7314453125
+  },
+  {
+   "p": 0.7103615244751641,
+   "test": "pratikkayal/plantdoc-dataset/test/Cherry leaf/ed12ff77ce021883de241830dee55e2e53d2c93231699_1260x1260.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Cherry leaf/2febe52cfac784c3191c804390d51ab756a3a7c8b9314_1260x1260.jpg",
+   "label": "Cherry leaf",
+   "s": 0.8134765625
+  },
+  {
+   "p": 0.7202944950589254,
+   "test": "pratikkayal/plantdoc-dataset/test/Strawberry leaf/strawberry-leaves-stock-picture-948708.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Strawberry leaf/strawberry-leaf-stock-picture-3646237.jpg",
+   "label": "Strawberry leaf",
+   "s": 0.779296875
+  },
+  {
+   "p": 0.7272033030257761,
+   "test": "pratikkayal/plantdoc-dataset/test/Apple Scab Leaf/052609%20Hartman%20Crabapple%20scab%20single%20leaf.JPG.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Apple Scab Leaf/apple-scab_figure-2.jpg",
+   "label": "Apple Scab Leaf",
+   "s": 0.62255859375
+  },
+  {
+   "p": 0.7370027714322406,
+   "test": "pratikkayal/plantdoc-dataset/test/Potato leaf early blight/early-blight-or-target-spot-alternaria-solani-lesions-on-a-tomato-AXK6AY.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Potato leaf early blight/early-blight-alternaria-alternata-leaf-spotting-on-potato-leaf-ACG5WF.jpg",
+   "label": "Potato leaf early blight",
+   "s": 0.9130859375
+  },
+  {
+   "p": 0.7389520478749565,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf bacterial spot/bact-spot-fig-1.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato leaf bacterial spot/Bacterial-spot-on-tomato-leaves.jpg",
+   "label": "Tomato leaf bacterial spot",
+   "s": 0.447509765625
+  },
+  {
+   "p": 0.7447773177293451,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato Early blight leaf/100983448.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato Early blight leaf/b54d0e40027ff5e90e8ba7e1e9abf9bd--garden-guide-garden-ideas.jpg",
+   "label": "Tomato Early blight leaf",
+   "s": 0.68701171875
+  },
+  {
+   "p": 0.747676807494963,
+   "test": "pratikkayal/plantdoc-dataset/test/Raspberry leaf/Raspberry-leaf.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Raspberry leaf/2905.jpg",
+   "label": "Raspberry leaf",
+   "s": 0.697265625
+  },
+  {
+   "p": 0.7563197178752417,
+   "test": "pratikkayal/plantdoc-dataset/test/Soyabean leaf/stock-photo-soy-leaf-isolated-on-white-background-120961801.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Soyabean leaf/depositphotos_15928367-stock-photo-soy-leaf.jpg",
+   "label": "Soyabean leaf",
+   "s": 0.74658203125
+  },
+  {
+   "p": 0.7620328825791525,
+   "test": "pratikkayal/plantdoc-dataset/test/Apple leaf/4120978-single-green-leaf-of-apple-tree.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Apple leaf/green-apple-leaf-cut-white-ripe-background-clipping-path-42422046.jpg",
+   "label": "Apple leaf",
+   "s": 0.69189453125
+  },
+  {
+   "p": 0.7629811122646568,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf mosaic virus/Tomato-Mosaic-1wdr2jx-300x225.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato leaf mosaic virus/tomato-mosaic-virus-disease-on-260nw-625499771.jpg",
+   "label": "Tomato leaf mosaic virus",
+   "s": 0.5673828125
+  },
+  {
+   "p": 0.7658188227710203,
+   "test": "pratikkayal/plantdoc-dataset/test/Corn Gray leaf spot/rsz0803Figure6.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Corn Gray leaf spot/IMG_0004.JPG?itok=tv_vWPMi.jpg",
+   "label": "Corn Gray leaf spot",
+   "s": 0.68310546875
+  },
+  {
+   "p": 0.7667623697619045,
+   "test": "pratikkayal/plantdoc-dataset/test/Strawberry leaf/strawberry-leaf--stock-photo-1431216.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Strawberry leaf/1534854-a-green-strawberry-leaf-isolated-on-a-white-background.jpg",
+   "label": "Strawberry leaf",
+   "s": 0.8798828125
+  },
+  {
+   "p": 0.769585814059909,
+   "test": "pratikkayal/plantdoc-dataset/test/Strawberry leaf/strawberry-leaves-isolated-white-34722259.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Strawberry leaf/strawberry-leaves-15674632.jpg",
+   "label": "Strawberry leaf",
+   "s": 0.74169921875
+  },
+  {
+   "p": 0.769585814059909,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf yellow virus/11-40580_5.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato leaf yellow virus/2.--Virused-tomato-leaves-versus.jpg",
+   "label": "Tomato leaf yellow virus",
+   "s": 0.56494140625
+  },
+  {
+   "p": 0.7723982731145844,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato Septoria leaf spot/sept4disease-019.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato Septoria leaf spot/septorialeafspot2.jpg",
+   "label": "Tomato Septoria leaf spot",
+   "s": 0.81689453125
+  },
+  {
+   "p": 0.7761307089191175,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato mold leaf/dscn6689.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato mold leaf/tomato.jpg",
+   "label": "Tomato mold leaf",
+   "s": 0.67822265625
+  },
+  {
+   "p": 0.7770606311480923,
+   "test": "pratikkayal/plantdoc-dataset/test/Corn leaf blight/Corn-SCLB-2017-1.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Corn leaf blight/Northern-Corn-Leaf-Blight-in-Sweet-Corn.jpg",
+   "label": "Corn leaf blight",
+   "s": 0.62060546875
+  },
+  {
+   "p": 0.7835333923955308,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato Early blight leaf/bugs-and-blight-061.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato Early blight leaf/dscn3168.jpg",
+   "label": "Tomato Early blight leaf",
+   "s": 0.67529296875
+  },
+  {
+   "p": 0.7926642715785728,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf bacterial spot/tomato_V8.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato leaf bacterial spot/latest?cb=20100808132744.jpg",
+   "label": "Tomato leaf bacterial spot",
+   "s": 0.59326171875
+  },
+  {
+   "p": 0.8016508791333243,
+   "test": "pratikkayal/plantdoc-dataset/test/grape leaf/0000.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/grape leaf/grape-leaf-15796930.jpg",
+   "label": "grape leaf",
+   "s": 0.88427734375
+  },
+  {
+   "p": 0.809608363602261,
+   "test": "pratikkayal/plantdoc-dataset/test/Peach leaf/peach-leaf-isolated-white-background-42295220.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Peach leaf/stock-photo-peach-leaf-isolated-on-white-background-195325289.jpg",
+   "label": "Peach leaf",
+   "s": 0.5810546875
+  },
+  {
+   "p": 0.8113592590728637,
+   "test": "pratikkayal/plantdoc-dataset/test/Peach leaf/7190f27ead55c0f6e3ff8b982972810a5446a9713a49d_1260x1260.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Peach leaf/stock-photo-peach-leaf-isolated-on-white-background-198744794.jpg",
+   "label": "Peach leaf",
+   "s": 0.66796875
+  },
+  {
+   "p": 0.8165727809165153,
+   "test": "pratikkayal/plantdoc-dataset/test/Peach leaf/depositphotos_3786198-Peach-leaf.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Peach leaf/stock-photo-peach-leaf-isolated-on-white-background-198744794.jpg",
+   "label": "Peach leaf",
+   "s": 0.66650390625
+  },
+  {
+   "p": 0.8182973491918274,
+   "test": "pratikkayal/plantdoc-dataset/test/grape leaf black rot/5-29black-rot-chardRR.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/grape leaf black rot/black-rot-leaves.jpg",
+   "label": "grape leaf black rot",
+   "s": 0.62353515625
+  },
+  {
+   "p": 0.8191571084029577,
+   "test": "pratikkayal/plantdoc-dataset/test/Potato leaf late blight/2540_600.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Potato leaf late blight/Late-blight-on-leaf-email.jpg",
+   "label": "Potato leaf late blight",
+   "s": 0.66162109375
+  },
+  {
+   "p": 0.8208715369565663,
+   "test": "pratikkayal/plantdoc-dataset/test/Apple Scab Leaf/1b321015-6e33-4f18-aade-888f4383fe92.jpeg.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Apple Scab Leaf/seriously-unwell-apple-tree-fruit-brown-and-split-yellow-spots-on-leaves-scab-P67H27.jpg",
+   "label": "Apple Scab Leaf",
+   "s": 0.658203125
+  },
+  {
+   "p": 0.8217261903799565,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato mold leaf/BIGSD.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato mold leaf/B%29-Leafunsidecladosp-envez.jpg",
+   "label": "Tomato mold leaf",
+   "s": 0.53515625
+  },
+  {
+   "p": 0.8234303359443614,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato Early blight leaf/039b47d574bc4bb8a14259a1cd96a741.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato Early blight leaf/1058_0.jpeg?itok=OQkdtxgv.jpg",
+   "label": "Tomato Early blight leaf",
+   "s": 0.61767578125
+  },
+  {
+   "p": 0.8251275473838136,
+   "test": "pratikkayal/plantdoc-dataset/test/Peach leaf/stock-photo-peach-leaf-isolated-on-white-background-281097503.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Peach leaf/stock-photo-peach-leaves-isolated-203326555.jpg",
+   "label": "Peach leaf",
+   "s": 0.6103515625
+  },
+  {
+   "p": 0.829339830492383,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato Septoria leaf spot/2STEM.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato Septoria leaf spot/septorialeafspot2.jpg",
+   "label": "Tomato Septoria leaf spot",
+   "s": 0.7978515625
+  },
+  {
+   "p": 0.8301769548183273,
+   "test": "pratikkayal/plantdoc-dataset/test/Cherry leaf/e52bbb9a08ede2948ba0c006f02fe7b053ad7831d1df6_1260x1260.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Cherry leaf/02b13cea19417b15cf3d6ff534aa7ea653ad783094a60_1260x1260.jpg",
+   "label": "Cherry leaf",
+   "s": 0.7431640625
+  },
+  {
+   "p": 0.8301769548183273,
+   "test": "pratikkayal/plantdoc-dataset/test/Corn leaf blight/1321189.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Corn leaf blight/Figure-2-.jpg",
+   "label": "Corn leaf blight",
+   "s": 0.62060546875
+  },
+  {
+   "p": 0.8310122839051846,
+   "test": "pratikkayal/plantdoc-dataset/test/Potato leaf early blight/potatobd001.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Potato leaf early blight/potato-early-blight-alternaria-alternata-lesions-on-potato-leaf-XDF64E.jpg",
+   "label": "Potato leaf early blight",
+   "s": 0.62255859375
+  },
+  {
+   "p": 0.8310122839051846,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato mold leaf/49%20Leafmold%20Bottom.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato mold leaf/Tomato%20greenhouse%20leaf%20edema%20and%20distortion2F.JPG.jpg",
+   "label": "Tomato mold leaf",
+   "s": 0.75048828125
+  },
+  {
+   "p": 0.8351617371755827,
+   "test": "pratikkayal/plantdoc-dataset/test/Cherry leaf/prunsero_leaf1.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Cherry leaf/IMG_5892_original.JPG?1500348823.jpg",
+   "label": "Cherry leaf",
+   "s": 0.54931640625
+  },
+  {
+   "p": 0.8376293874197,
+   "test": "pratikkayal/plantdoc-dataset/test/Apple leaf/20180511_090912-14gtw8a-e1526047952754.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Apple leaf/crab_apple_03_leaves.jpg",
+   "label": "Apple leaf",
+   "s": 0.471923828125
+  },
+  {
+   "p": 0.8544230227172002,
+   "test": "pratikkayal/plantdoc-dataset/test/grape leaf black rot/piano%20gully%20spray%20seed%20damage%2006%20%289%29.JPG.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/grape leaf black rot/000gb.jpg",
+   "label": "grape leaf black rot",
+   "s": 0.57861328125
+  },
+  {
+   "p": 0.855201140697474,
+   "test": "pratikkayal/plantdoc-dataset/test/Apple Scab Leaf/apple%20scabnew.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Apple Scab Leaf/inaequalis1a.jpg",
+   "label": "Apple Scab Leaf",
+   "s": 0.63232421875
+  },
+  {
+   "p": 0.8559772462985727,
+   "test": "pratikkayal/plantdoc-dataset/test/Apple Scab Leaf/816.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Apple Scab Leaf/seriously-unwell-apple-tree-fruit-brown-and-split-yellow-spots-on-leaves-scab-P67H27.jpg",
+   "label": "Apple Scab Leaf",
+   "s": 0.6484375
+  },
+  {
+   "p": 0.8567513331708857,
+   "test": "pratikkayal/plantdoc-dataset/test/grape leaf black rot/brleaf2_zoom.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/grape leaf black rot/Black_Rot_of_Grapes1154.jpg",
+   "label": "grape leaf black rot",
+   "s": 0.65185546875
+  },
+  {
+   "p": 0.8628706068459465,
+   "test": "pratikkayal/plantdoc-dataset/test/Bell_pepper leaf spot/pepper_bacterial-spot_03_zoom.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Bell_pepper leaf spot/e4d0e5.jpg",
+   "label": "Bell_pepper leaf spot",
+   "s": 0.55419921875
+  },
+  {
+   "p": 0.8628706068459465,
+   "test": "pratikkayal/plantdoc-dataset/test/Blueberry leaf/stock-photo-green-blueberry-leaf-isolated-with-clipping-path-550344304.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Blueberry leaf/blueberries-and-leaves.jpg",
+   "label": "Blueberry leaf",
+   "s": 0.705078125
+  },
+  {
+   "p": 0.8666279518088567,
+   "test": "pratikkayal/plantdoc-dataset/test/Soyabean leaf/leaf-raspberry-isolated-on-a-white-stock-photography-image-10106222-1625198.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Soyabean leaf/stock-photo-fresh-soy-leaves-with-dew-isolated-on-white-416036248.jpg",
+   "label": "Soyabean leaf",
+   "s": 0.5810546875
+  },
+  {
+   "p": 0.8666279518088567,
+   "test": "pratikkayal/plantdoc-dataset/test/grape leaf/depositphotos_3443387-stock-photo-the-green-grape-leaf-on.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/grape leaf/grape-leave-clipping-path-3817989.jpg",
+   "label": "grape leaf",
+   "s": 0.78759765625
+  },
+  {
+   "p": 0.8673731353661088,
+   "test": "pratikkayal/plantdoc-dataset/test/Potato leaf late blight/irish-blight-symptoms-on-potato-leaves-atmf8b.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Potato leaf late blight/IMG_5358.jpg",
+   "label": "Potato leaf late blight",
+   "s": 0.748046875
+  },
+  {
+   "p": 0.8695960131023734,
+   "test": "pratikkayal/plantdoc-dataset/test/Squash Powdery mildew leaf/powdery-mildew-sphaerotheca-fuliginea-infection-on-pumpkin-leaves-ajdkkx.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Squash Powdery mildew leaf/flora-ivy-plant-food-produce-vegetable-conifer-tree-squash-rock.jpg",
+   "label": "Squash Powdery mildew leaf",
+   "s": 0.55419921875
+  },
+  {
+   "p": 0.8703327295469989,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf mosaic virus/9511.img.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato leaf mosaic virus/mosaic-virus-foliage.jpg",
+   "label": "Tomato leaf mosaic virus",
+   "s": 0.61376953125
+  },
+  {
+   "p": 0.871799765481641,
+   "test": "pratikkayal/plantdoc-dataset/test/grape leaf/latest?cb=20100621160325.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/grape leaf/Grape_leaf_01.jpg",
+   "label": "grape leaf",
+   "s": 0.76806640625
+  },
+  {
+   "p": 0.8754297915310894,
+   "test": "pratikkayal/plantdoc-dataset/test/Corn rust leaf/0796.47southrust.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Corn rust leaf/Corn-southern-rust-F1%20%281%29.jpg",
+   "label": "Corn rust leaf",
+   "s": 0.734375
+  },
+  {
+   "p": 0.8754297915310894,
+   "test": "pratikkayal/plantdoc-dataset/test/Strawberry leaf/strawberry-leaves-collection-white-background-36684676.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Strawberry leaf/depositphotos_6570375-stock-photo-strawberry-leaf.jpg",
+   "label": "Strawberry leaf",
+   "s": 0.68115234375
+  },
+  {
+   "p": 0.8775818420647521,
+   "test": "pratikkayal/plantdoc-dataset/test/Bell_pepper leaf spot/H5w92.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Bell_pepper leaf spot/FO3zR.jpg",
+   "label": "Bell_pepper leaf spot",
+   "s": 0.5390625
+  },
+  {
+   "p": 0.8790056399744426,
+   "test": "pratikkayal/plantdoc-dataset/test/grape leaf/grape-leaf-14309623.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/grape leaf/grape-leaf-15796930.jpg",
+   "label": "grape leaf",
+   "s": 0.8486328125
+  },
+  {
+   "p": 0.8811248862483672,
+   "test": "pratikkayal/plantdoc-dataset/test/Apple Scab Leaf/apples_apple-scab_02_thm.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Apple Scab Leaf/DSC00005.JPG.jpg",
+   "label": "Apple Scab Leaf",
+   "s": 0.5927734375
+  },
+  {
+   "p": 0.883919643480095,
+   "test": "pratikkayal/plantdoc-dataset/test/grape leaf/grapevine-leaf-7466071.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/grape leaf/grape-leaves-03-1103349.jpg",
+   "label": "grape leaf",
+   "s": 0.81982421875
+  },
+  {
+   "p": 0.8853036957491174,
+   "test": "pratikkayal/plantdoc-dataset/test/Raspberry leaf/depositphotos_1323264-Raspberry-leaf-on-white.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Raspberry leaf/2905.jpg",
+   "label": "Raspberry leaf",
+   "s": 0.65625
+  },
+  {
+   "p": 0.8887246796558399,
+   "test": "pratikkayal/plantdoc-dataset/test/Potato leaf late blight/LateBlight04.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Potato leaf late blight/24064_1.jpg",
+   "label": "Potato leaf late blight",
+   "s": 0.5703125
+  },
+  {
+   "p": 0.9012066755740116,
+   "test": "pratikkayal/plantdoc-dataset/test/Blueberry leaf/northern-highbush-blueberry-blue-huckleberry-vaccinium-corymbosum-EHNXRR.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Blueberry leaf/blueberry-leaf-isolated-white-background-clipping-path-87355538.jpg",
+   "label": "Blueberry leaf",
+   "s": 0.81689453125
+  },
+  {
+   "p": 0.9024722474730177,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf late blight/110822-206-Tomato-blight.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato leaf late blight/late_blight_2013_longisland2x1200.jpg",
+   "label": "Tomato leaf late blight",
+   "s": 0.53173828125
+  },
+  {
+   "p": 0.9031015478838093,
+   "test": "pratikkayal/plantdoc-dataset/test/Blueberry leaf/stock-photo-blueberry-leaf-closeup-isolated-on-white-306486470.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Blueberry leaf/blueberry-leaf-isolated-white-background-blueberry-leaf-isolated-99227523.jpg",
+   "label": "Blueberry leaf",
+   "s": 0.84228515625
+  },
+  {
+   "p": 0.9080519520300723,
+   "test": "pratikkayal/plantdoc-dataset/test/Corn rust leaf/2256-body-1501555581-1.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Corn rust leaf/IMG_20130620_190316.jpg",
+   "label": "Corn rust leaf",
+   "s": 0.5556640625
+  },
+  {
+   "p": 0.9080519520300723,
+   "test": "pratikkayal/plantdoc-dataset/test/Peach leaf/stock-photo-peach-tree-leaf-isolated-over-white-background-back-side-64472731.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Peach leaf/stock-photo-peach-leaves-isolated-203326555.jpg",
+   "label": "Peach leaf",
+   "s": 0.5849609375
+  },
+  {
+   "p": 0.9104709064274794,
+   "test": "pratikkayal/plantdoc-dataset/test/Raspberry leaf/three-raspberry-green-leaves-isolated-white-background-62022932.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Raspberry leaf/53840458-raspberry-leaf.jpg",
+   "label": "Raspberry leaf",
+   "s": 0.771484375
+  },
+  {
+   "p": 0.9151956628690963,
+   "test": "pratikkayal/plantdoc-dataset/test/Cherry leaf/red-cherry-tree-leaf-isolated-crisp-white-background-35742030.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Cherry leaf/1b9155649757248759cdbe7d83cc94c0.jpg",
+   "label": "Cherry leaf",
+   "s": 0.7431640625
+  },
+  {
+   "p": 0.9169284115181308,
+   "test": "pratikkayal/plantdoc-dataset/test/Corn leaf blight/07c.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Corn leaf blight/corn-disease-update-fig-2-diplodia-leaf-streak1.jpg",
+   "label": "Corn leaf blight",
+   "s": 0.70166015625
+  },
+  {
+   "p": 0.9208884116727878,
+   "test": "pratikkayal/plantdoc-dataset/test/Blueberry leaf/blueberrysilverleaf16-1372b.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Blueberry leaf/Blueberry165.JPG.jpg",
+   "label": "Blueberry leaf",
+   "s": 0.49072265625
+  },
+  {
+   "p": 0.9225498850294434,
+   "test": "pratikkayal/plantdoc-dataset/test/Apple leaf/Apple-Leaf-Wallpaper-17.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Apple leaf/green-apple-leaf-cut-white-ripe-background-clipping-path-42422046.jpg",
+   "label": "Apple leaf",
+   "s": 0.64599609375
+  },
+  {
+   "p": 0.9252713793199882,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf late blight/636368370164094909-late-blight-15-.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato leaf late blight/tomato_late-blight_05_zoom.jpg",
+   "label": "Tomato leaf late blight",
+   "s": 0.513671875
+  },
+  {
+   "p": 0.9258085301954494,
+   "test": "pratikkayal/plantdoc-dataset/test/Apple rust leaf/0605_Rust-induced_leafspot.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Apple rust leaf/car-apple1.jpg",
+   "label": "Apple rust leaf",
+   "s": 0.68359375
+  },
+  {
+   "p": 0.9370232586599087,
+   "test": "pratikkayal/plantdoc-dataset/test/Soyabean leaf/stock-photo-fresh-soy-leaves-isolated-on-white-94266130.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Soyabean leaf/stock-photo-soybean-on-the-pod-with-leaves-for-healthy-eating-concept-62173117.jpg",
+   "label": "Soyabean leaf",
+   "s": 0.5576171875
+  },
+  {
+   "p": 0.9394116952354344,
+   "test": "pratikkayal/plantdoc-dataset/test/Blueberry leaf/vaccinium_angustifolium_leaf2.JPG.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Blueberry leaf/P1200701+Vaccinium+ovalifolium+Oval-leaf+Blueberry+fruit++Heather+Meadows+cr.jpg",
+   "label": "Blueberry leaf",
+   "s": 0.441650390625
+  },
+  {
+   "p": 0.9394116952354344,
+   "test": "pratikkayal/plantdoc-dataset/test/Corn leaf blight/corn-disease-update-fig-3-gray-leaf-spot.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Corn leaf blight/Figure%202.JPG.jpg",
+   "label": "Corn leaf blight",
+   "s": 0.64013671875
+  },
+  {
+   "p": 0.9412798986396806,
+   "test": "pratikkayal/plantdoc-dataset/test/Raspberry leaf/leaves-of-raspberry-stock-picture-2529053.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Raspberry leaf/800px_COLOURBOX4311119.jpg",
+   "label": "Raspberry leaf",
+   "s": 0.76171875
+  },
+  {
+   "p": 0.9440115614352673,
+   "test": "pratikkayal/plantdoc-dataset/test/Soyabean leaf/fresh-soy-leaves-isolated-on-260nw-667193923.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Soyabean leaf/Soybean%20oil%20leaf.JPG.jpg",
+   "label": "Soyabean leaf",
+   "s": 0.68701171875
+  },
+  {
+   "p": 0.9444586231978482,
+   "test": "pratikkayal/plantdoc-dataset/test/Potato leaf early blight/backus-056-potato-blight.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Potato leaf early blight/14321627273_58d893c3e2_potato-plant.jpg",
+   "label": "Potato leaf early blight",
+   "s": 0.703125
+  },
+  {
+   "p": 0.9453457252720011,
+   "test": "pratikkayal/plantdoc-dataset/test/Squash Powdery mildew leaf/powdery-mildew-on-pumpkin-leaves-close-up-2.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Squash Powdery mildew leaf/IMG_0702.jpg",
+   "label": "Squash Powdery mildew leaf",
+   "s": 0.6337890625
+  },
+  {
+   "p": 0.9457857704161124,
+   "test": "pratikkayal/plantdoc-dataset/test/Apple rust leaf/185161-004-EAF28842.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Apple rust leaf/601fbee78c62e32a76e768a92ee40193.jpg",
+   "label": "Apple rust leaf",
+   "s": 0.318603515625
+  },
+  {
+   "p": 0.9483771210946715,
+   "test": "pratikkayal/plantdoc-dataset/test/Bell_pepper leaf/RnGnC.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Bell_pepper leaf/M7JV1.jpg",
+   "label": "Bell_pepper leaf",
+   "s": 0.59033203125
+  },
+  {
+   "p": 0.9483771210946715,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf late blight/LateBlt09_06.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato leaf late blight/lateblightTom_lesion3.jpg",
+   "label": "Tomato leaf late blight",
+   "s": 0.497802734375
+  },
+  {
+   "p": 0.9521079339716709,
+   "test": "pratikkayal/plantdoc-dataset/test/Apple rust leaf/4-apple-rust2_19011_matt-bertone.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Apple rust leaf/CAR1.jpg",
+   "label": "Apple rust leaf",
+   "s": 0.75
+  },
+  {
+   "p": 0.9529117425420289,
+   "test": "pratikkayal/plantdoc-dataset/test/Apple rust leaf/99e886623c2080c22f6519b0e708c531.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Apple rust leaf/Cedar_apple_rust_on_crab_apple_leaf_upper_surface.JPG.jpg",
+   "label": "Apple rust leaf",
+   "s": 0.65185546875
+  },
+  {
+   "p": 0.9529117425420289,
+   "test": "pratikkayal/plantdoc-dataset/test/Corn leaf blight/02c.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Corn leaf blight/Figure%202.JPG.jpg",
+   "label": "Corn leaf blight",
+   "s": 0.60400390625
+  },
+  {
+   "p": 0.9529117425420289,
+   "test": "pratikkayal/plantdoc-dataset/test/grape leaf black rot/grape_F15a.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/grape leaf black rot/june-9-0181.jpg",
+   "label": "grape leaf black rot",
+   "s": 0.6103515625
+  },
+  {
+   "p": 0.955653398669203,
+   "test": "pratikkayal/plantdoc-dataset/test/Cherry leaf/three-vibrant-leaves-bird-cherry-tree-13905898.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Cherry leaf/3b296e7197cc7e3d138892539e2e9ba453ad782db3398_1260x1260.jpg",
+   "label": "Cherry leaf",
+   "s": 0.69189453125
+  },
+  {
+   "p": 0.9638918806425048,
+   "test": "pratikkayal/plantdoc-dataset/test/Potato leaf late blight/1421_0.jpeg?itok=FMtmgePj.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Potato leaf late blight/potato-solanum-tuberosum-late-blight.jpg",
+   "label": "Potato leaf late blight",
+   "s": 0.53564453125
+  },
+  {
+   "p": 0.9655304611032413,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf mosaic virus/tomato_virus_04_zoom.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato leaf mosaic virus/tomato-mosaic-virus-F0BA26.jpg",
+   "label": "Tomato leaf mosaic virus",
+   "s": 0.62841796875
+  },
+  {
+   "p": 0.9658517953047965,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf mosaic virus/tmv-tomato-9.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato leaf mosaic virus/image024.jpg",
+   "label": "Tomato leaf mosaic virus",
+   "s": 0.7177734375
+  },
+  {
+   "p": 0.9689497939030695,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf late blight/image.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato leaf late blight/924977LateBlightLeaf.jpg",
+   "label": "Tomato leaf late blight",
+   "s": 0.4658203125
+  },
+  {
+   "p": 0.9695445330971365,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf/2013-08-20-06.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato leaf/15481477375.jpg",
+   "label": "Tomato leaf",
+   "s": 0.59033203125
+  },
+  {
+   "p": 0.9709957293435854,
+   "test": "pratikkayal/plantdoc-dataset/test/grape leaf/grapes-leaves.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/grape leaf/000g.jpg",
+   "label": "grape leaf",
+   "s": 0.626953125
+  },
+  {
+   "p": 0.9718422525377596,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf/IMG_1246.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato leaf/mortgage-lifter-yellow-leaves-2.jpg",
+   "label": "Tomato leaf",
+   "s": 0.497314453125
+  },
+  {
+   "p": 0.973748041868396,
+   "test": "pratikkayal/plantdoc-dataset/test/Corn leaf blight/Common%20Diseases%20Figure%201.JPG.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Corn leaf blight/Erv-sprayed-4.jpg",
+   "label": "Corn leaf blight",
+   "s": 0.64892578125
+  },
+  {
+   "p": 0.9750508117625521,
+   "test": "pratikkayal/plantdoc-dataset/test/Corn leaf blight/160314_web.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Corn leaf blight/northern-corn-leaf-blight.jpg",
+   "label": "Corn leaf blight",
+   "s": 0.468994140625
+  },
+  {
+   "p": 0.976058583344264,
+   "test": "pratikkayal/plantdoc-dataset/test/Cherry leaf/five-cherry-tree-green-leaves-white-isolated-background-34493587.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Cherry leaf/Leaf%20cherry1.JPG.jpg",
+   "label": "Cherry leaf",
+   "s": 0.7216796875
+  },
+  {
+   "p": 0.9784472169308356,
+   "test": "pratikkayal/plantdoc-dataset/test/Squash Powdery mildew leaf/surface.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Squash Powdery mildew leaf/Get-Rid-of-Mold-or-Powdery-Mildew-on-Squash-and-Cucumbers1-1.jpg",
+   "label": "Squash Powdery mildew leaf",
+   "s": 0.5048828125
+  },
+  {
+   "p": 0.9793515798814438,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato Early blight leaf/early_blight1-150x150.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato Early blight leaf/earlyblight.jpg",
+   "label": "Tomato Early blight leaf",
+   "s": 0.428466796875
+  },
+  {
+   "p": 0.980654882526614,
+   "test": "pratikkayal/plantdoc-dataset/test/Apple Scab Leaf/28-500x375.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Apple Scab Leaf/apple_scab.jpg",
+   "label": "Apple Scab Leaf",
+   "s": 0.7109375
+  },
+  {
+   "p": 0.9820966309915677,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf late blight/late_blight_tomato_leaf_spore1x1200.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato leaf late blight/lb_leaf_lesions3x1200.jpg",
+   "label": "Tomato leaf late blight",
+   "s": 0.59521484375
+  },
+  {
+   "p": 0.983456102571424,
+   "test": "pratikkayal/plantdoc-dataset/test/Corn Gray leaf spot/IMG_42231.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Corn Gray leaf spot/0796.16graylspot.jpg",
+   "label": "Corn Gray leaf spot",
+   "s": 0.52197265625
+  },
+  {
+   "p": 0.9838297917653823,
+   "test": "pratikkayal/plantdoc-dataset/test/grape leaf black rot/Black%20rot%20on%20foliage.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/grape leaf black rot/6-14-11%20ANNEMIEK%20blkRotSp.jpg",
+   "label": "grape leaf black rot",
+   "s": 0.68017578125
+  },
+  {
+   "p": 0.9856030881454656,
+   "test": "pratikkayal/plantdoc-dataset/test/Squash Powdery mildew leaf/powdery-mildew-erysiphe-plantani-on-young-sycamore-leaves-b774tm.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Squash Powdery mildew leaf/powdery-mildew-1.jpg",
+   "label": "Squash Powdery mildew leaf",
+   "s": 0.59716796875
+  },
+  {
+   "p": 0.9857718893642851,
+   "test": "pratikkayal/plantdoc-dataset/test/Peach leaf/rose_tree_220430.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Peach leaf/ripe-peach-fresh-red-tree-green-leaves-57508021.jpg",
+   "label": "Peach leaf",
+   "s": 0.427978515625
+  },
+  {
+   "p": 0.9859391726364343,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato mold leaf/50%20Leafmold%20Top.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato mold leaf/grey-mould-botrytis-cinerea-on-bottom-of-a-tomato-leaf-late-in-the-AFRDAN.jpg",
+   "label": "Tomato mold leaf",
+   "s": 0.54638671875
+  },
+  {
+   "p": 0.9861049461668973,
+   "test": "pratikkayal/plantdoc-dataset/test/Apple Scab Leaf/apple%20scab%20leaf.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Apple Scab Leaf/scab-on-foliage-300x259.jpg",
+   "label": "Apple Scab Leaf",
+   "s": 0.640625
+  },
+  {
+   "p": 0.9864319968705425,
+   "test": "pratikkayal/plantdoc-dataset/test/Soyabean leaf/07feb_ma_sbr3.JPG.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Soyabean leaf/487977347.jpg",
+   "label": "Soyabean leaf",
+   "s": 0.59033203125
+  },
+  {
+   "p": 0.9865932904999566,
+   "test": "pratikkayal/plantdoc-dataset/test/Blueberry leaf/vaccinium-angustifolium-low-bush-blueberry_0830_124221.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Blueberry leaf/Chlorotic-Blueberry-Leaf.jpg",
+   "label": "Blueberry leaf",
+   "s": 0.57421875
+  },
+  {
+   "p": 0.9865932904999566,
+   "test": "pratikkayal/plantdoc-dataset/test/Potato leaf late blight/5816740026_d42ef24413_Phytophthora-Infestans.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Potato leaf late blight/potato-late-blight-phytophthora-infestans-lesions-on-potato-foliage-X4XJF4.jpg",
+   "label": "Potato leaf late blight",
+   "s": 0.6103515625
+  },
+  {
+   "p": 0.9876814570156486,
+   "test": "pratikkayal/plantdoc-dataset/test/Squash Powdery mildew leaf/squash-leave-w-powd-mild.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Squash Powdery mildew leaf/powderymildew-669x578.jpg",
+   "label": "Squash Powdery mildew leaf",
+   "s": 0.576171875
+  },
+  {
+   "p": 0.9884159846145051,
+   "test": "pratikkayal/plantdoc-dataset/test/Bell_pepper leaf spot/pepper-spot.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Bell_pepper leaf spot/GX3DYbwOynSj6HftBUajAw_m.jpg",
+   "label": "Bell_pepper leaf spot",
+   "s": 0.63916015625
+  },
+  {
+   "p": 0.9892520515164609,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf late blight/dsc_8148cs.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato leaf late blight/Late-Blight-A.jpg",
+   "label": "Tomato leaf late blight",
+   "s": 0.43115234375
+  },
+  {
+   "p": 0.9899121857470454,
+   "test": "pratikkayal/plantdoc-dataset/test/Potato leaf early blight/potato-blight-phytophthora-infestans-close-up-of-upper-surface-of-BMMRXC.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Potato leaf early blight/IMG_0020.jpg",
+   "label": "Potato leaf early blight",
+   "s": 0.7119140625
+  },
+  {
+   "p": 0.9930438431902953,
+   "test": "pratikkayal/plantdoc-dataset/test/Potato leaf late blight/potato-late-blight.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Potato leaf late blight/potato-solanum-tuberosum-late-blight.jpg",
+   "label": "Potato leaf late blight",
+   "s": 0.5146484375
+  },
+  {
+   "p": 0.9949134068692577,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato Early blight leaf/1234080-Early-Blight.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato Early blight leaf/20020531-early%20blight%20%20starts%20on%20lower%20leaves.jpg",
+   "label": "Tomato Early blight leaf",
+   "s": 0.61865234375
+  },
+  {
+   "p": 0.9958110486671672,
+   "test": "pratikkayal/plantdoc-dataset/test/Bell_pepper leaf/4825902504_5fa80b65b8_z.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Bell_pepper leaf/leaves.jpg",
+   "label": "Bell_pepper leaf",
+   "s": 0.6484375
+  },
+  {
+   "p": 0.9961792480372936,
+   "test": "pratikkayal/plantdoc-dataset/test/Apple rust leaf/20130802_111632.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Apple rust leaf/cedar-apple-rust_fig-3.jpg",
+   "label": "Apple rust leaf",
+   "s": 0.49462890625
+  },
+  {
+   "p": 0.9966284686169792,
+   "test": "pratikkayal/plantdoc-dataset/test/Bell_pepper leaf spot/000.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Bell_pepper leaf spot/06.jpg",
+   "label": "Bell_pepper leaf spot",
+   "s": 0.47900390625
+  },
+  {
+   "p": 0.9967336917787499,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato Early blight leaf/Shoemaker_7068.JPG.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato Early blight leaf/earlyblight.jpg",
+   "label": "Tomato Early blight leaf",
+   "s": 0.43359375
+  },
+  {
+   "p": 0.9973096351137513,
+   "test": "pratikkayal/plantdoc-dataset/test/Corn rust leaf/1355.50commonrust.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Corn rust leaf/southern-rust-2.jpg",
+   "label": "Corn rust leaf",
+   "s": 0.5166015625
+  },
+  {
+   "p": 0.9973096351137513,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato Septoria leaf spot/636227737977191231-septoria-leaf-spot-VT.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato Septoria leaf spot/28018723549_3a16c1467b_b.jpg",
+   "label": "Tomato Septoria leaf spot",
+   "s": 0.344970703125
+  },
+  {
+   "p": 0.9973968739832592,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf bacterial spot/tomato_bacterial-speck_01_zoom.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato leaf bacterial spot/image5_300x300%2523.JPG?1472755422.jpg",
+   "label": "Tomato leaf bacterial spot",
+   "s": 0.5576171875
+  },
+  {
+   "p": 0.9978723065646455,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato Septoria leaf spot/0.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato Septoria leaf spot/3-septoria-leaf-blight-n.jpg",
+   "label": "Tomato Septoria leaf spot",
+   "s": 0.541015625
+  },
+  {
+   "p": 0.9979084050111021,
+   "test": "pratikkayal/plantdoc-dataset/test/Apple rust leaf/20130519cedarapplerust.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Apple rust leaf/Figure-1.-Typical-cedar-apple-rust-lesions-on-upper-surface-of-apple-leaf.jpg",
+   "label": "Apple rust leaf",
+   "s": 0.474853515625
+  },
+  {
+   "p": 0.9979790637713556,
+   "test": "pratikkayal/plantdoc-dataset/test/Apple rust leaf/02.-Rust-2017-207u24s.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Apple rust leaf/Apple_Scab164.jpg",
+   "label": "Apple rust leaf",
+   "s": 0.61181640625
+  },
+  {
+   "p": 0.9982727519431038,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato mold leaf/fungus-univ-of-minnesoeta.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato mold leaf/Fig.%2016_opt.jpg",
+   "label": "Tomato mold leaf",
+   "s": 0.5166015625
+  },
+  {
+   "p": 0.9986822464689027,
+   "test": "pratikkayal/plantdoc-dataset/test/Bell_pepper leaf spot/00.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Bell_pepper leaf spot/Habanero1.jpg",
+   "label": "Bell_pepper leaf spot",
+   "s": 0.515625
+  },
+  {
+   "p": 0.9987533720628685,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf bacterial spot/Tom_Bact3.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato leaf bacterial spot/FS547-4-big.jpg",
+   "label": "Tomato leaf bacterial spot",
+   "s": 0.56201171875
+  },
+  {
+   "p": 0.9987989528348968,
+   "test": "pratikkayal/plantdoc-dataset/test/grape leaf/vitis-riparia-le-ahaines-b.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/grape leaf/grape-vine-leaf-1327453.jpg",
+   "label": "grape leaf",
+   "s": 0.673828125
+  },
+  {
+   "p": 0.9989272783550057,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf bacterial spot/Tomato%2BBacterial%2BSpot%2Bon%2BLeaves.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato leaf bacterial spot/TC3.jpg",
+   "label": "Tomato leaf bacterial spot",
+   "s": 0.55810546875
+  },
+  {
+   "p": 0.999182001290345,
+   "test": "pratikkayal/plantdoc-dataset/test/Bell_pepper leaf/why-are-my-pepper-plants-yellow-yellow-pepper-plants-yellow-leaves-green-veins-pepper-plants-yellow-veins.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Bell_pepper leaf/tomato_bell_pepper_garden_pt3-03.jpg",
+   "label": "Bell_pepper leaf",
+   "s": 0.5107421875
+  },
+  {
+   "p": 0.9993304093851624,
+   "test": "pratikkayal/plantdoc-dataset/test/Blueberry leaf/P1200665+Vaccinium+alaskaense+vs+ovalifolium+leaf+and++twig+cr.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Blueberry leaf/stock-photo-leaf-blueberry-57690040.jpg",
+   "label": "Blueberry leaf",
+   "s": 0.591796875
+  },
+  {
+   "p": 0.9994199087929795,
+   "test": "pratikkayal/plantdoc-dataset/test/Apple rust leaf/2011-011.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Apple rust leaf/Figure-1.-Typical-cedar-apple-rust-lesions-on-upper-surface-of-apple-leaf.jpg",
+   "label": "Apple rust leaf",
+   "s": 0.461181640625
+  },
+  {
+   "p": 0.9994549735294859,
+   "test": "pratikkayal/plantdoc-dataset/test/Bell_pepper leaf spot/CMVpepperLeafShock-copy-50QUALITY-1ge8umw.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Bell_pepper leaf spot/bacterial-leaf-spot-on-peppers.jpg",
+   "label": "Bell_pepper leaf spot",
+   "s": 0.56298828125
+  },
+  {
+   "p": 0.9995297274222694,
+   "test": "pratikkayal/plantdoc-dataset/test/Bell_pepper leaf spot/bacterial_leaf_spot_pepper_l.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Bell_pepper leaf spot/bacterialspot3_600px.jpg",
+   "label": "Bell_pepper leaf spot",
+   "s": 0.51904296875
+  },
+  {
+   "p": 0.9995954017627113,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato Septoria leaf spot/2septoria-tomato.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato Septoria leaf spot/septoria-lycopersici-ascomycota-common-fungal-leaf-disease-of-tomato-picture-id128110611.jpg",
+   "label": "Tomato Septoria leaf spot",
+   "s": 0.56201171875
+  },
+  {
+   "p": 0.9996372736560882,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf mosaic virus/toma_TMV.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato leaf mosaic virus/image018.jpg",
+   "label": "Tomato leaf mosaic virus",
+   "s": 0.5478515625
+  },
+  {
+   "p": 0.9996679939798202,
+   "test": "pratikkayal/plantdoc-dataset/test/Apple rust leaf/20130610_110514.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Apple rust leaf/Apple_Scab164.jpg",
+   "label": "Apple rust leaf",
+   "s": 0.5791015625
+  },
+  {
+   "p": 0.9998042622344722,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf late blight/70.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato leaf late blight/Late-Blight-on-Tomato-4JDill.jpg",
+   "label": "Tomato leaf late blight",
+   "s": 0.5146484375
+  },
+  {
+   "p": 0.9998088557441015,
+   "test": "pratikkayal/plantdoc-dataset/test/Cherry leaf/prunus-virginiana-le-gmittelhauser.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Cherry leaf/CHERRY_CHOKE2_leaves.jpg",
+   "label": "Cherry leaf",
+   "s": 0.54296875
+  },
+  {
+   "p": 0.9998088557441015,
+   "test": "pratikkayal/plantdoc-dataset/test/Potato leaf late blight/B2750109-Late_blight_on_a_potato_plant-SPL.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Potato leaf late blight/potato-late-blight-phytophthora-infestans-necrotic-disease-lesions-B7DEW3.jpg",
+   "label": "Potato leaf late blight",
+   "s": 0.546875
+  },
+  {
+   "p": 0.9998133537821974,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf/1684.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato leaf/009-e1373768789869.jpg",
+   "label": "Tomato leaf",
+   "s": 0.393310546875
+  },
+  {
+   "p": 0.9998638788232201,
+   "test": "pratikkayal/plantdoc-dataset/test/Corn Gray leaf spot/show_picture.asp?id=aaaaaaaaaaogcqq&w2=420&h2=378&clip=center,420,378&meta=0.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Corn Gray leaf spot/grayspot.jpg",
+   "label": "Corn Gray leaf spot",
+   "s": 0.525390625
+  },
+  {
+   "p": 0.999873648729768,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf yellow virus/8226402877_9abf151b5b_b.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato leaf yellow virus/tomato_leaf_roll.JPG.jpg",
+   "label": "Tomato leaf yellow virus",
+   "s": 0.337158203125
+  },
+  {
+   "p": 0.9998857042362606,
+   "test": "pratikkayal/plantdoc-dataset/test/grape leaf black rot/35589125035_662dd5b258_b.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/grape leaf black rot/bad_grapes21.jpg",
+   "label": "grape leaf black rot",
+   "s": 0.5458984375
+  },
+  {
+   "p": 0.9998885533647371,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf late blight/E%29Tomato-late-blight-foliar.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato leaf late blight/lb_leaf_lesions3x1200.jpg",
+   "label": "Tomato leaf late blight",
+   "s": 0.5283203125
+  },
+  {
+   "p": 0.9999067891943966,
+   "test": "pratikkayal/plantdoc-dataset/test/Soyabean leaf/resistance1c.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Soyabean leaf/soybean-leaf-picture-id136581201?s=612x612.jpg",
+   "label": "Soyabean leaf",
+   "s": 0.4150390625
+  },
+  {
+   "p": 0.999909164255523,
+   "test": "pratikkayal/plantdoc-dataset/test/Corn rust leaf/0796.40comrust.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Corn rust leaf/rust-3.jpg",
+   "label": "Corn rust leaf",
+   "s": 0.457275390625
+  },
+  {
+   "p": 0.999909164255523,
+   "test": "pratikkayal/plantdoc-dataset/test/Peach leaf/00pe.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Peach leaf/peach-tree-leaf-3-1024x681.jpg",
+   "label": "Peach leaf",
+   "s": 0.427001953125
+  },
+  {
+   "p": 0.99991148515295,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato Early blight leaf/earlyblight21_.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato Early blight leaf/EBTomato.jpg",
+   "label": "Tomato Early blight leaf",
+   "s": 0.51611328125
+  },
+  {
+   "p": 0.9999263027455504,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato Septoria leaf spot/6134794031202304.jpeg.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato Septoria leaf spot/140714+%2811%29.JPG.jpg",
+   "label": "Tomato Septoria leaf spot",
+   "s": 0.49755859375
+  },
+  {
+   "p": 0.9999301071185175,
+   "test": "pratikkayal/plantdoc-dataset/test/grape leaf/P1130286.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/grape leaf/IMG_2666.jpg",
+   "label": "grape leaf",
+   "s": 0.5537109375
+  },
+  {
+   "p": 0.9999451403120345,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf bacterial spot/Tom_Bact7.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato leaf bacterial spot/bacterial%20leaf%20spot.jpg",
+   "label": "Tomato leaf bacterial spot",
+   "s": 0.39404296875
+  },
+  {
+   "p": 0.9999595351010445,
+   "test": "pratikkayal/plantdoc-dataset/test/Bell_pepper leaf/GREEN%20BELL%20PLANT%20YELLOW%20LEAF.JPG.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Bell_pepper leaf/leaves.jpg",
+   "label": "Bell_pepper leaf",
+   "s": 0.5654296875
+  },
+  {
+   "p": 0.9999595351010445,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato Early blight leaf/tomato_early-blight_01_zoom.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato Early blight leaf/Tomato-Early-Blight-Leaf-Examples-Cornell-University.jpg",
+   "label": "Tomato Early blight leaf",
+   "s": 0.37939453125
+  },
+  {
+   "p": 0.9999766091352427,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf/Tomato_leaf.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato leaf/happier-inside.jpg",
+   "label": "Tomato leaf",
+   "s": 0.471923828125
+  },
+  {
+   "p": 0.9999779579597748,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf/90e2c0.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato leaf/2013-08-20-04.jpg",
+   "label": "Tomato leaf",
+   "s": 0.435302734375
+  },
+  {
+   "p": 0.9999804462081152,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato Early blight leaf/dscn3175.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato Early blight leaf/early-blight-or-target-spot-alternaria-solani-lesions-on-a-tomato-BY9J8R.jpg",
+   "label": "Tomato Early blight leaf",
+   "s": 0.456298828125
+  },
+  {
+   "p": 0.9999872784794945,
+   "test": "pratikkayal/plantdoc-dataset/test/Bell_pepper leaf/e33155.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Bell_pepper leaf/file.php?id=18598&t=1.jpg",
+   "label": "Bell_pepper leaf",
+   "s": 0.515625
+  },
+  {
+   "p": 0.9999926232913473,
+   "test": "pratikkayal/plantdoc-dataset/test/Bell_pepper leaf/pepper_leaf.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Bell_pepper leaf/v9hX3.jpg",
+   "label": "Bell_pepper leaf",
+   "s": 0.54931640625
+  },
+  {
+   "p": 0.9999945302748421,
+   "test": "pratikkayal/plantdoc-dataset/test/Blueberry leaf/P1200701+Vaccinium+ovalifolium+Oval-leaf+Blueberry+leaf+margin+Heather+Meadows+cr.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Blueberry leaf/4851522550_02e3b9f3b4.jpg",
+   "label": "Blueberry leaf",
+   "s": 0.5771484375
+  },
+  {
+   "p": 0.9999959748635013,
+   "test": "pratikkayal/plantdoc-dataset/test/Cherry leaf/prunsero_leaf2.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Cherry leaf/cherry-tree-leaves.jpg",
+   "label": "Cherry leaf",
+   "s": 0.4658203125
+  },
+  {
+   "p": 0.9999964964339725,
+   "test": "pratikkayal/plantdoc-dataset/test/grape leaf black rot/03gb.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/grape leaf black rot/00gb.jpg",
+   "label": "grape leaf black rot",
+   "s": 0.409423828125
+  },
+  {
+   "p": 0.9999993921082884,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf mosaic virus/D%29AlfMov.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato leaf mosaic virus/image018.jpg",
+   "label": "Tomato leaf mosaic virus",
+   "s": 0.48681640625
+  },
+  {
+   "p": 0.9999995220593061,
+   "test": "pratikkayal/plantdoc-dataset/test/Potato leaf early blight/3023.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Potato leaf early blight/Early-Blight-UK-A.jpg",
+   "label": "Potato leaf early blight",
+   "s": 0.466796875
+  },
+  {
+   "p": 0.9999997532973816,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf late blight/IMG_5808.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato leaf late blight/IMG_5368.jpg",
+   "label": "Tomato leaf late blight",
+   "s": 0.388427734375
+  },
+  {
+   "p": 0.9999999843682154,
+   "test": "pratikkayal/plantdoc-dataset/test/grape leaf black rot/Black%20rot%20on%20foliage2.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/grape leaf black rot/Black_Rot_of_Grapes1167.jpg",
+   "label": "grape leaf black rot",
+   "s": 0.36376953125
+  },
+  {
+   "p": 0.9999999999778243,
+   "test": "pratikkayal/plantdoc-dataset/test/Bell_pepper leaf/10148582-green-leaf-of-pepper.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Bell_pepper leaf/stock-photo-closeup-of-underside-of-bell-pepper-leaf-isolated-on-white-background-114184570.jpg",
+   "label": "Bell_pepper leaf",
+   "s": 0.494384765625
+  },
+  {
+   "p": 0.9999999999999999,
+   "test": "pratikkayal/plantdoc-dataset/test/Bell_pepper leaf/IMG_1629.JPG?1507122477.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Bell_pepper leaf/green-pepper-leaf-parks-3302644.jpg",
+   "label": "Bell_pepper leaf",
+   "s": 0.31298828125
+  }
+ ],
+ "top_cross": [
+  {
+   "p": 0.0001637101410583862,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf bacterial spot/tomato_V8.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato Septoria leaf spot/tomato_V8.jpg",
+   "test_label": "Tomato leaf bacterial spot",
+   "train_label": "Tomato Septoria leaf spot"
+  },
+  {
+   "p": 0.00032960308518795964,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato Septoria leaf spot/55830b60a7cf2.image.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato Early blight leaf/blog_early_blight_628.jpg",
+   "test_label": "Tomato Septoria leaf spot",
+   "train_label": "Tomato Early blight leaf"
+  },
+  {
+   "p": 0.0022502709470415814,
+   "test": "pratikkayal/plantdoc-dataset/test/Corn Gray leaf spot/IMG_42231.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Corn leaf blight/IMG_42231.jpg",
+   "test_label": "Corn Gray leaf spot",
+   "train_label": "Corn leaf blight"
+  },
+  {
+   "p": 0.0026874090828555666,
+   "test": "pratikkayal/plantdoc-dataset/test/Potato leaf early blight/earlyblightpotato.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato Early blight leaf/earlyblightpotato.jpg",
+   "test_label": "Potato leaf early blight",
+   "train_label": "Tomato Early blight leaf"
+  },
+  {
+   "p": 0.0052561080177523116,
+   "test": "pratikkayal/plantdoc-dataset/test/Bell_pepper leaf spot/pepper_bacterial-spot_03_zoom.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato two spotted spider mites leaf/SpotSpeckBlightMite-1l4v879.jpg",
+   "test_label": "Bell_pepper leaf spot",
+   "train_label": "Tomato two spotted spider mites leaf"
+  },
+  {
+   "p": 0.007408970323632399,
+   "test": "pratikkayal/plantdoc-dataset/test/Apple Scab Leaf/apples_apple-scab_10_zoom.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Corn Gray leaf spot/gray_leaf_spot_developing.jpg",
+   "test_label": "Apple Scab Leaf",
+   "train_label": "Corn Gray leaf spot"
+  },
+  {
+   "p": 0.013910328010478996,
+   "test": "pratikkayal/plantdoc-dataset/test/Blueberry leaf/blueberrysilverleaf16-1372b.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato leaf bacterial spot/bacterial-spot-of-tomato-6-638.jpg",
+   "test_label": "Blueberry leaf",
+   "train_label": "Tomato leaf bacterial spot"
+  },
+  {
+   "p": 0.01414240677809067,
+   "test": "pratikkayal/plantdoc-dataset/test/Corn leaf blight/corn-gray-leaf-spot-f4.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Corn Gray leaf spot/corn-gray-leaf-spot-f4.jpg",
+   "test_label": "Corn leaf blight",
+   "train_label": "Corn Gray leaf spot"
+  },
+  {
+   "p": 0.015277287093254429,
+   "test": "pratikkayal/plantdoc-dataset/test/Blueberry leaf/vaccinium_angustifolium_leaf2.JPG.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Apple rust leaf/cedar-apple-rust.jpg",
+   "test_label": "Blueberry leaf",
+   "train_label": "Apple rust leaf"
+  },
+  {
+   "p": 0.017533050766318798,
+   "test": "pratikkayal/plantdoc-dataset/test/Corn leaf blight/1321189.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Corn Gray leaf spot/g1902-1.jpg",
+   "test_label": "Corn leaf blight",
+   "train_label": "Corn Gray leaf spot"
+  },
+  {
+   "p": 0.01978931375085303,
+   "test": "pratikkayal/plantdoc-dataset/test/Peach leaf/00pe.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato leaf bacterial spot/Bacterial-spot-on-tomato-leaves.jpg",
+   "test_label": "Peach leaf",
+   "train_label": "Tomato leaf bacterial spot"
+  },
+  {
+   "p": 0.01978931375085303,
+   "test": "pratikkayal/plantdoc-dataset/test/Peach leaf/stock-photo-peach-leaf-isolated-on-white-background-281097503.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Apple rust leaf/crab-apple-tree-leaves.jpg",
+   "test_label": "Peach leaf",
+   "train_label": "Apple rust leaf"
+  },
+  {
+   "p": 0.022579252910694878,
+   "test": "pratikkayal/plantdoc-dataset/test/Corn Gray leaf spot/strom5.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato Early blight leaf/tomato_q1hq-early-blight-5052_zoom.jpg",
+   "test_label": "Corn Gray leaf spot",
+   "train_label": "Tomato Early blight leaf"
+  },
+  {
+   "p": 0.02953714557439511,
+   "test": "pratikkayal/plantdoc-dataset/test/Potato leaf early blight/backus-056-potato-blight.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Potato leaf late blight/backus-056-potato-blight.jpg",
+   "test_label": "Potato leaf early blight",
+   "train_label": "Potato leaf late blight"
+  },
+  {
+   "p": 0.033311770687472576,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf late blight/image.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Blueberry leaf/blueberry-plant-unripe-berries-and-leaves-blueberries-vaccinium-corybosum-BNDN04.jpg",
+   "test_label": "Tomato leaf late blight",
+   "train_label": "Blueberry leaf"
+  },
+  {
+   "p": 0.036350890029577546,
+   "test": "pratikkayal/plantdoc-dataset/test/Corn leaf blight/2013Corn_GrayLeafSpot_0815_0003.JPG.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Corn Gray leaf spot/2013Corn_GrayLeafSpot_0815_0003.JPG.jpg",
+   "test_label": "Corn leaf blight",
+   "train_label": "Corn Gray leaf spot"
+  },
+  {
+   "p": 0.03901907083981208,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf yellow virus/17fc47.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato leaf late blight/IMG_2254.JPG.jpg",
+   "test_label": "Tomato leaf yellow virus",
+   "train_label": "Tomato leaf late blight"
+  },
+  {
+   "p": 0.04210709246312653,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf late blight/636368370164094909-late-blight-15-.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato Septoria leaf spot/tomato-plant-is-infected-with-septoria-leaf-spot.jpg",
+   "test_label": "Tomato leaf late blight",
+   "train_label": "Tomato Septoria leaf spot"
+  },
+  {
+   "p": 0.04848811416063865,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato Septoria leaf spot/636227737977191231-septoria-leaf-spot-VT.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Squash Powdery mildew leaf/Mildew-on-cucumber-leaf-1024x768.jpg",
+   "test_label": "Tomato Septoria leaf spot",
+   "train_label": "Squash Powdery mildew leaf"
+  },
+  {
+   "p": 0.0540287087940337,
+   "test": "pratikkayal/plantdoc-dataset/test/Corn leaf blight/2015070295153021.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Corn Gray leaf spot/2015070295153021.jpg",
+   "test_label": "Corn leaf blight",
+   "train_label": "Corn Gray leaf spot"
+  },
+  {
+   "p": 0.057025014913619276,
+   "test": "pratikkayal/plantdoc-dataset/test/Corn leaf blight/0796.20graylssymt.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Corn Gray leaf spot/glfspot.jpg",
+   "test_label": "Corn leaf blight",
+   "train_label": "Corn Gray leaf spot"
+  },
+  {
+   "p": 0.06594118738361435,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato mold leaf/black_leaf_mold_in_zina_tina.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Corn leaf blight/Northern-corn-leaf-blight-V12-leaf-NM-F3.jpg",
+   "test_label": "Tomato mold leaf",
+   "train_label": "Corn leaf blight"
+  },
+  {
+   "p": 0.0770117315493013,
+   "test": "pratikkayal/plantdoc-dataset/test/Soyabean leaf/resistance1c.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Cherry leaf/100_0123_2.jpg",
+   "test_label": "Soyabean leaf",
+   "train_label": "Cherry leaf"
+  },
+  {
+   "p": 0.08703672277700875,
+   "test": "pratikkayal/plantdoc-dataset/test/Peach leaf/stock-photo-peach-tree-leaf-isolated-over-white-background-back-side-64472731.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Corn Gray leaf spot/Gray-leaf-spot-Adam-Sisson-20.jpg",
+   "test_label": "Peach leaf",
+   "train_label": "Corn Gray leaf spot"
+  },
+  {
+   "p": 0.08749966359506117,
+   "test": "pratikkayal/plantdoc-dataset/test/Peach leaf/depositphotos_3786198-Peach-leaf.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Corn Gray leaf spot/Gray-leaf-spot-Adam-Sisson-20.jpg",
+   "test_label": "Peach leaf",
+   "train_label": "Corn Gray leaf spot"
+  },
+  {
+   "p": 0.08796494629055328,
+   "test": "pratikkayal/plantdoc-dataset/test/Bell_pepper leaf spot/01.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Corn Gray leaf spot/corn-gray-leaf-spot.jpg",
+   "test_label": "Bell_pepper leaf spot",
+   "train_label": "Corn Gray leaf spot"
+  },
+  {
+   "p": 0.0917727848740387,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato Early blight leaf/early_blight1-150x150.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Corn leaf blight/Northern-corn-leafblight.jpg",
+   "test_label": "Tomato Early blight leaf",
+   "train_label": "Corn leaf blight"
+  },
+  {
+   "p": 0.09324065222637674,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf mosaic virus/tmv-tomato-34.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Raspberry leaf/DC77r.jpg",
+   "test_label": "Tomato leaf mosaic virus",
+   "train_label": "Raspberry leaf"
+  },
+  {
+   "p": 0.10038946242653612,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf bacterial spot/%2320+Bacterial+Spot+and+Speck.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Potato leaf early blight/potato-blight-phytophthora-infestans-close-up-of-upper-surface-of-bmmrxd.jpg",
+   "test_label": "Tomato leaf bacterial spot",
+   "train_label": "Potato leaf early blight"
+  },
+  {
+   "p": 0.10198725875686711,
+   "test": "pratikkayal/plantdoc-dataset/test/Peach leaf/7190f27ead55c0f6e3ff8b982972810a5446a9713a49d_1260x1260.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Corn Gray leaf spot/Gray-leaf-spot-Adam-Sisson-20.jpg",
+   "test_label": "Peach leaf",
+   "train_label": "Corn Gray leaf spot"
+  },
+  {
+   "p": 0.10415494488948755,
+   "test": "pratikkayal/plantdoc-dataset/test/grape leaf black rot/03gb.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato Septoria leaf spot/bed-4-tomatoes-23jun13.jpg",
+   "test_label": "grape leaf black rot",
+   "train_label": "Tomato Septoria leaf spot"
+  },
+  {
+   "p": 0.11505537502713706,
+   "test": "pratikkayal/plantdoc-dataset/test/Blueberry leaf/blueberry-leaves-normal-above-and-iron-deficient-below-bgahf8.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Raspberry leaf/groovy-raspberry1000x1000.jpg",
+   "test_label": "Blueberry leaf",
+   "train_label": "Raspberry leaf"
+  },
+  {
+   "p": 0.11687107137959017,
+   "test": "pratikkayal/plantdoc-dataset/test/Soyabean leaf/Soybean%20edamame%20leaf1.JPG.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Strawberry leaf/stock-photo-fresh-green-strawberry-leaf-isolated-on-white-background-strawberry-leaf-with-clipping-path-630981155.jpg",
+   "test_label": "Soyabean leaf",
+   "train_label": "Strawberry leaf"
+  },
+  {
+   "p": 0.1224796108749181,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf yellow virus/11-40580_5.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato leaf bacterial spot/Bacterial+Speck+-+Tomatoes.jpg",
+   "test_label": "Tomato leaf yellow virus",
+   "train_label": "Tomato leaf bacterial spot"
+  },
+  {
+   "p": 0.12570252909409782,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf mosaic virus/Tomato-Mosaic-1wdr2jx-300x225.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Soyabean leaf/double-crop-soybean-leaves-Aug-19-2013_thumb.jpg",
+   "test_label": "Tomato leaf mosaic virus",
+   "train_label": "Soyabean leaf"
+  },
+  {
+   "p": 0.13655053624474212,
+   "test": "pratikkayal/plantdoc-dataset/test/Corn rust leaf/80104747.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Potato leaf early blight/early-blight-cmyk-opt.jpeg.jpg",
+   "test_label": "Corn rust leaf",
+   "train_label": "Potato leaf early blight"
+  },
+  {
+   "p": 0.14156213967367703,
+   "test": "pratikkayal/plantdoc-dataset/test/Corn rust leaf/12-19striprustJIM.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Squash Powdery mildew leaf/16629068955_3092aa68a5_b.jpg",
+   "test_label": "Corn rust leaf",
+   "train_label": "Squash Powdery mildew leaf"
+  },
+  {
+   "p": 0.14302466732684277,
+   "test": "pratikkayal/plantdoc-dataset/test/Apple rust leaf/9343310-small.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Soyabean leaf/6.8.12+Soybean+First+Trifoliate+Leaf.JPG.jpg",
+   "test_label": "Apple rust leaf",
+   "train_label": "Soyabean leaf"
+  },
+  {
+   "p": 0.14977834070029,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf bacterial spot/bact-spot-fig-1.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Apple Scab Leaf/AppleScab02.jpg",
+   "test_label": "Tomato leaf bacterial spot",
+   "train_label": "Apple Scab Leaf"
+  },
+  {
+   "p": 0.15054640752365994,
+   "test": "pratikkayal/plantdoc-dataset/test/Potato leaf late blight/20090710-lateblight.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato leaf yellow virus/virus1.jpg",
+   "test_label": "Potato leaf late blight",
+   "train_label": "Tomato leaf yellow virus"
+  },
+  {
+   "p": 0.16004598051226238,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf/IMG_1246.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Corn rust leaf/southernrust.jpg",
+   "test_label": "Tomato leaf",
+   "train_label": "Corn rust leaf"
+  },
+  {
+   "p": 0.1608615627501729,
+   "test": "pratikkayal/plantdoc-dataset/test/Strawberry leaf/strawberry-leaves-isolated-white-17473157.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Bell_pepper leaf spot/figure1.jpg",
+   "test_label": "Strawberry leaf",
+   "train_label": "Bell_pepper leaf spot"
+  },
+  {
+   "p": 0.16333082591804288,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf mosaic virus/ill-tomato-of-tomato-mosaic-virus-DBE17N.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Blueberry leaf/Red-Blueberry-Leaves.jpg",
+   "test_label": "Tomato leaf mosaic virus",
+   "train_label": "Blueberry leaf"
+  },
+  {
+   "p": 0.16499589221094205,
+   "test": "pratikkayal/plantdoc-dataset/test/Bell_pepper leaf spot/H5w92.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Raspberry leaf/leaves-of-a-raspberry-stock-photo-1206396.jpg",
+   "test_label": "Bell_pepper leaf spot",
+   "train_label": "Raspberry leaf"
+  },
+  {
+   "p": 0.16922541604770475,
+   "test": "pratikkayal/plantdoc-dataset/test/Potato leaf late blight/1421_0.jpeg?itok=FMtmgePj.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Potato leaf early blight/1421_0.jpeg?itok=FMtmgePj.jpg",
+   "test_label": "Potato leaf late blight",
+   "train_label": "Potato leaf early blight"
+  },
+  {
+   "p": 0.1700828834651537,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf mosaic virus/page_2.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Corn leaf blight/corn_disease_clip_image001_0003.jpg",
+   "test_label": "Tomato leaf mosaic virus",
+   "train_label": "Corn leaf blight"
+  },
+  {
+   "p": 0.17355171588018078,
+   "test": "pratikkayal/plantdoc-dataset/test/Apple leaf/20180511_091133-24l1vhg-e1526047988236.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Corn rust leaf/imgF.jpg",
+   "test_label": "Apple leaf",
+   "train_label": "Corn rust leaf"
+  },
+  {
+   "p": 0.1770834916329738,
+   "test": "pratikkayal/plantdoc-dataset/test/Apple leaf/20180511_090912-14gtw8a-e1526047952754.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Corn rust leaf/southern-rust-lower-side.jpg",
+   "test_label": "Apple leaf",
+   "train_label": "Corn rust leaf"
+  },
+  {
+   "p": 0.1806790106963768,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf late blight/LateBlt09_06.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Bell_pepper leaf spot/pepperplantwithbacterialspotimg3206.jpg",
+   "test_label": "Tomato leaf late blight",
+   "train_label": "Bell_pepper leaf spot"
+  },
+  {
+   "p": 0.1843390674165362,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf bacterial spot/07.17.18-Common_Tomato_Diseases_Canker-258x300.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Potato leaf late blight/LateBlightFig3new.jpg",
+   "test_label": "Tomato leaf bacterial spot",
+   "train_label": "Potato leaf late blight"
+  },
+  {
+   "p": 0.1861935438647039,
+   "test": "pratikkayal/plantdoc-dataset/test/Apple rust leaf/185161-004-EAF28842.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Corn Gray leaf spot/1193.jpg",
+   "test_label": "Apple rust leaf",
+   "train_label": "Corn Gray leaf spot"
+  },
+  {
+   "p": 0.1861935438647039,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato Early blight leaf/039b47d574bc4bb8a14259a1cd96a741.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Corn leaf blight/helminthosporium-or-turcicum-leaf-stains-on-corn-leaf-disease-of-corn-plant-R5GR3C.jpg",
+   "test_label": "Tomato Early blight leaf",
+   "train_label": "Corn leaf blight"
+  },
+  {
+   "p": 0.2026296522641733,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato Septoria leaf spot/early-blight-septoria-ls-fig-3.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato leaf bacterial spot/TC3.jpg",
+   "test_label": "Tomato Septoria leaf spot",
+   "train_label": "Tomato leaf bacterial spot"
+  },
+  {
+   "p": 0.21923526283748151,
+   "test": "pratikkayal/plantdoc-dataset/test/Apple Scab Leaf/apple-scab-5366820.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/grape leaf black rot/Black_Rot_of_Grapes1153.jpg",
+   "test_label": "Apple Scab Leaf",
+   "train_label": "grape leaf black rot"
+  },
+  {
+   "p": 0.2203107863989293,
+   "test": "pratikkayal/plantdoc-dataset/test/Corn rust leaf/1355.50commonrust.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Corn Gray leaf spot/Corn-Gray-leafspot-lesions-300x225.jpg",
+   "test_label": "Corn rust leaf",
+   "train_label": "Corn Gray leaf spot"
+  },
+  {
+   "p": 0.22247533414587042,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf bacterial spot/Bacterial_spots563.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Corn leaf blight/IMG_1468-431x323.JPG.jpg",
+   "test_label": "Tomato leaf bacterial spot",
+   "train_label": "Corn leaf blight"
+  },
+  {
+   "p": 0.22247533414587042,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf/Tomato59.JPG.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato mold leaf/8915974546_00664cefe3_z.jpg",
+   "test_label": "Tomato leaf",
+   "train_label": "Tomato mold leaf"
+  },
+  {
+   "p": 0.22685872217213526,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato Septoria leaf spot/0.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Potato leaf late blight/potatolb_upper_leafcux1200.jpg",
+   "test_label": "Tomato Septoria leaf spot",
+   "train_label": "Potato leaf late blight"
+  },
+  {
+   "p": 0.23698896056179916,
+   "test": "pratikkayal/plantdoc-dataset/test/Potato leaf late blight/5816740026_d42ef24413_Phytophthora-Infestans.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Potato leaf early blight/5816740026_d42ef24413_Phytophthora-Infestans.jpg",
+   "test_label": "Potato leaf late blight",
+   "train_label": "Potato leaf early blight"
+  },
+  {
+   "p": 0.24277900501062236,
+   "test": "pratikkayal/plantdoc-dataset/test/Tomato leaf mosaic virus/everystockphoto-21099455-l.jpg",
+   "train": "pratikkayal/plantdoc-dataset/train/Tomato Early blight leaf/1058_0.jpeg?itok=OQkdtxgv.jpg",
+   "test_label": "Tomato leaf mosaic virus",
+   "train_label": "Tomato Early blight leaf"
+  }
+ ],
+ "acc_lp_all": 0.5084745762711864,
+ "acc_1nn_all": 0.3220338983050847
+}
